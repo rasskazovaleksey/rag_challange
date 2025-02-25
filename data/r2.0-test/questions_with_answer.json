@@ -20,7 +20,7 @@
   {
     "text": "What is the total number of employees let go by Hagerty, Inc. according to the annual report? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "As of December 31, 2022, we had 1,874",
+    "answer": "1,874",
     "comment": "Page 19 a6f23184a87f3343f17e8e8ed08f604615cdefc1"
   },
   {

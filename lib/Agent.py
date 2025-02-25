@@ -13,7 +13,7 @@ from lib.EmbeddingProvider import OpenAiEmbeddingProvider
 
 class Agent:
 
-    def query(self, text, data: list[Tuple[Document, float]]) -> str:
+    def query(self, text, data: list[Tuple[Document, float]], path: str) -> str:
         pass
 
 

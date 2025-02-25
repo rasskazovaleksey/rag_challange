@@ -1,5 +1,5 @@
-import os
 import json
+import os
 import sys
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -14,40 +14,49 @@ from lib.EmbeddingProvider import OpenAiEmbeddingProvider
 
 
 def run_test(
-             path:str = './data/r2.0-test/questions_with_answer.json', 
-             working_directory:str = None, 
-             agent:Agent = None, 
-             repo:DataRepository = None,
-             asrt = True
-             ) -> None:
-
+        agent: Agent,
+        repo: DataRepository,
+        working_directory: str,
+        path: str = './data/r2.0-test/questions_with_answer.json',
+) -> None:
     with open(path, 'r') as file:
         questions = json.load(file)
 
-    for item in questions:
+    resultHolder = []
+    for i, item in enumerate(questions):
         question = item.get("text")
         expected_answer = item.get("answer")
 
         data = repo.query(question)
-        resp = agent.query(question, data, f"{working_directory}/prompt/generic_prompt.txt")
+        actual = agent.query(question, data, working_directory)
 
-        if asrt:
-            assert expected_answer == resp, f"Error in question: '{question}'\nAgent: {agent}\nExpected answer: {expected_answer}\nReal answer: {resp}"
-            
-            print(f"Test passed: '{question}'")
-
+        if expected_answer == actual:
+            print(f"✅ Test passed: '{question}'")
+            print(f"   Expected answer: {expected_answer}")
+            print(f"   Real answer: {actual}")
+            resultHolder.append({
+                "isPass": True,
+                "question": question,
+                "expected_answer": expected_answer,
+            })
         else:
-            if expected_answer == resp:
-                print(f"✅ Test passed: '{question}'")
-            else:
-                print(f"❌ Test failed: '{question}'")
-                print(f"   Expected answer: {expected_answer}")
-                print(f"   Real answer: {resp}")
+            print(f"❌ Test failed: '{question}'")
+            print(f"   Expected answer: {expected_answer}")
+            print(f"   Real answer: {actual}")
+            resultHolder.append({
+                "isPass": False,
+                "question": question,
+                "expected_answer": expected_answer,
+            })
+
+    passed = len([x for x in resultHolder if x['isPass']])
+    failed = len([x for x in resultHolder if not x['isPass']])
+    print(f"Total: {len(resultHolder)}, Passed: {passed}, Failed: {failed}")
 
 
 if __name__ == "__main__":
     working_directory = Path(os.path.dirname(os.path.abspath(__file__))).parent
-    
+
     agent = OpenAIAgent(path=f"{working_directory}/tokens.yaml")
 
     repo = DataRepository(
@@ -56,11 +65,8 @@ if __name__ == "__main__":
     )
 
     run_test(
-             path=f"{working_directory}//data/r2.0-test/questions_with_answer.json",
-             working_directory=working_directory, 
-             agent=agent, 
-              )
-
-
-
-
+        path=f"{working_directory}/data/r2.0-test/questions_with_answer.json",
+        agent=agent,
+        repo=repo,
+        working_directory=f"{working_directory}/prompt/generic_prompt.txt"
+    )

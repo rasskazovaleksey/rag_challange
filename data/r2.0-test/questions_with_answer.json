@@ -1,0 +1,182 @@
+[ 
+  {
+    "text": "According to the annual report, what is the Operating margin (%) for Altech Chemicals Ltd  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "File related 63688d5d0b4f12e9f847c5407439a1ec46047a4a, no 'margin' at all"
+  },
+  {
+    "text": "According to the annual report, what is the Operating margin (%) for Cofinimmo  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "81.0%",
+    "comment": "Page 19 9cc771c2171bacc138cda4e7d68b8b427a514d81"
+  },
+  {
+    "text": "Did Cofinimmo outline any new ESG initiatives in the annual report?",
+    "kind": "boolean",
+    "answer": "True",
+    "comment": "Page 28 9cc771c2171bacc138cda4e7d68b8b427a514d81"
+  },
+  {
+    "text": "What is the total number of employees let go by Hagerty, Inc. according to the annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "As of December 31, 2022, we had 1,874",
+    "comment": "Page 19 a6f23184a87f3343f17e8e8ed08f604615cdefc1"
+  },
+  {
+    "text": "Which leadership **positions** changed at Renold plc in the reporting period? If data is not available, return 'N/A'.",
+    "kind": "names",
+    "answer": "Mark Harper, David Landless, Andrew Magson, Victoria (Vicki) Potter",
+    "comment": "File da8afefdc3840175c9f26a4dbbed05e250a342cc. Page 11 'My predecessor, Mark Harper, stepped down as'. Page 10 DAVID LANDLESS 'I am pleased to be'"
+  },
+  {
+    "text": "What was the Gross margin (%) for Charles & Colvard, Ltd. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "Possible to calculate based on data from file d3a834539b046a49708161a6c0d35aad29dd15ec"
+  },
+  {
+    "text": "What was the Capital expenditures (in GBP) for Harworth Group plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "£53.1 million",
+    "comment": "Not sure"
+  },
+  {
+    "text": "What was the Capital expenditures (in USD) for Charles & Colvard, Ltd. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "$ 1,496,471",
+    "comment": "Not sure file d3a834539b046a49708161a6c0d35aad29dd15ec page 71"
+  },
+  {
+    "text": "What are the names of new products launched by Zymeworks Inc. as mentioned in the annual report?",
+    "kind": "names",
+    "answer": "ZW191, ZW171, ZW251, ZW220 ",
+    "comment": "file 69b472e4c05986db72ff8e547bb220e2d222b7ef page 8, 14"
+  },
+  {
+    "text": "For Lipocine Inc., what was the value of Number of diagnostic centers at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23"
+  },
+  {
+    "text": "According to the annual report, what is the Total revenue (in USD) for Winnebago Industries, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "$ 4,957,730 August 27, 2022",
+    "comment": "file 7820b6e9487202b30f2883a6df91ae76f9461f2f page 33"
+  },
+  {
+    "text": "For Lipocine Inc., what was the value of Value of medical equipment (balance sheet) at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "Property and equipment, net of accumulated depreciation of $1,153,530 and $1,144,077, respectively",
+    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23 page 70"
+  },
+  {
+    "text": "According to the annual report, what is the Operating margin (%) for Audalia Resources Limited  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file 601aba58deffc81230c837404aa883de0d1dde1c"
+  },
+  {
+    "text": "According to the annual report, what is the Total revenue (in USD) for Lipocine Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "500,000",
+    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23 page 75"
+  },
+  {
+    "text": "Did Charles & Colvard, Ltd. mention any ongoing litigation or regulatory inquiries?",
+    "kind": "boolean",
+    "answer": "False",
+    "comment": "file d3a834539b046a49708161a6c0d35aad29dd15ec"
+  },
+  {
+    "text": "Which leadership **positions** changed at Enerflex Ltd. in the reporting period? If data is not available, return 'N/A'.",
+    "kind": "names",
+    "answer": "Roger George, James, Laura Folse",
+    "comment": "file 612279ce81b538da24834af47131cc73e8c01a80 page 5"
+  },
+  {
+    "text": "Did HV Bancorp, Inc. mention any mergers or acquisitions in the annual report?",
+    "kind": "boolean",
+    "answer": "True",
+    "comment": "file 69a9dcb0bb6a46e2ff9f969d035e1774a2d49ef1 page 36"
+  },
+  {
+    "text": "For Alien Metals Limited, what was the value of End-of-year total headcount at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file 8dd1306c26c63913495fe81dde5180033b39fc44"
+  },
+  {
+    "text": "For Renold plc, what was the value of Warehouse capacity (cubic ft.) at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file da8afefdc3840175c9f26a4dbbed05e250a342cc"
+  },
+  {
+    "text": "According to the annual report, what is the Operating margin (%) for Lipocine Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23"
+  },
+  {
+    "text": "According to the annual report, what is the Total revenue (in EUR) for Cofinimmo  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "329,884,000",
+    "comment": "file 9cc771c2171bacc138cda4e7d68b8b427a514d81 page 260"
+  },
+  {
+    "text": "Did Canadian Tire Corporation announce a share buyback plan in the annual report?",
+    "kind": "boolean",
+    "answer": "True",
+    "comment": "file 7c55d7900a241e732c145687598d43c915a678f9 page 6"
+  },
+  {
+    "text": "Which leadership **positions** changed at Canadian Tire Corporation in the reporting period? If data is not available, return 'N/A'.",
+    "kind": "names",
+    "answer": "N/A",
+    "comment": "file 7c55d7900a241e732c145687598d43c915a678f9 page "
+  },
+  {
+    "text": "Did LVMH mention any mergers or acquisitions in the annual report?",
+    "kind": "boolean",
+    "answer": "True",
+    "comment": "file dda7722dd2e90c9942ed383957b527873cc74174 page 16"
+  },
+  {
+    "text": "For Winnebago Industries, Inc., what was the value of Number of hybrid models available at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file 7820b6e9487202b30f2883a6df91ae76f9461f2f"
+  },
+  {
+    "text": "For Johns Lyng Group Limited, what was the value of Total expensed R&D expenditure at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file f393170837ab7636d83fdc105279dfc61ebeb017"
+  },
+  {
+    "text": "Did Cofinimmo announce any changes to its dividend policy in the annual report?",
+    "kind": "boolean",
+    "answer": "False",
+    "comment": "file 9cc771c2171bacc138cda4e7d68b8b427a514d81. No major changes"
+  },
+  {
+    "text": "What was the value of Distribution network length of Maxeon Solar Technologies, Ltd. at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file a34c22665bada80d76b98b0e794096aefc06758a"
+  },
+  {
+    "text": "What was the value of Healthcare plan memberships (if applicable) of Nevro Corp. at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "kind": "number",
+    "answer": "N/A",
+    "comment": "file f75ff9d631e7efdb86db68ab8ba395de221d9019"
+  },
+  {
+    "text": "What was the largest single spending of Maxeon Solar Technologies, Ltd. on executive compensation in USD?",
+    "kind": "name",
+    "answer": "9.8 million",
+    "comment": "file a34c22665bada80d76b98b0e794096aefc06758a page 94"
+  }
+]

@@ -4,7 +4,6 @@ import sys
 
 from langchain_community.document_loaders import PyPDFLoader
 
-from lib.questions import QuestionExtractor
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -12,6 +11,7 @@ sys.path.insert(0, project_root)
 
 from pathlib import Path
 
+from lib.questions import QuestionExtractor
 from lib.Agent import OpenAIAgent, Agent
 from lib.DataRepository import DataRepository
 from lib.EmbeddingProvider import OpenAiEmbeddingProvider
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     repo = DataRepository(
         embedding=OpenAiEmbeddingProvider(f"{working_directory}/tokens.yaml"),
-        db_path=f"{working_directory}/data/db/open_ai_small_50_10"
+        db_path=f"{working_directory}/data/db/open_ai_small_150_15"
     )
 
     run_test(

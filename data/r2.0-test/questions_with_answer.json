@@ -38,8 +38,8 @@
   {
     "text": "What was the Capital expenditures (in GBP) for Harworth Group plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "53.1 million",
-    "comment": "Not sure"
+    "answer": "66600000",
+    "comment": "File ed55750eae9cb7d893e6484b92496639172717cd page 37"
   },
   {
     "text": "What was the Capital expenditures (in USD) for Charles & Colvard, Ltd. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
@@ -68,8 +68,8 @@
   {
     "text": "For Lipocine Inc., what was the value of Value of medical equipment (balance sheet) at the end of the period listed in annual report? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "Property and equipment, net of accumulated depreciation of $1,153,530 and $1,144,077, respectively",
-    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23 page 70"
+    "answer": "1180052",
+    "comment": "file c51f3c5aff7bea6fbc0bb7537838fa2f44f35c23 page 857"
   },
   {
     "text": "According to the annual report, what is the Operating margin (%) for Audalia Resources Limited  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",

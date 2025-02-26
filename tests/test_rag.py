@@ -14,7 +14,7 @@ from lib.EmbeddingProvider import OpenAiEmbeddingProvider
 
 
 def run_test(
-        agent: OpenAIAgent,
+        agent: Agent,
         repo: DataRepository,
         working_directory: str,
         path: str = './data/r2.0-test/questions_with_answer.json',
@@ -60,7 +60,7 @@ def run_test(
                 "question": question,
                 "expected_answer": expected_answer,
             })
-            
+
     passed = len([x for x in resultHolder if x['isPass']])
     failed = len([x for x in resultHolder if not x['isPass']])
     print(f"Total: {len(resultHolder)}, Passed: {passed}, Failed: {failed}")

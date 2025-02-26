@@ -30,11 +30,11 @@ class OpenAIAgent(Agent):
     def query(self, text, data: list[Tuple[Document, float]], path: str = "./prompt/generic_prompt.txt") -> str:
         with open(path, "r") as file:
             template = file.read()
-
-        context = "\n\n---\n\n".join([doc.page_content for doc, _score in data])
+        
+        context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _score in data])
         prompt_template = ChatPromptTemplate.from_template(template)
         prompt = prompt_template.format(context=context, question=text)
-        print(prompt)
+        #print(prompt)
         return self.client.chat.completions.create(
             model=self.model,
             messages=[

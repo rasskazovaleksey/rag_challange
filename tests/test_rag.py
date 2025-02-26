@@ -26,14 +26,26 @@ def run_test(
     for i, item in enumerate(questions):
         question = item.get("text")
         expected_answer = item.get("answer")
+        question_type = item.get("kind")
+
+        if question_type == 'name':
+            question_type = 'names' #one question hame type name, while other nameS
 
         data = repo.query(question)
-        actual = agent.query(question, data, working_directory)
-
+        actual = agent.query(question, data, path=f'{working_directory}/prompt/{question_type}_prompt.txt')
+        
+        
+        if ' (' in actual:
+            actual, chunk_id = actual.split(' (ID: ')
+            chunk_id = chunk_id.rstrip(')')
+        else:
+            chunk_id = 'N/A'
+            
         if expected_answer == actual:
             print(f"✅ Test passed: '{question}'")
             print(f"   Expected answer: {expected_answer}")
             print(f"   Real answer: {actual}")
+            print(f"   ID: {chunk_id}")
             resultHolder.append({
                 "isPass": True,
                 "question": question,
@@ -68,5 +80,5 @@ if __name__ == "__main__":
         path=f"{working_directory}/data/r2.0-test/questions_with_answer.json",
         agent=agent,
         repo=repo,
-        working_directory=f"{working_directory}/prompt/generic_prompt.txt"
+        working_directory=working_directory
     )

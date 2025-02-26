@@ -1,0 +1,8 @@
+Answer the question based only on the following context:
+
+{context}
+
+---
+
+Question: {question}  
+Answer with only the number in its original format from the context, without specifying the currency. If found, include the ID in the format: '<Number> (ID: <ID>)'. If not found, return 'N/A'.

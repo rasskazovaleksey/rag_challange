@@ -26,7 +26,7 @@
   {
     "text": "Which leadership **positions** changed at Renold plc in the reporting period? If data is not available, return 'N/A'.",
     "kind": "names",
-    "answer": "Mark Harper, David Landless, Andrew Magson, Victoria (Vicki) Potter",
+    "answer": "Mark Harper, Tim Cooper, Andrew Magson",
     "comment": "File da8afefdc3840175c9f26a4dbbed05e250a342cc. Page 11 'My predecessor, Mark Harper, stepped down as'. Page 10 DAVID LANDLESS 'I am pleased to be'"
   },
   {
@@ -38,19 +38,19 @@
   {
     "text": "What was the Capital expenditures (in GBP) for Harworth Group plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "£53.1 million",
+    "answer": "53.1 million",
     "comment": "Not sure"
   },
   {
     "text": "What was the Capital expenditures (in USD) for Charles & Colvard, Ltd. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "$ 1,496,471",
+    "answer": "1,496,471",
     "comment": "Not sure file d3a834539b046a49708161a6c0d35aad29dd15ec page 71"
   },
   {
     "text": "What are the names of new products launched by Zymeworks Inc. as mentioned in the annual report?",
     "kind": "names",
-    "answer": "ZW191, ZW171, ZW251, ZW220 ",
+    "answer": "ZW191, ZW171, ZW251, ZW220",
     "comment": "file 69b472e4c05986db72ff8e547bb220e2d222b7ef page 8, 14"
   },
   {
@@ -62,7 +62,7 @@
   {
     "text": "According to the annual report, what is the Total revenue (in USD) for Winnebago Industries, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
     "kind": "number",
-    "answer": "$ 4,957,730 August 27, 2022",
+    "answer": "4,957,730",
     "comment": "file 7820b6e9487202b30f2883a6df91ae76f9461f2f page 33"
   },
   {
@@ -86,8 +86,8 @@
   {
     "text": "Did Charles & Colvard, Ltd. mention any ongoing litigation or regulatory inquiries?",
     "kind": "boolean",
-    "answer": "False",
-    "comment": "file d3a834539b046a49708161a6c0d35aad29dd15ec"
+    "answer": "True",
+    "comment": "file d3a834539b046a49708161a6c0d35aad29dd15ec page 121 and 124"
   },
   {
     "text": "Which leadership **positions** changed at Enerflex Ltd. in the reporting period? If data is not available, return 'N/A'.",

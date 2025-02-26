@@ -1,0 +1,8 @@
+Answer the question based only on the following context:
+
+{context}
+
+---
+
+Question: {question}  
+Answer with only 'True' or 'False'. If True, include the ID in the format: 'True (ID: <ID>)'. If False, return only 'False'.

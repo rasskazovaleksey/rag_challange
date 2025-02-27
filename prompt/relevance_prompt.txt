@@ -1,0 +1,24 @@
+Evaluate the relevance of the following context to the given question.
+
+Each section of the context has an associated "ID" at the bottom, representing a page in the document. Your task is to analyze each section separately and assign a relevance score (0.0 - 1.0) for each page.
+
+---
+
+{context}
+
+---
+
+Question: {question}
+
+Return a JSON array where each object has the following format:
+
+[
+    {{
+        "id": "<PAGE_ID>",
+        "score": <SCORE>
+    }},
+    {{
+        "id": "<PAGE_ID>",
+        "score": <SCORE>
+    }}
+]

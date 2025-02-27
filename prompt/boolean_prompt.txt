@@ -13,3 +13,6 @@ Instructions:
 4. If the statement is not confirmed or is contradicted by the context, respond exactly as:
    False
 5. Do not include any additional explanations, text, or disclaimers.
+
+Answer structure
+['True or False'] (ID: <ID>)

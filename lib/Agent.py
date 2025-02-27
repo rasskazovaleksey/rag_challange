@@ -51,7 +51,7 @@ class OpenAIAgent(Agent):
         completion = self.client.beta.chat.completions.parse(
             model=self.model,
             messages=[
-                {"role": "system", "content": "Evaluate the relevance of the provided text to the given question."},
+                {"role": "system", "content": "You are an AI assistant specialized on evaluate the relevance of the provided text to the given question."},
                 {"role": "user", "content": prompt},
             ],
             response_format=RelevanceResponse,
@@ -80,7 +80,7 @@ class OpenAIAgent(Agent):
         return self.client.chat.completions.create(
             model=self.model,
             messages=[
-                {"role": "system", "content": "Extract the final answer."},
+                {"role": "system", "content": "You are an AI assistant specialized in extracting precise information from documents containing annual reports of companies across different years. Your task is to answer a specific QUESTION about the DOCUMENTS, using only the provided information."},
                 {
                     "role": "user",
                     "content": prompt,

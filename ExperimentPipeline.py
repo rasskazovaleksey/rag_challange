@@ -2,15 +2,32 @@ import json
 import re
 from os import walk
 
-from lib.Agent import IBMWatsonAgent
+from langchain_community.document_loaders import PyPDFLoader
+
+from lib.Agent import IBMWatsonAgent, Agent
+from lib.DataRepository import DataRepository
+from lib.EmbeddingProvider import WatsonEmbeddingProvider
 from lib.questions import QuestionExtractor
 
+
 class ExperimentPipeline:
-    def __init__(self, questions_path="data/r2.0/questions.json", subset_path="data/r2.0/subset.json"):
+    def __init__(self,
+                 questions_path="data/r2.0/questions.json",
+                 subset_path="data/r2.0/subset.json",
+                 llm: Agent = IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct"),
+                 repo=DataRepository(
+                     embedding=WatsonEmbeddingProvider(),
+                     db_path="./data/db/watson_ai_large_100_10_filtered",
+                     path="./data/r2.0/pdfs",
+                     name="watson_ai_large_100_10_filtered",
+                     chunk_size=100,
+                     chunk_overlap=10),
+                 ):
         self.extractor = QuestionExtractor()
         self.questions = self.read_questions(questions_path)
         self.subset = self.read_subset(subset_path)
-        self.llm = IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct")
+        self.llm = llm
+        self.repo = repo
 
     @staticmethod
     def read_questions(path):
@@ -38,7 +55,8 @@ class ExperimentPipeline:
                 text = re.sub(pattern, '', text)
                 pattern = r'"Here are five synonymous expressions for the term "total assets":'
                 text = re.sub(pattern, '', text)
-                text = text.replace("\"Here are 5 synonimatic/similar expressions for the term \\\"total assets\\\":", '')
+                text = text.replace("\"Here are 5 synonimatic/similar expressions for the term \\\"total assets\\\":",
+                                    '')
                 text = text.replace("\\\"", "\"")
                 text = text.replace("]\"}", "]}")
                 text = text.replace(": \" [", ": [")
@@ -81,9 +99,56 @@ class ExperimentPipeline:
             print(result)
             json.dump(result, open(f"data/r2.0/synonyms/{i}.json", 'w'))
 
+    def search_database(self, synonyms, extract, main=10, side=5):
+        sha1 = extract['sha1']
+        assert synonyms['metric'] == extract['metric']
+        sha_filter = {"sha1": sha1}
+        main_results = self.repo.query(synonyms['metric'], k=main,
+                                       f=sha_filter)  # start with main metric from the question
+        smaller_results = []  # start with main metric from the question
+        for m in synonyms['synonyms']:
+            smaller_results += self.repo.query(m['text'], k=side)  # find similar metrics
+        return main_results + smaller_results
+
+    def filter_candidates(self, candidates, size=8):
+        pages_candidates = {}
+        for doc, score in candidates:
+            page = doc.metadata["page"]
+            if page in pages_candidates:
+                pages_candidates[page]["count"] += 1
+                pages_candidates[page]["score"].append(score)
+            else:
+                pages_candidates[page] = {
+                    "count": 1,
+                    "score": [score]
+                }
+        pcf = pages_candidates
+        for p in pcf:
+            pcf[p]["score"] = sum(pcf[p]["score"]) / pcf[p]["count"]
+
+        pcf = sorted(
+            pages_candidates.items(),
+            key=lambda x: (-x[1]["count"], x[1]["score"])
+        )
+        return pcf[0:size]
+
+    def read_pdf(self, sha1, candidates):
+        document_loader = PyPDFLoader(f"./data/r2.0/pdfs/{sha1}.pdf")
+        doc = document_loader.load()
+        pages_number = [p for p, _ in candidates]
+        print(candidates)
+        print(pages_number)
+        print(doc[100])
+        # pages = [p for p in doc if p.metadata["page"] in pages_number]
+        # for p in pages:
+        #     print(p.metadata["page"])
+        #     p.metadata["id"] = p.metadata["page"]
+
     def run(self):
         extracts = [self.extract(q) for q in self.questions]
-        for e in extracts:
+        synonyms_lookup = self.read_synonyms()
+        for i, e in enumerate(extracts):
+            print(f"Processing {i}/{len(extracts) - 1} with sha1 {e['sha1']}")
             if len(e['companies']) == 1 or len(e['companies']) == 4 or len(e['companies']) == 5 or len(
                     e['companies']) == 6:
                 pass
@@ -92,8 +157,16 @@ class ExperimentPipeline:
             if len(e['companies']) > 1:
                 print(f"Comparison problem found")
 
+            if len(e['companies']) == 1:
+                synonyms = list(filter(lambda x: x['metric'] == e['metric'], synonyms_lookup))[0]
+                all_candidates = self.search_database(synonyms, e, main=10, side=5)
+                candidates = self.filter_candidates(all_candidates, size=8)
+                documents = self.read_pdf(e['sha1'], candidates)
+            else:
+                print(f"Comparison problem found")
+
 
 if __name__ == "__main__":
     ep = ExperimentPipeline()
-    ep.read_synonyms()
+    ep.run()
     # print(ep.get_synonyms("Operational margin"))

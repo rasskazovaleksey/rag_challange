@@ -269,7 +269,15 @@ class QuestionExtractor:
                 "overall revenue",
                 "total sales",
                 "revenue total",
-                "income from operations"
+                "income from operations",
+                'income generated',
+            ],
+            "headcount":[
+                "employees",
+                "staff",
+                "personnel",
+                "team members",
+                "human resources",
             ],
             "net income": [
                 "net profit",
@@ -423,6 +431,16 @@ class QuestionExtractor:
                 "share repurchase program",
                 "buyback strategy",
                 "share repurchase scheme"
+            ],
+            "mergers or acquisitions": [
+                "merge or acquire",
+                "acquire a company",
+                "complete an acquisition",
+                "corporate consolidation",
+                "strategic acquisition",
+                "corporate merger",
+                "business acquisition",
+                "acquisition strategy"
             ],
             "changes to its dividend policy": [
                 "dividend policy modifications",

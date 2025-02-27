@@ -1,8 +1,17 @@
-Answer the question based only on the following context:
-
+Context:
 {context}
 
----
+Question:
+{question}
 
-Question: {question}  
-Answer with only the number in its original format from the context, without specifying the currency. If found, include the ID in the format: '<Number> (ID: <ID>)'. If not found, return 'N/A'.
+Instructions:
+1. Each piece of text in the context has an associated ID.
+2. Identify any mention of a number (including explicit digits and any reference to “thousand,” “million,” or “billion”).
+3. For each found number:
+   - Convert it into its fully expanded numeric form (e.g., "3 thousand" → 3000, "15 million" → 15000000).
+   - Also preserve the exact original format (the way it appears in the context).
+4. If at least one number is found, return them all in a comma-separated list. Use this format for each entry:
+   <OriginalNumber> => <ExpandedNumber> (ID: <ID>)
+   - For example: 3 thousand => 3000 (ID: 1234), 15 million => 15000000 (ID: 5678)
+5. If no relevant number or ID is found, return N/A.
+6. Provide no additional text, disclaimers, or explanations beyond your final answer.

@@ -1,8 +1,16 @@
-Answer the question based only on the following context:
-
+Context:
 {context}
 
----
+Question:
+{question}
 
-Question: {question}  
-Answer with only the first and last names from the context. If found, include the ID in the format: 'First Last, First Last (ID: <ID>)'. If not found, return 'N/A'.
+Instructions:
+1. Each piece of text in the context has its own ID.
+2. Refer only to the context when identifying any first and last names.
+3. Locate the name(s) in the piece(s) of text that directly answer the question.
+4. If you find at least one relevant name, respond in the format:
+   ['First Last', 'First Last'] (ID: <ID>)
+   - Replace <ID> with the ID from the piece of text where the name was found.
+   - If there are multiple relevant names from different pieces (with different IDs), list the names and include each corresponding ID (e.g., ['First1 Last1', 'First2 Last2'] (IDs: <ID1>, <ID2>)).
+5. If no relevant names or IDs are found, respond with 'N/A'.
+6. Provide no additional text or explanations beyond your final answer.

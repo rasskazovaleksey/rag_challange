@@ -1,0 +1,28 @@
+{context}
+{question}
+---
+
+ Given this text, write down five synonimatic/simular expressions for this term. Return ONLY a list if JSON formatted objects with the following structure:
+
+ [
+     {{
+         "text": "<SYNONIM>",
+         "score": <SCORE>
+     }},
+     {{
+         "text": "<SYNONIM>",
+         "score": <SCORE>
+     }},
+     {{
+         "text": "<SYNONIM>",
+         "score": <SCORE>
+     }},
+     {{
+         "text": "<SYNONIM>",
+         "score": <SCORE>
+     }},
+     {{
+         "text": "<SYNONIM>",
+         "score": <SCORE>
+     }}
+ ]

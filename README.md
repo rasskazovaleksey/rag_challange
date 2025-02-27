@@ -14,3 +14,10 @@ Simple ideas is that we can use the RAG model to generate embeddings for the tex
 find similar text. Future work showed what we need to tune some params: prompts, split sizes and embeddings provider,
 etc. This stays as baseline. We estimate that this approach gives approximately 60% of the accuracy without tuning.
 
+### Final decision
+
+After discussion with the team we decided to use following approach:
+
+1. Extract key metric from the question: company, industry, metric, currency, etc. The best approach seems to be 
+   to use the NER model to extract the entities or LLM but we decided to use simple regex. 
+

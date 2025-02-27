@@ -15,4 +15,4 @@ Instructions:
 5. Do not include any additional explanations, text, or disclaimers.
 
 Answer structure
-['True or False'] (ID: <ID>)
+Answer (ID: <ID>)

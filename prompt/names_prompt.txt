@@ -9,11 +9,11 @@ Instructions:
 2. Refer only to the context when identifying any first and last names.
 3. Locate the name(s) in the piece(s) of text that directly answer the question.
 4. If you find at least one relevant name, respond in the format:
-   ['First Last', 'First Last'] (ID: <ID>)
+   'First name', 'First name' (ID: <ID>)
    - Replace <ID> with the ID from the piece of text where the name was found.
    - If there are multiple relevant names from different pieces (with different IDs), list the names and include each corresponding ID (e.g., ['First1 Last1', 'First2 Last2'] (IDs: <ID1>, <ID2>)).
 5. If no relevant names or IDs are found, respond with 'N/A'.
 6. Provide no additional text or explanations beyond your final answer.
 
 Answer structure
-['First Last', 'First Last'] (ID: <ID>)
+'First name', 'First name' (ID: <ID>)

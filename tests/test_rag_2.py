@@ -80,8 +80,21 @@ def run_test(
             p.metadata["id"] = p.metadata["page"]
 
         rag = [(p, 0.0) for p in pages]
-
-        actual = agent.query(question, rag, path=f'{working_directory}/prompt/{question_type}_prompt.txt')
+        filtered_rag = agent.get_relevance_scores(
+            question, 
+            rag, 
+            path=f'{working_directory}/prompt/relevance_prompt.txt'
+        )
+        #actual = agent.query(question, rag, path=f'{working_directory}/prompt/{question_type}_prompt.txt')
+        #exit(0)
+        if filtered_rag:
+            prompt_path = f'{working_directory}/prompt/{question_type}_prompt.txt'
+            actual = agent.query(question, filtered_rag, prompt_path)
+        else:
+            if question_type == 'boolean':
+                actual = "False"
+            else:
+                actual = "N/A"
 
         if ' (' in actual:
             actual, chunk_id = actual.split(' (ID: ')
@@ -121,7 +134,7 @@ if __name__ == "__main__":
 
     repo = DataRepository(
         embedding=OpenAiEmbeddingProvider(f"{working_directory}/tokens.yaml"),
-        db_path=f"{working_directory}/data/db/open_ai_small_150_15"
+        db_path=f"{working_directory}/data/db/open_ai_small_350_35"
     )
 
     run_test(

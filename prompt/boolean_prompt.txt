@@ -1,8 +1,18 @@
-Answer the question based only on the following context:
-
+Context:
 {context}
 
----
+Question:
+{question}
 
-Question: {question}  
-Answer with only 'True' or 'False'. If True, include the ID in the format: 'True (ID: <ID>)'. If False, return only 'False'.
+Instructions:
+1. Each piece of text in the context has an associated ID.
+2. Determine if the statement in the question is confirmed as true by any one piece of text in the context.
+3. If confirmed, respond exactly as:
+   True (ID: <ID>)
+   (Replace <ID> with the ID of the relevant piece of text.)
+4. If the statement is not confirmed or is contradicted by the context, respond exactly as:
+   False
+5. Do not include any additional explanations, text, or disclaimers.
+
+Answer structure
+['True or False'] (ID: <ID>)

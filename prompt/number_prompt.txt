@@ -1,8 +1,21 @@
-Answer the question based only on the following context:
-
+Context:
 {context}
 
----
+Question:
+{question}
 
-Question: {question}  
-Answer with only the number in its original format from the context, without specifying the currency. If found, include the ID in the format: '<Number> (ID: <ID>)'. If not found, return 'N/A'.
+Instructions:
+1 Identify any mention of a number (including explicit digits and references to “thousand,” “million,” or “billion”) in the context (each piece of text has an associated ID).
+2 Convert each number to decimal format by removing commas, symbols, or abbreviations. Examples:
+   - “122k” → “122000.0”
+   - “10.0%” → “10.0”
+   - “$1,000,000” → “1000000.0”
+   - “3 thousand” → “3000.0”
+
+3 For each found number, respond in the format:
+   <ExpandedNumber> (ID: <ID>)git 
+5. If no relevant number or ID is found, return N/A.
+6. Provide no additional text, disclaimers, or explanations beyond your final answer.
+
+Answer structure
+['Number'] (ID: <ID>)

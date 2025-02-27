@@ -16,6 +16,7 @@ chromadb = "^0.6.3"
 langchain-openai = "^0.3.7"
 notebook = "^7.3.2"
 cryptography= "44.0.1"
+langchain-chroma = "^0.2.2"
 
 
 [build-system]

@@ -1,0 +1,24 @@
+Context:
+{context}
+
+Question:
+{question}
+
+Instructions:
+1. Evaluate each section of the context for its relevance to the question.
+2. Each section has an associated PAGE_ID.
+3. Assign a relevance score between 0.0 and 1.0:
+   - 0.0 → Completely irrelevant
+   - 1.0 → Highly relevant
+4. Return a JSON array where each object follows this format:
+   [
+       {{
+           "id": "<PAGE_ID>",
+           "score": <SCORE>
+       }},
+       {{
+           "id": "<PAGE_ID>",
+           "score": <SCORE>
+       }}
+   ]
+5. Provide no additional text or disclaimers in your response.

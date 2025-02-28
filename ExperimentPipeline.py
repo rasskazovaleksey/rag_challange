@@ -12,6 +12,7 @@ from lib.questions import QuestionExtractor
 
 class ExperimentPipeline:
     def __init__(self,
+                 name,
                  questions_path="data/r2.0/questions.json",
                  subset_path="data/r2.0/subset.json",
                  llm: Agent = IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct"),
@@ -28,6 +29,7 @@ class ExperimentPipeline:
         self.subset = self.read_subset(subset_path)
         self.llm = llm
         self.repo = repo
+        self.name = name
 
     @staticmethod
     def read_questions(path):
@@ -75,7 +77,11 @@ class ExperimentPipeline:
         if extract['metric'] is None:
             extract['metric'] = extract['original_question']
         extract['type'] = question.get("kind")
-        extract['sha1'] = list(filter(lambda x: x["company_name"] in extract['companies'], self.subset))[0]['sha1']
+        extract['sha1'] = list(filter(lambda x: x["company_name"] in extract['companies'], self.subset))
+        if len(extract['companies']) == 1:
+            extract['sha1'] = extract['sha1'][0]["sha1"]
+        else:
+            extract['sha1'] = list(map(lambda x: x["sha1"], extract['sha1']))
         if extract['metric'] is None:
             raise ValueError("Metric is None")
         if extract['companies'] is None:
@@ -107,7 +113,7 @@ class ExperimentPipeline:
                                        f=sha_filter)  # start with main metric from the question
         smaller_results = []  # start with main metric from the question
         for m in synonyms['synonyms']:
-            smaller_results += self.repo.query(m['text'], k=side)  # find similar metrics
+            smaller_results += self.repo.query(m['text'], k=side, f=sha_filter)  # find similar metrics
         return main_results + smaller_results
 
     def filter_candidates(self, candidates, size=8):
@@ -136,17 +142,20 @@ class ExperimentPipeline:
         document_loader = PyPDFLoader(f"./data/r2.0/pdfs/{sha1}.pdf")
         doc = document_loader.load()
         pages_number = [p for p, _ in candidates]
-        print(candidates)
-        print(pages_number)
-        print(doc[100])
-        # pages = [p for p in doc if p.metadata["page"] in pages_number]
-        # for p in pages:
-        #     print(p.metadata["page"])
-        #     p.metadata["id"] = p.metadata["page"]
+        pages = [p for p in doc if p.metadata["page"] in pages_number]
+        for p in pages:
+            p.metadata["id"] = p.metadata["page"]
+            p.metadata["sha1"] = sha1
+            assert sha1 in p.metadata["source"], f"Source {p.metadata['source']} does not contain {sha1}"
+
+        rag = [(p, 0.0) for p in pages]
+        return rag
 
     def run(self):
+        print(f"Starting the pipeline ${self.name} with repo {self.repo.name} and llm {self.llm.model}")
         extracts = [self.extract(q) for q in self.questions]
         synonyms_lookup = self.read_synonyms()
+        answers = []
         for i, e in enumerate(extracts):
             print(f"Processing {i}/{len(extracts) - 1} with sha1 {e['sha1']}")
             if len(e['companies']) == 1 or len(e['companies']) == 4 or len(e['companies']) == 5 or len(
@@ -154,19 +163,56 @@ class ExperimentPipeline:
                 pass
             else:
                 raise ValueError(f"Companies is {len(e['companies'])} for {e}")
-            if len(e['companies']) > 1:
-                print(f"Comparison problem found")
 
             if len(e['companies']) == 1:
                 synonyms = list(filter(lambda x: x['metric'] == e['metric'], synonyms_lookup))[0]
                 all_candidates = self.search_database(synonyms, e, main=10, side=5)
                 candidates = self.filter_candidates(all_candidates, size=8)
                 documents = self.read_pdf(e['sha1'], candidates)
+
+                question_type = e['type']
+                if question_type == 'name':
+                    question_type = 'names'
+                answer = self.llm.query(e['original_question'], data=documents, path=f"./prompt/{question_type}_prompt.txt")
+
+                answers.append({
+                    "extract": e,
+                    "answer": answer
+                })
             else:
-                print(f"Comparison problem found")
+                print(f"Comparison problem found for {e['companies']}")
+                holder = {}
+                for c in e['companies']:
+                    if c == 'Inc.':
+                        print("--- Inc. found, skipping its and error in the code. ---")
+                        continue
+                    print(f"Processing {c}")
+                    l = list(filter(lambda x: c in x['company_name'], self.subset))
+                    sha1 = l[0]['sha1']
+                    copy_e = e.copy()
+                    copy_e['sha1'] = sha1
+                    synonyms = list(filter(lambda x: x['metric'] == e['metric'], synonyms_lookup))[0]
+                    all_candidates = self.search_database(synonyms, copy_e, main=10, side=5)
+                    candidates = self.filter_candidates(all_candidates, size=8)
+                    documents = self.read_pdf(sha1, candidates)
+                    question = f"What was the {e['metric']} of {c} in the period? If data is not available, return 'N/A'."
+                    answer = self.llm.query(question, data=documents, path=f"./prompt/number_prompt.txt",
+                                            system="You are a data extraction engine with financial knowlage.")
+                    holder[c] = answer
+
+                if e['comparison'] is None:
+                    raise ValueError("Comparison is None")
+                holder['comparison'] = e['comparison']
+
+                answers.append(holder)
+
+                answers.append({
+                    "extract": e,
+                    "holder": holder
+                })
+        json.dump(answers, open(f"{self.name}.json", 'w'))
 
 
 if __name__ == "__main__":
-    ep = ExperimentPipeline()
+    ep = ExperimentPipeline(name="watson_small_llama_405b_v1.json")
     ep.run()
-    # print(ep.get_synonyms("Operational margin"))

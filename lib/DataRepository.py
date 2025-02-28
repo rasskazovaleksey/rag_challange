@@ -20,6 +20,7 @@ class DataRepository:
                  db_path: str = "./data/db/", chunk_size: int = 1_000, chunk_overlap: int = 100) -> None:
         self.embedding = embedding
         self.path = path
+        self.name = name
         self.db = Chroma(collection_name=name, persist_directory=db_path, embedding_function=self.embedding.provide())
         self.__text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size,

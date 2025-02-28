@@ -6,18 +6,18 @@ Question:
 
 Instructions:
 1. Evaluate each section of the context for its relevance to the question.
-2. Each section has an associated PAGE_ID.
+2. Each section has an associated ID.
 3. Assign a relevance score between 0.0 and 1.0:
    - 0.0 → Completely irrelevant
    - 1.0 → Highly relevant
 4. Return a JSON array where each object follows this format:
    [
        {{
-           "id": "<PAGE_ID>",
+           "id": "<ID>",
            "score": <SCORE>
        }},
        {{
-           "id": "<PAGE_ID>",
+           "id": "<ID>",
            "score": <SCORE>
        }}
    ]

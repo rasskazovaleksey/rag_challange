@@ -1,60 +1,93 @@
 import os
 from pathlib import Path
-from typing import List, Tuple
-from pydantic import BaseModel
-from typing import Optional
+from typing import Tuple
 
+import requests
 import yaml
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
-from openai import OpenAI
+from langchain_openai import ChatOpenAI
 
 from lib.DataRepository import DataRepository
 from lib.EmbeddingProvider import OpenAiEmbeddingProvider
-from langchain_core.documents import Document
-
-
-class PageRelevance(BaseModel):
-    id: str
-    score: float
-
-
-class RelevanceResponse(BaseModel):
-    pages: List[PageRelevance]
 
 
 class Agent:
 
-    def query(self, text, data: list[Tuple[Document, float]], path: str) -> str:
+    def query(self, text, data: list[Tuple[Document, float]], path: str, system: str) -> str:
         pass
+
+
+class IBMWatsonAgent(Agent):
+    def __init__(self, path: str = "./tokens.yaml", model: str = "deepseek/deepseek-r1-distill-llama-70b"):
+        try:
+            with open(path, "r") as file:
+                tokens = yaml.safe_load(file)
+            self.token = tokens["watson"]
+            if not self.token:
+                raise ValueError("watson not found in tokens file.")
+        except Exception as e:
+            raise RuntimeError(f"Failed to load tokens from {path}: {e}")
+
+        self.model = model
+        self.url = "https://rag.timetoact.at/ibm/text_generation"
+
+    def query(self,
+              text: str,
+              data: list[Tuple[Document, float]],
+              path: str = "./prompt/generic_prompt.txt",
+              system: str = "You are a data extraction engine.",
+              ) -> str:
+        try:
+            with open(path, "r") as file:
+                template = file.read().strip()
+        except Exception:
+            ValueError(f"Failed to load prompt template from {path}")
+
+        context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _score in data])
+        prompt_template = ChatPromptTemplate.from_template(template)
+        prompt = prompt_template.format(context=context, question=text)
+
+        # Build the payload using the prompt template and the provided text and context.
+        payload = {
+            "input": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": prompt},
+            ],
+            "parameters": {
+                "decoding_method": "greedy",
+                "max_new_tokens": 4_000,
+            },
+            "model_id": self.model,
+        }
+        headers = {
+            "Authorization": f"Bearer {self.token}",
+            "Content-Type": "application/json"
+        }
+
+        try:
+            response = requests.post(self.url, headers=headers, json=payload)
+            response.raise_for_status()
+            return response.json()["results"][0]["generated_text"]
+        except requests.HTTPError as err:
+            return str(err)
 
 
 class OpenAIAgent(Agent):
 
     def __init__(self, path: str = "./tokens.yaml", model: str = "gpt-4o-mini"):
+        """
+        NOTE: my teal doesn't allow o3-mini with reasoning_effort="high"
+        :param path:
+        :param model:
+        """
         with open(path, "r") as file:
             tokens = yaml.safe_load(file)
         self.model = model
-        self.client = OpenAI(
+        self.llm = ChatOpenAI(
             api_key=tokens["openai"],
-        )
-
-    def get_relevance_scores(self, text: str, data: List[Tuple[Document, float]], path: str, threshold: float = 0.5) -> List[Tuple[Document, float]]:
-        with open(path, "r") as file:
-            template = file.read()
-
-        context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _ in data])
-
-        prompt_template = ChatPromptTemplate.from_template(template)
-        prompt = prompt_template.format(context=context, question=text)
-
-        completion = self.client.beta.chat.completions.parse(
             model=self.model,
-            messages=[
-                {"role": "system", "content": "You are an AI assistant specialized on evaluate the relevance of the provided text to the given question."},
-                {"role": "user", "content": prompt},
-            ],
-            response_format=RelevanceResponse,
+            # reasoning_effort="high",
         )
 
         parsed_scores = completion.choices[0].message.parsed
@@ -67,37 +100,34 @@ class OpenAIAgent(Agent):
         
         return relevant_docs
 
-
-    def query(self, text, data: list[Tuple[Document, float]], path: str = "./prompt/generic_prompt.txt") -> str:
+    def query(self, text, data: list[Tuple[Document, float]], path: str = "./prompt/generic_prompt.txt",
+              system: str = "You are a data extraction engine.", ) -> str:
         with open(path, "r") as file:
             template = file.read()
 
-
         context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _score in data])
         prompt_template = ChatPromptTemplate.from_template(template)
-        prompt = prompt_template.format(context=context, question=text)
-        # print(prompt)
-        return self.client.chat.completions.create(
-            model=self.model,
-            messages=[
-                {"role": "system", "content": "You are an AI assistant specialized in extracting precise information from documents containing annual reports of companies across different years. Your task is to answer a specific QUESTION about the DOCUMENTS, using only the provided information."},
-                {
-                    "role": "user",
-                    "content": prompt,
-                },
-            ],
-        ).choices[0].message.content  # TODO: return choices
+        prompt = prompt_template.format(context=context, question=text, system="asdad")
+        print(prompt)
+        message = self.llm.invoke(prompt)
+        return message.content
 
 
 if __name__ == "__main__":
     working_directory = Path(os.path.dirname(os.path.abspath(__file__))).parent
     repo = DataRepository(
         embedding=OpenAiEmbeddingProvider(f"{working_directory}/tokens.yaml"),
-        db_path=f"{working_directory}/data/db/open_ai_small"
+        db_path=f"{working_directory}/data/db/open_ai_small_50_10"
     )
     message = "According to the annual report, what is the Operating margin (%) for Altech Chemicals Ltd  (within the last period or at the end of the last period)? If data is not available, return 'N/A'"
     data = repo.query(message)
+
     agent = OpenAIAgent(path=f"{working_directory}/tokens.yaml")
-    resp = agent.query(message, data, f"{working_directory}/prompt/generic_prompt.txt")
+    resp = agent.query(message, data, f"{working_directory}/prompt/number_prompt.txt")
     print("!!!!!")
     print(resp)
+
+    # agent = IBMWatsonAgent(path=f"{working_directory}/tokens.yaml")
+    # resp = agent.query(message, data, f"{working_directory}/prompt/number_prompt.txt")
+    # print("!!!!!")
+    # print(resp)

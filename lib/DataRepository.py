@@ -1,6 +1,10 @@
+import re
 from os import listdir
 from os.path import isfile, join
 from typing import Tuple
+
+from nltk import PorterStemmer, WordNetLemmatizer
+from nltk.corpus import stopwords
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_chroma import Chroma
@@ -23,6 +27,7 @@ class DataRepository:
             length_function=len,
             is_separator_regex=False,
         )
+        self.STOPWORDS = set(stopwords.words('english'))
 
     @staticmethod
     def __load_documents(path: str) -> list[Document]:
@@ -48,13 +53,65 @@ class DataRepository:
             chunk_id = f"{current_page_id}:{current_chunk_index}"
             last_page_id = current_page_id
             chunk.metadata["id"] = chunk_id
+            chunk.metadata["sha1"] = source
         return splits
 
-    @staticmethod
-    def __filter(doc: Document) -> Document:
+    def __filter(self, doc: Document) -> Document:
         doc.page_content = doc.page_content.replace("\n", " ")
-        # TODO: might be a good idea to filter out some of the text as doc.page_content = "my content"
+        doc.page_content = self.__clean_text(doc.page_content)
+        # dirty trick for Watson
+        doc.page_content = doc.page_content.replace("ŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛŝŷžƶƌěŝɛđƶɛɛŝžŷăƌğďăɛğěžŷƚśğğǆɖğđƚăɵžŷɛğɛɵŵăƚğɛăŷěɖƌžũğđɵžŷɛžĩŵăŷăőğŵğŷƚăɛžĩƚžěăǉăŷě ăƌğɛƶďũğđƚƚžǀăƌŝžƶɛăɛɛƶŵɖɵžŷɛƌŝɛŭɛƶŷđğƌƚăŝŷɵğɛăŷěžƚśğƌĩăđƚžƌɛƚśăƚăƌğěŝĸđƶůƚƚžɖƌğěŝđƚǁśŝđśđžƶůěđăƶɛğăđƚƶăůƌğɛƶůƚɛƚžěŝīğƌ ŵăƚğƌŝăůůǉĩƌžŵƚśžɛğğǆɖƌğɛɛğěžƌŝŵɖůŝğěŝŷƚśğĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛdśğɛğɛƚăƚğŵğŷƚɛăƌğŷžƚőƶăƌăŷƚğğɛžĩĩƶƚƶƌğɖğƌĩžƌŵăŷđğăŷě ƚśğƌğĩžƌğƶŷěƶğƌğůŝăŷđğɛśžƶůěŷžƚďğɖůăđğěƶɖžŷƚśğŵtğƌğĩğƌăůůžĩǉžƶƚžžƶƌϯϭϯϯŷŷƶăůzğɖžƌƚžŷžƌŵϭϭͳăŷěžƶƌžƚśğƌįůŝŷőɛǁŝƚś ƚśğ ĩžƌăŵžƌğěğƚăŝůğěěŝɛđƶɛɛŝžŷžĩƚśğƌŝɛŭɛƚśăƚđžƶůěŝŵɖăđƚƚśğĩƶƚƶƌğžɖğƌăɵŷőƌğɛƶůƚɛăŷěįŷăŷđŝăůđžŷěŝɵžŷžĩzƶŵďůğkŷŷđtğ ěŝɛđůăŝŵăŷǉŝŷƚğŷɵžŷɛžƌžďůŝőăɵžŷɛƚžƶɖěăƚğžƌƌğǀŝɛğăŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛğǆđğɖƚăɛƌğƌƶŝƌğěďǉůăǁ", "")
         return doc
+
+    def __clean_text(self, text):
+        # Original Text
+        # Example: "This is a Testing @username https://example.com <p>Paragraphs!</p> #happy :)"
+
+        text = text.lower()  # Convert all characters in text to lowercase
+        # Example after this step: "i won't go there! this is a testing @username https://example.com <p>paragraphs!</p> #happy :)"
+
+        text = re.sub(r'https?://\S+|www\.\S+', '', text)  # Remove URLs
+        # Example after this step: "i won't go there! this is a testing @username  <p>paragraphs!</p> #happy :)"
+
+        text = re.sub(r'<.*?>', '', text)  # Remove HTML tags
+        # Example after this step: "i won't go there! this is a testing @username  paragraphs! #happy :)"
+
+        text = re.sub(r'@\w+', '', text)  # Remove mentions
+        # Example after this step: "i won't go there! this is a testing   paragraphs! #happy :)"
+
+        text = re.sub(r'#\w+', '', text)  # Remove hashtags
+        # Example after this step: "i won't go there! this is a testing   paragraphs!  :)"
+
+        # Translate emoticons to their word equivalents
+        emoticons = {':)': 'smile', ':-)': 'smile', ':(': 'sad', ':-(': 'sad'}
+        words = text.split()
+        words = [emoticons.get(word, word) for word in words]
+        text = " ".join(words)
+        # Example after this step: "i won't go there! this is a testing paragraphs! smile"
+
+        text = re.sub(r'[^\w\s]', '', text)  # Remove punctuations
+        # Example after this step: "i won't go there this is a testing paragraphs smile"
+
+        text = re.sub(r'\s+[a-zA-Z]\s+', ' ', text)  # Remove standalone single alphabetical characters
+        # Example after this step: "won't go there this is testing paragraphs smile"
+
+        text = re.sub(r'\s+', ' ', text, flags=re.I)  # Substitute multiple consecutive spaces with a single space
+        # Example after this step: "won't go there this is testing paragraphs smile"
+
+        # Remove stopwords
+        text = ' '.join(word for word in text.split() if word not in self.STOPWORDS)
+        # Example after this step: "won't go there testing paragraphs smile"
+
+        # Stemming
+        # stemmer = PorterStemmer()
+        # text = ' '.join(stemmer.stem(word) for word in text.split())
+        # Example after this step: "won't go there test paragraph smile"
+
+        # Lemmatization. (flies --> fly, went --> go)
+        # lemmatizer = WordNetLemmatizer()
+        # text = ' '.join(lemmatizer.lemmatize(word) for word in text.split())
+
+        return text
 
     def __create(self, documents: list[Document]) -> None:
         existing_items = self.db.get(include=[])
@@ -69,7 +126,7 @@ class DataRepository:
         if len(new_chunks):
             print(f"Adding new documents: {len(new_chunks)}")
             new_chunk_ids = [chunk.metadata["id"] for chunk in new_chunks]
-            max_batch_size = 5461
+            max_batch_size = 1000
             if len(new_chunks) > max_batch_size:
                 print("Adding documents in batches...")
                 for i in range(0, len(new_chunks), max_batch_size):
@@ -83,15 +140,10 @@ class DataRepository:
         files = [f"{path}/{f}" for f in listdir(path) if isfile(join(path, f))]
         for file in files:
             print(f"Progress: {files.index(file)}/{len(files) - 1}")
-            print(f"Loading documents from {file}...")
             docs = self.__load_documents(file)
-            print("Splitting documents...")
             splits = self.__split(docs)
-            print("Appending chunk ids...")
             splits = self.__append_chunk_ids(splits)
-            print("Filtering documents...")
             splits = [self.__filter(doc) for doc in splits]
-            print(f"Number of chunks: {len(splits)}")
             self.__create(splits)
 
     def query(self, text: str, k=5, f: dict[str, str] = None) -> list[Tuple[Document, float]]:

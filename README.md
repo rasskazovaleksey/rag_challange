@@ -18,6 +18,10 @@ etc. This stays as baseline. We estimate that this approach gives approximately 
 
 After discussion with the team we decided to use following approach:
 
-1. Extract key metric from the question: company, industry, metric, currency, etc. The best approach seems to be 
-   to use the NER model to extract the entities or LLM but we decided to use simple regex. 
+0. Generate the RAG model DBs.
+1. Extract key metric from the question: company, industry, metric, currency, etc.
+2. Use the extracted key metric to find the most similar question in the database.
+3. Use the answer from the most similar question as the answer for the new question.
+4. Use the LLM model to generate the answers.
+5. Collect the answers and present them to the user.
 

@@ -90,16 +90,6 @@ class OpenAIAgent(Agent):
             # reasoning_effort="high",
         )
 
-        parsed_scores = completion.choices[0].message.parsed
-        scores_dict = {p.id: p.score for p in parsed_scores.pages}
-        #print(f'\n\nscores_dict\n{scores_dict}')
-        relevant_docs = [(doc, scores_dict[str(
-            doc.metadata.get('id'))]) for doc, _ in data if str(
-            doc.metadata.get('id')) in scores_dict and 
-            scores_dict[str(doc.metadata.get('id'))] >= threshold]
-        
-        return relevant_docs
-
     def query(self, text, data: list[Tuple[Document, float]], path: str = "./prompt/generic_prompt.txt",
               system: str = "You are a data extraction engine.", ) -> str:
         with open(path, "r") as file:
@@ -108,7 +98,6 @@ class OpenAIAgent(Agent):
         context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _score in data])
         prompt_template = ChatPromptTemplate.from_template(template)
         prompt = prompt_template.format(context=context, question=text, system="asdad")
-        print(prompt)
         message = self.llm.invoke(prompt)
         return message.content
 

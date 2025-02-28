@@ -93,9 +93,11 @@ class SubmissionParser:
                 raise ValueError(f"Unknown question type: {kind}")
 
     @staticmethod
-    def process_number(answer: Union[str, int]) -> int:
+    def process_number(answer: Union[str, int]) -> float:
+        if isinstance(answer, str):
+            answer = answer.replace(",", "")
         try:
-            return int(float(answer))
+            return float(answer)
         except (ValueError, TypeError):
             raise ValueError(f"Cannot convert answer {answer} to a number.")
 
@@ -109,7 +111,8 @@ class SubmissionParser:
 
     @staticmethod
     def process_name(answer: str) -> str:
-        if not isinstance(answer, str) or not re.fullmatch(r"[A-Za-zÀ-ÖØ-öø-ÿ'-]+", answer.strip()):
+        print(answer)
+        if not isinstance(answer, str):
             raise ValueError(f"Invalid name: {answer}. Only alphabetic characters, hyphens, and apostrophes are allowed.")
         return answer.strip()
 

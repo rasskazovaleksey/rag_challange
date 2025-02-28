@@ -4,25 +4,19 @@ from os import walk
 
 from langchain_community.document_loaders import PyPDFLoader
 
-from lib.Agent import IBMWatsonAgent, Agent
+from lib.Agent import IBMWatsonAgent, OpenAIAgent
 from lib.DataRepository import DataRepository
-from lib.EmbeddingProvider import WatsonEmbeddingProvider
+from lib.EmbeddingProvider import WatsonEmbeddingProvider, OpenAiEmbeddingProvider
 from lib.questions import QuestionExtractor
 
 
 class ExperimentPipeline:
     def __init__(self,
                  name,
+                 llm,
+                 repo,
                  questions_path="data/r2.0/questions.json",
                  subset_path="data/r2.0/subset.json",
-                 llm: Agent = IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct"),
-                 repo=DataRepository(
-                     embedding=WatsonEmbeddingProvider(),
-                     db_path="./data/db/watson_ai_large_100_10_filtered",
-                     path="./data/r2.0/pdfs",
-                     name="watson_ai_large_100_10_filtered",
-                     chunk_size=100,
-                     chunk_overlap=10),
                  ):
         self.extractor = QuestionExtractor()
         self.questions = self.read_questions(questions_path)
@@ -109,11 +103,18 @@ class ExperimentPipeline:
         sha1 = extract['sha1']
         assert synonyms['metric'] == extract['metric']
         sha_filter = {"sha1": sha1}
-        main_results = self.repo.query(synonyms['metric'], k=main,
+        try:
+            main_results = self.repo.query(synonyms['metric'], k=main,
                                        f=sha_filter)  # start with main metric from the question
+        except Exception as e:
+            print(f"Error {e} for {synonyms['metric']}")
+            main_results = []
         smaller_results = []  # start with main metric from the question
         for m in synonyms['synonyms']:
-            smaller_results += self.repo.query(m['text'], k=side, f=sha_filter)  # find similar metrics
+            try:
+                smaller_results += self.repo.query(m['text'], k=side, f=sha_filter)  # find similar metrics
+            except Exception as e:
+                print(f"Error {e} for {m}")
         return main_results + smaller_results
 
     def filter_candidates(self, candidates, size=8):
@@ -173,7 +174,8 @@ class ExperimentPipeline:
                 question_type = e['type']
                 if question_type == 'name':
                     question_type = 'names'
-                answer = self.llm.query(e['original_question'], data=documents, path=f"./prompt/{question_type}_prompt.txt")
+                answer = self.llm.query(e['original_question'], data=documents,
+                                        path=f"./prompt/{question_type}_prompt.txt")
 
                 answers.append({
                     "extract": e,
@@ -204,8 +206,6 @@ class ExperimentPipeline:
                     raise ValueError("Comparison is None")
                 holder['comparison'] = e['comparison']
 
-                answers.append(holder)
-
                 answers.append({
                     "extract": e,
                     "holder": holder
@@ -214,5 +214,62 @@ class ExperimentPipeline:
 
 
 if __name__ == "__main__":
-    ep = ExperimentPipeline(name="watson_small_llama_405b_v1.json")
-    ep.run()
+    ExperimentPipeline(
+        name="watson_small_llama_405b_v1",
+        llm=IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct"),
+        repo=DataRepository(
+            embedding=WatsonEmbeddingProvider(),
+            db_path="./data/db/watson_ai_large_100_10_filtered",
+            path="./data/r2.0/pdfs",
+            name="watson_ai_large_100_10_filtered",
+            chunk_size=100,
+            chunk_overlap=10),
+    ).run()
+
+    # ExperimentPipeline(
+    #     name="watson_large_llama_405b_v1",
+    #     llm=IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct"),
+    #     repo=DataRepository(
+    #         embedding=WatsonEmbeddingProvider(),
+    #         db_path="./data/db/watson_ai_large_1000_100_filtered",
+    #         path="./data/r2.0/pdfs",
+    #         name="watson_ai_large_1000_100_filtered",
+    #         chunk_size=1000,
+    #         chunk_overlap=100),
+    # ).run()
+    #
+    # ExperimentPipeline(
+    #     name="openai_large_100_10_v1",
+    #     llm=OpenAIAgent(),
+    #     repo=DataRepository(
+    #         embedding=OpenAiEmbeddingProvider(model="text-embedding-3-large"),
+    #         db_path="./data/db/open_ai_large_100_10",
+    #         path="./data/r2.0/pdfs",
+    #         name="open_ai_large_100_10",
+    #         chunk_size=100,
+    #         chunk_overlap=10),
+    # ).run()
+    #
+    # ExperimentPipeline(
+    #     name="openai_small_1000_100_v1",
+    #     llm=OpenAIAgent(),
+    #     repo=DataRepository(
+    #         embedding=OpenAiEmbeddingProvider(model="text-embedding-3-small"),
+    #         db_path="./data/db/open_ai_large_1000_100",
+    #         path="./data/r2.0/pdfs",
+    #         name="open_ai_large_1000_100",
+    #         chunk_size=1000,
+    #         chunk_overlap=100),
+    # ).run()
+    #
+    ExperimentPipeline(
+        name="openai_small_1000_100_filtered_v1",
+        llm=OpenAIAgent(),
+        repo=DataRepository(
+                embedding=OpenAiEmbeddingProvider(model="text-embedding-3-small"),
+            db_path="./data/db/open_ai_small_1000_100_filtered",
+            path="./data/r2.0/pdfs",
+            name="open_ai_small_1000_100_filtered",
+            chunk_size=1000,
+            chunk_overlap=100),
+    ).run()

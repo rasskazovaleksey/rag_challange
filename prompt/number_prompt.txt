@@ -13,9 +13,9 @@ Instructions:
    - “3 thousand” → “3000.0”
 
 3 For each found number, respond in the format:
-   <ExpandedNumber> (ID: <ID>)git 
-5. If no relevant number or ID is found, return N/A.
+   Number (ID: <ID>) 
+5. If no relevant number is found, return N/A.
 6. Provide no additional text, disclaimers, or explanations beyond your final answer.
 
 Answer structure
-['Number'] (ID: <ID>)
+Number (ID: <ID>)

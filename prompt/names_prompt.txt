@@ -1,19 +1,17 @@
-Context:
-{context}
-
 Question:
 {question}
 
+Context:
+{context}
+
 Instructions:
-1. Each piece of text in the context has its own ID.
-2. Refer only to the context when identifying any first and last names.
-3. Locate the name(s) in the piece(s) of text that directly answer the question.
-4. If you find at least one relevant name, respond in the format:
-   'First name', 'First name' (ID: <ID>)
-   - Replace <ID> with the ID from the piece of text where the name was found.
-   - If there are multiple relevant names from different pieces (with different IDs), list the names and include each corresponding ID (e.g., ['First1 Last1', 'First2 Last2'] (IDs: <ID1>, <ID2>)).
-5. If no relevant names are found, respond with 'N/A'.
+1. Analyze the context and identify every instance of a title, name, or proper noun that could be an answer to given question.
+2. Refer only to the context when identifying any proper noun.
+3. Locate the proper noun in the piece of text that directly answer the question.
+4. If you find at least one relevant company name, respond all relevant nouns separated by comma.
+5. If no relevant company names are found, respond with 'N/A'.
+4. Internally perform all necessary reasoning using a chain-of-thought process, but DO NOT reveal any internal chain-of-thought details in your final output.
 6. Provide no additional text or explanations beyond your final answer.
 
-Answer structure
-'First name', 'First name' (ID: <ID>)
+Example:
+Company Name, Company Name

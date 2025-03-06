@@ -1,5 +1,6 @@
 import json
 import re
+from collections import defaultdict
 from os import walk
 
 from langchain_community.document_loaders import PyPDFLoader
@@ -105,7 +106,7 @@ class ExperimentPipeline:
         sha_filter = {"sha1": sha1}
         try:
             main_results = self.repo.query(synonyms['metric'], k=main,
-                                       f=sha_filter)  # start with main metric from the question
+                                           f=sha_filter)  # start with main metric from the question
         except Exception as e:
             print(f"Error {e} for {synonyms['metric']}")
             main_results = []
@@ -138,6 +139,23 @@ class ExperimentPipeline:
             key=lambda x: (-x[1]["count"], x[1]["score"])
         )
         return pcf[0:size]
+
+    @staticmethod
+    def merge_data(listed_data: list) -> list:
+        merged_dict = defaultdict(lambda: {'count': 0, 'score': 0.0})
+
+        for page, data in listed_data:
+            merged_dict[page]['count'] += data['count']
+            merged_dict[page]['score'] += data['score'] * data['count']
+
+        for page in merged_dict:
+            merged_dict[page]['score'] /= merged_dict[page]['count']
+
+        merged_list = sorted(
+            merged_dict.items(),
+            key=lambda x: (-x[1]["count"], x[1]["score"])
+        )
+        return merged_list
 
     def read_pdf(self, sha1, candidates):
         document_loader = PyPDFLoader(f"./data/r2.0/pdfs/{sha1}.pdf")
@@ -266,7 +284,7 @@ if __name__ == "__main__":
         name="openai_small_1000_100_filtered_v1",
         llm=OpenAIAgent(),
         repo=DataRepository(
-                embedding=OpenAiEmbeddingProvider(model="text-embedding-3-small"),
+            embedding=OpenAiEmbeddingProvider(model="text-embedding-3-small"),
             db_path="./data/db/open_ai_small_1000_100_filtered",
             path="./data/r2.0/pdfs",
             name="open_ai_small_1000_100_filtered",

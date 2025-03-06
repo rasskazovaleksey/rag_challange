@@ -6,23 +6,23 @@
 
  [
      {{
-         "text": "<SYNONIM>",
+         "text": "<SYNONYM>",
          "score": <SCORE>
      }},
      {{
-         "text": "<SYNONIM>",
+         "text": "<SYNONYM>",
          "score": <SCORE>
      }},
      {{
-         "text": "<SYNONIM>",
+         "text": "<SYNONYM>",
          "score": <SCORE>
      }},
      {{
-         "text": "<SYNONIM>",
+         "text": "<SYNONYM>",
          "score": <SCORE>
      }},
      {{
-         "text": "<SYNONIM>",
+         "text": "<SYNONYM>",
          "score": <SCORE>
      }}
  ]

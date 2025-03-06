@@ -1,8 +1,8 @@
-Context:
-{context}
-
 Question:
 {question}
+
+Context:
+{context}
 
 Instructions:
 1. Evaluate each section of the context for its relevance to the question.
@@ -10,15 +10,8 @@ Instructions:
 3. Assign a relevance score between 0.0 and 1.0:
    - 0.0 → Completely irrelevant
    - 1.0 → Highly relevant
-4. Return a JSON array where each object follows this format:
-   [
-       {{
-           "id": "<ID>",
-           "score": <SCORE>
-       }},
-       {{
-           "id": "<ID>",
-           "score": <SCORE>
-       }}
-   ]
-5. Provide no additional text or disclaimers in your response.
+5. Answer only with single score for current selection:
+4. Provide no additional text or disclaimers in your response.
+
+Example:
+0.75

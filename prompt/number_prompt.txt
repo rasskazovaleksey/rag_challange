@@ -1,21 +1,19 @@
-Context:
-{context}
-
 Question:
 {question}
 
+Context:
+{context}
+
 Instructions:
-1 Identify any mention of a number (including explicit digits and references to “thousand,” “million,” or “billion”) in the context (each piece of text has an associated ID).
-2 Convert each number to decimal format by removing commas, symbols, or abbreviations. Examples:
+1. Analyze the context and identify every instance of a number—whether presented as explicit digits (e.g., "123", "$1,000,000") or as textual references (e.g., "thousand", "million", "billion").
+2. Convert each identified number to its pure decimal format by removing commas, symbols, or abbreviations. For example:
    - “122k” → “122000.0”
    - “10.0%” → “10.0”
    - “$1,000,000” → “1000000.0”
    - “3 thousand” → “3000.0”
+3. If no relevant number is found, output "N/A".
+4. Internally perform all necessary reasoning using a chain-of-thought process, but DO NOT reveal any internal chain-of-thought details in your final output.
+5. Provide only the final answer with no additional text, disclaimers, or explanations.
 
-3 For each found number, respond in the format:
-   Number (ID: <ID>) 
-5. If no relevant number is found, return N/A.
-6. Provide no additional text, disclaimers, or explanations beyond your final answer.
-
-Answer structure
-Number (ID: <ID>)
+Example:
+3119

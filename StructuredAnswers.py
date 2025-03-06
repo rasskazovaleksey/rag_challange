@@ -80,10 +80,32 @@ if __name__ == "__main__":
         })
 
     for h in holder:
+        print(h['question'])
+        if h['answers']['fourth'] == h['answers']['fifth']:
+            print("Identical")
+            print(h['answers']['fourth'], h['answers']['fifth'])
+        else:
+            print("Different")
+            print(h['answers']['fourth'], h['answers']['fifth'])
+
+    context = "\n\n---\n\n".join([f"{h}" for h in holder])
+    prompt = """
+    I have questions with 5 options to answer each question and reference page in brackets.
+    Give me the best approximation of each answer and corresponding page for each question.
+    Give answer in JSON format ONLY. Just Json in form, if you are not sure rely on fourth and fifth agent opinion.
+    Return a JSON array where each object follows this format:
+       [
+           {{
+               "question": "<QUESTION>",
+               "answer": <answer>,
+               "page": <PAGE>
+           }}
+       ]
+    Provide no additional text or disclaimers in your response. Dont miss any question, output all 100.
+    """
+    # agent = OpenAIAgent(model="gpt-4.5-preview")
+    agent = IBMWatsonAgent(model="meta-llama/llama-3-405b-instruct")
+    for h in holder:
         q = str(h) + "\n" + prompt
         answer = agent.query(q, [], system="You researcher with greate capability.", path="./prompt/empty_prompt.txt")
         print(answer)
-
-
-
-    # agent.llm.invoke()

@@ -48,7 +48,7 @@ if __name__ == "__main__":
     print(len(answers))
     submition = AnswerSubmission(
         answers=answers,
-        team_email="rasskazov.aleksey@gmail.com",
+        team_email="xxx.xxx@gmail.com",
         submission_name="pjatk_team_001"
     )
     print(len(submition.answers))

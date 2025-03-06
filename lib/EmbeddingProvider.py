@@ -34,6 +34,7 @@ class WatsonEmbeddingProvider(EmbeddingProvider):
         """
         slate-125m-english-rtrvr - 768
         slate-30m-english-rtrvr - 384
+        granite-embedding-107m-multilingual - 384
         """
         with open(path, "r") as file:
             tokens = yaml.safe_load(file)

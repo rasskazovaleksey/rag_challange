@@ -1,0 +1,2033 @@
+{
+    "For Ziff Davis, Inc., what was the value of Cloud storage capacity (TB) at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What is the total number of employees let go by Pintec Technology Holdings Limited according to the annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the largest single spending of MGM Resorts International on executive compensation in USD? If data is not available in this currency, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the Gross margin (%) for INMUNE BIO INC. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Franklin Covey Co., what was the value of Year-end box office market share (if applicable) at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the Gross margin (%) for Armadale Capital Plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Did AA Limited announce any new product launches in the annual report? If there is no mention, return False.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the value of Number of hotels at year-end of MGM Resorts International at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Incyte Corporation, what was the value of Clinical trial sites operating at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What is the total number of employees let go by Downer EDI Limited according to the annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the value of Total power generation capacity (MW) of Elixir Energy Limited at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Peako Limited, what was the value of Cloud storage capacity (TB) at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What is the total number of employees let go by KP Tissue Inc. according to the annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Sonic Automotive, Inc., what was the value of Number of hybrid models available at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the value of Generic product count of Kiniksa Pharmaceuticals, Ltd. at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For HCA Healthcare, Inc., what was the value of Number of managed clinics at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For RWE AG, what was the value of Number of facilities at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Rectifier Technologies Ltd, what was the value of Number of patents at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For SIG plc, what was the value of Number of stores at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Which leadership positions changed at Kelly Partners Group Holdings Limited in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the value of Year-end user base of archTIS Limited at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "What was the Capital expenditures (in EUR) for INMUNE BIO INC. according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Peako Limited, what was the value of Year-end customer base at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Peako Limited, what was the value of Total expensed R&D expenditure at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Did Empire Company Limited announce any changes to its dividend policy in the annual report? If there is no mention, return False.": {
+        "answer": null,
+        "page": null
+    },
+    "For Pintec Technology Holdings Limited, what was the value of End-of-year net interest margin (NIM) at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For AA Limited, what was the value of Fleet size (vehicles) at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Did Liberty Broadband Corporation announce a share buyback plan in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "446545ae548543d8744f8d885ff75face3424ba4",
+            "page": 89,
+            "answer": "False"
+        },
+        {
+            "sha1": "446545ae548543d8744f8d885ff75face3424ba4",
+            "page": 101,
+            "answer": "True"
+        },
+        {
+            "sha1": "446545ae548543d8744f8d885ff75face3424ba4",
+            "page": 149,
+            "answer": "True"
+        }
+    ],
+    "Which leadership positions changed at Westwater Resources, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "92d9de8e4db96e0b95a484afcd1c54c6beb62c03",
+            "page": 15,
+            "answer": "Chief President and Chief Executive Officer, Chief Financial Officer and Vice President of Finance"
+        },
+        {
+            "sha1": "92d9de8e4db96e0b95a484afcd1c54c6beb62c03",
+            "page": 16,
+            "answer": "Senior Vice President of Finance and Chief Financial Officer, Chief Administrative Officer"
+        },
+        {
+            "sha1": "92d9de8e4db96e0b95a484afcd1c54c6beb62c03",
+            "page": 61,
+            "answer": "President and Chief Executive Officer, Senior Vice President – Finance and Chief Financial Officer, Chief Administrative Officer, General Counsel and Corporate Secretary"
+        }
+    ],
+    "Did Brave Bison Group plc mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "ddd10e4612006205c4b1ba050a11648071e6e429",
+            "page": 7,
+            "answer": "True"
+        },
+        {
+            "sha1": "ddd10e4612006205c4b1ba050a11648071e6e429",
+            "page": 39,
+            "answer": "True"
+        },
+        {
+            "sha1": "ddd10e4612006205c4b1ba050a11648071e6e429",
+            "page": 52,
+            "answer": "True"
+        },
+        {
+            "sha1": "ddd10e4612006205c4b1ba050a11648071e6e429",
+            "page": 60,
+            "answer": "True"
+        },
+        {
+            "sha1": "ddd10e4612006205c4b1ba050a11648071e6e429",
+            "page": 64,
+            "answer": "True"
+        }
+    ],
+    "According to the annual report, what is the Cash flow from operations (in USD) for Sonic Automotive, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "682de8e45fd9688f3452bc0e18257132a8f3cff6",
+            "page": 70,
+            "answer": "406100000.0"
+        },
+        {
+            "sha1": "682de8e45fd9688f3452bc0e18257132a8f3cff6",
+            "page": 91,
+            "answer": "406100000.0"
+        }
+    ],
+    "Did Poste Italiane announce any changes to its dividend policy in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+            "page": 34,
+            "answer": "False"
+        },
+        {
+            "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+            "page": 536,
+            "answer": "False"
+        }
+    ],
+    "Did BetMakers Technology Group Ltd mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 36,
+            "answer": "True"
+        },
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 53,
+            "answer": "True"
+        },
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 62,
+            "answer": "True"
+        },
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 66,
+            "answer": "True"
+        },
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 67,
+            "answer": "True"
+        },
+        {
+            "sha1": "1af8f906e34af6e0acfe4f73e37093bbe34700f3",
+            "page": 68,
+            "answer": "True"
+        }
+    ],
+    "Did Downer EDI Limited announce a share buyback plan in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+            "page": 10,
+            "answer": "True"
+        },
+        {
+            "sha1": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+            "page": 13,
+            "answer": "True"
+        },
+        {
+            "sha1": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+            "page": 62,
+            "answer": "True"
+        },
+        {
+            "sha1": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+            "page": 63,
+            "answer": "True"
+        },
+        {
+            "sha1": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+            "page": 117,
+            "answer": "True"
+        }
+    ],
+    "Did Franklin Covey Co. outline any new ESG initiatives in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "e30ece688caf7602b734bbbcf39559b4acdb2739",
+            "page": 14,
+            "answer": "True"
+        },
+        {
+            "sha1": "e30ece688caf7602b734bbbcf39559b4acdb2739",
+            "page": 28,
+            "answer": "True"
+        },
+        {
+            "sha1": "e30ece688caf7602b734bbbcf39559b4acdb2739",
+            "page": 29,
+            "answer": "False"
+        }
+    ],
+    "What was the largest single spending of Ocugen, Inc. on executive compensation in AUD? If data is not available in this currency, return 'N/A'.": [
+        {
+            "sha1": "36dd058d3237202cbb94139611c8b8a35ff8c158",
+            "page": 2,
+            "answer": "N/A"
+        }
+    ],
+    "Did Bionano Genomics, Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "5a24fa827d172a7669eca206b2a5f47c2b19b48d",
+            "page": 4,
+            "answer": "True"
+        },
+        {
+            "sha1": "5a24fa827d172a7669eca206b2a5f47c2b19b48d",
+            "page": 26,
+            "answer": "True"
+        },
+        {
+            "sha1": "5a24fa827d172a7669eca206b2a5f47c2b19b48d",
+            "page": 32,
+            "answer": "True"
+        },
+        {
+            "sha1": "5a24fa827d172a7669eca206b2a5f47c2b19b48d",
+            "page": 102,
+            "answer": "True"
+        },
+        {
+            "sha1": "5a24fa827d172a7669eca206b2a5f47c2b19b48d",
+            "page": 112,
+            "answer": "True"
+        }
+    ],
+    "Did Seiko Epson Corporation announce any changes to its dividend policy in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "6d76ccb75bbf1b27ca60b8419c5343ac050cebb0",
+            "page": 66,
+            "answer": "False"
+        },
+        {
+            "sha1": "6d76ccb75bbf1b27ca60b8419c5343ac050cebb0",
+            "page": 150,
+            "answer": "False"
+        }
+    ],
+    "What is the total number of employees let go by NZME Limited according to the annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "c7475e1d98f9a46a4652e503881d4a67232b41d3",
+            "page": 67,
+            "answer": "N/A"
+        }
+    ],
+    "For Aurora Innovation, Inc., what was the value of Number of patents at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "13999998018cc53440310d94a26d1e8957e2277f",
+            "page": 13,
+            "answer": "1300.0"
+        }
+    ],
+    "What was the value of Number of active pharmaceutical patents of Kiniksa Pharmaceuticals, Ltd. at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "74c690176ce433301f4d1e808bb002a2f4dc321a",
+            "page": 23,
+            "answer": "112.0"
+        }
+    ],
+    "What was the value of Total deposits at year-end of CoreCard Corporation at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "f015d4bfeec43fe65c003b6f4420ae864efbb58f",
+            "page": 35,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "f015d4bfeec43fe65c003b6f4420ae864efbb58f",
+            "page": 40,
+            "answer": "N/A"
+        }
+    ],
+    "For HCA Healthcare, Inc., what was the value of Outstanding insurance claims (if applicable) at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "a69ebee82a9acd54117407ca3697db0d7bfbfdac",
+            "page": 110,
+            "answer": "N/A"
+        }
+    ],
+    "Which leadership positions changed at Datalogic in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+            "page": 206,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+            "page": 234,
+            "answer": "N/A"
+        }
+    ],
+    "Did Incitec Pivot Limited mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 14,
+            "answer": "True"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 106,
+            "answer": "False"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 108,
+            "answer": "True"
+        }
+    ],
+    "For Franklin Covey Co., what was the value of Number of active licensing deals at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "e30ece688caf7602b734bbbcf39559b4acdb2739",
+            "page": 151,
+            "answer": "N/A"
+        }
+    ],
+    "According to the annual report, what is the Cash flow from operations (in USD) for Wheeler Real Estate Investment Trust, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 20,
+            "answer": "30758000.0"
+        },
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 39,
+            "answer": "30758000.0"
+        }
+    ],
+    "Did Incitec Pivot Limited announce any changes to its dividend policy in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 20,
+            "answer": "False"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 60,
+            "answer": "False"
+        }
+    ],
+    "What was the largest single spending of archTIS Limited on executive compensation in USD? If data is not available in this currency, return 'N/A'.": [
+        {
+            "sha1": "c06d5ad4b6408fec26675d30b37a6042c007095a",
+            "page": 24,
+            "answer": "392611.0"
+        },
+        {
+            "sha1": "c06d5ad4b6408fec26675d30b37a6042c007095a",
+            "page": 57,
+            "answer": "N/A"
+        }
+    ],
+    "Did Guaranty Bancshares, Inc. announce any new product launches in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "4e3efdc544140b872a59e124443a64c34f356911",
+            "page": 4,
+            "answer": "False"
+        }
+    ],
+    "According to the annual report, what is the Cash flow from operations (in GBP) for AA Limited  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 14,
+            "answer": "310"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 36,
+            "answer": "214000000.0"
+        }
+    ],
+    "According to the annual report, what is the Total revenue (in USD) for Medallion Financial Corp.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "1a12ef3f11a64e92eeca39e493a17d2860c014a6",
+            "page": 47,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "1a12ef3f11a64e92eeca39e493a17d2860c014a6",
+            "page": 70,
+            "answer": "206147000.0"
+        },
+        {
+            "sha1": "1a12ef3f11a64e92eeca39e493a17d2860c014a6",
+            "page": 99,
+            "answer": "24631000.0"
+        }
+    ],
+    "Did AA Limited report any changes to its capital structure? If there is no mention, return False.": [
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 11,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 13,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 14,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 27,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 32,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 41,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 53,
+            "answer": "True"
+        },
+        {
+            "sha1": "aa781901e117281bfee6f8e4bea6fc9c9bada62e",
+            "page": 57,
+            "answer": "True"
+        }
+    ],
+    "Which leadership positions changed at Blue Apron Holdings, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "35839effbc332f23d5f34263aab3dcb2c6976420",
+            "page": 26,
+            "answer": "CEO, CFO, COO/Chief Supply Chain Officer"
+        },
+        {
+            "sha1": "35839effbc332f23d5f34263aab3dcb2c6976420",
+            "page": 82,
+            "answer": "N/A"
+        }
+    ],
+    "What was the Dividend per share (in USD) for Ritchie Bros. Auctioneers Incorporated according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 37,
+            "answer": "0.27"
+        },
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 78,
+            "answer": "1.04"
+        },
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 116,
+            "answer": "0.27"
+        }
+    ],
+    "What are the names of new products launched by Albany International Corp. as mentioned in the annual report?": [
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 15,
+            "answer": "N/A"
+        }
+    ],
+    "Did ACRES Commercial Realty Corp. outline any new ESG initiatives in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "0279901b645e568591ad95dac2c2bf939ef0c00d",
+            "page": 3,
+            "answer": "True"
+        },
+        {
+            "sha1": "0279901b645e568591ad95dac2c2bf939ef0c00d",
+            "page": 7,
+            "answer": "False"
+        }
+    ],
+    "What was the value of Number of fulfillment centers at year-end of 1-800-FLOWERS.COM, INC. at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "30f64d1043f4cb425eb636763580ae27094ffef1",
+            "page": 30,
+            "answer": "N/A"
+        }
+    ],
+    "What was the largest single spending of Kiniksa Pharmaceuticals, Ltd. on executive compensation in USD? If data is not available in this currency, return 'N/A'.": [
+        {
+            "sha1": "74c690176ce433301f4d1e808bb002a2f4dc321a",
+            "page": 1,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "74c690176ce433301f4d1e808bb002a2f4dc321a",
+            "page": 140,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "74c690176ce433301f4d1e808bb002a2f4dc321a",
+            "page": 143,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "74c690176ce433301f4d1e808bb002a2f4dc321a",
+            "page": 155,
+            "answer": "N/A"
+        }
+    ],
+    "For Origin Bancorp, Inc., what was the value of Total assets on balance sheet at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 5,
+            "answer": "9686067.0"
+        },
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 143,
+            "answer": "9690000000.0"
+        },
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 162,
+            "answer": "8686231.0"
+        },
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 168,
+            "answer": "9690000000.0"
+        }
+    ],
+    "Did Ritchie Bros. Auctioneers Incorporated mention any ongoing litigation or regulatory inquiries? If there is no mention, return False.": [
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 2,
+            "answer": "True"
+        },
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 29,
+            "answer": "True"
+        },
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 36,
+            "answer": "False"
+        },
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 103,
+            "answer": "True"
+        }
+    ],
+    "What is the total number of employees let go by Commerzbank according to the annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "696ddc4c80febe0f1559ed3b1272487c74ca91cc",
+            "page": 3,
+            "answer": "9000"
+        }
+    ],
+    "For Albany International Corp., what was the value of R&D spending on advanced programs at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 15,
+            "answer": "15400000.0"
+        },
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 38,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 62,
+            "answer": "N/A"
+        }
+    ],
+    "For Albany International Corp., what was the value of Year-end patent portfolio (aerospace tech) at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 15,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "da663e46fbf02ec8a90b3f3c1079ef4c9f7907e1",
+            "page": 95,
+            "answer": "N/A"
+        }
+    ],
+    "For SThree plc, what was the value of End-of-year total headcount at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "67185fca2a09b3c46ee961b2c1ae160dab8b5231",
+            "page": 3,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "67185fca2a09b3c46ee961b2c1ae160dab8b5231",
+            "page": 105,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "67185fca2a09b3c46ee961b2c1ae160dab8b5231",
+            "page": 125,
+            "answer": "N/A"
+        }
+    ],
+    "For HCA Healthcare, Inc., what was the value of Number of healthcare professionals on staff at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "a69ebee82a9acd54117407ca3697db0d7bfbfdac",
+            "page": 3,
+            "answer": "N/A"
+        }
+    ],
+    "Did Trinity Place Holdings Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "e229fc9f5c694e93b02ac312c231607a04e3e528",
+            "page": 2,
+            "answer": "True"
+        },
+        {
+            "sha1": "e229fc9f5c694e93b02ac312c231607a04e3e528",
+            "page": 5,
+            "answer": "True"
+        },
+        {
+            "sha1": "e229fc9f5c694e93b02ac312c231607a04e3e528",
+            "page": 7,
+            "answer": "False"
+        },
+        {
+            "sha1": "e229fc9f5c694e93b02ac312c231607a04e3e528",
+            "page": 40,
+            "answer": "True"
+        }
+    ],
+    "For FNCB Bancorp, Inc., what was the value of Non-performing loan ratio (NPL) at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 50,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 51,
+            "answer": "0.25"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 52,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 53,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 92,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 93,
+            "answer": "N/A"
+        }
+    ],
+    "Did Elixir Energy Limited outline any new ESG initiatives in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "f879b3a802ccd6e8e6ca0a07ed8464318b7c0724",
+            "page": 1,
+            "answer": "True"
+        },
+        {
+            "sha1": "f879b3a802ccd6e8e6ca0a07ed8464318b7c0724",
+            "page": 5,
+            "answer": "False"
+        },
+        {
+            "sha1": "f879b3a802ccd6e8e6ca0a07ed8464318b7c0724",
+            "page": 9,
+            "answer": "False"
+        }
+    ],
+    "What was the largest single spending of MainStreet Bancshares, Inc. on executive compensation in USD? If data is not available in this currency, return 'N/A'.": [
+        {
+            "sha1": "53a00624418f6c5c2d044344a4125bba7743614f",
+            "page": 0,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "53a00624418f6c5c2d044344a4125bba7743614f",
+            "page": 82,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "53a00624418f6c5c2d044344a4125bba7743614f",
+            "page": 94,
+            "answer": "N/A"
+        }
+    ],
+    "What was the Capital expenditures (in USD) for Structural Monitoring Systems Plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "3e5ccdb58faf901e75e31f154cb8330869ca5efa",
+            "page": 24,
+            "answer": "932000.0"
+        },
+        {
+            "sha1": "3e5ccdb58faf901e75e31f154cb8330869ca5efa",
+            "page": 38,
+            "answer": "287000.0"
+        }
+    ],
+    "What is the name of the last product launched by 1-800-FLOWERS.COM, INC. as mentioned in the annual report?": [
+        {
+            "sha1": "30f64d1043f4cb425eb636763580ae27094ffef1",
+            "page": 3,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "30f64d1043f4cb425eb636763580ae27094ffef1",
+            "page": 10,
+            "answer": "Alice's Table"
+        }
+    ],
+    "According to the annual report, what is the Cash flow from operations (in USD) for FNCB Bancorp, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 58,
+            "answer": "20000000.0"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 70,
+            "answer": "19970000.0"
+        },
+        {
+            "sha1": "23b2c590c4887dfb86761730dd7156fe3b216ab7",
+            "page": 116,
+            "answer": "14341000.0"
+        }
+    ],
+    "Which leadership positions changed at Duni Group in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+            "page": 77,
+            "answer": "EVP Commercial, EVP BioPak, EVP Strategic Development, IT and Communication"
+        },
+        {
+            "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+            "page": 83,
+            "answer": "Executive Vice President BioPak, Executive Vice President Commercial, Executive Vice President IT and Logistics"
+        },
+        {
+            "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+            "page": 111,
+            "answer": "Director – Alex Myers"
+        }
+    ],
+    "Did SIG plc mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc",
+            "page": 65,
+            "answer": "True"
+        },
+        {
+            "sha1": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc",
+            "page": 123,
+            "answer": "True"
+        },
+        {
+            "sha1": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc",
+            "page": 129,
+            "answer": "True"
+        },
+        {
+            "sha1": "2db41ba86cc015db1f5f7de00b764a06e6de3dcc",
+            "page": 141,
+            "answer": "True"
+        }
+    ],
+    "Did HCA Healthcare, Inc. announce any changes to its dividend policy in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "a69ebee82a9acd54117407ca3697db0d7bfbfdac",
+            "page": 42,
+            "answer": "False"
+        },
+        {
+            "sha1": "a69ebee82a9acd54117407ca3697db0d7bfbfdac",
+            "page": 58,
+            "answer": "True"
+        },
+        {
+            "sha1": "a69ebee82a9acd54117407ca3697db0d7bfbfdac",
+            "page": 74,
+            "answer": "False"
+        }
+    ],
+    "What was the value of E-commerce active customer accounts of Mosaic Brands Limited at the end of the period listed in annual report? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "12bff07b957b1c8f8cad9d917ca18005720cce9b",
+            "page": 16,
+            "answer": "1500000.0"
+        },
+        {
+            "sha1": "12bff07b957b1c8f8cad9d917ca18005720cce9b",
+            "page": 23,
+            "answer": "N/A"
+        }
+    ],
+    "What was the largest single spending of Toshiba Corporation on executive compensation in AUD? If data is not available in this currency, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Sonic Automotive, Inc., what was the value of Year-end fleet average CO₂ emissions at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Did Wheeler Real Estate Investment Trust, Inc. report any changes to its capital structure? If there is no mention, return False.": [
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 21,
+            "answer": "True"
+        },
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 39,
+            "answer": "True"
+        }
+    ],
+    "For Atreca, Inc., what was the value of Number of managed clinics at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Which leadership positions changed at Crombie REIT in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "14fa568899745270c4ff2c10073f97f2c2e7764b",
+            "page": 3,
+            "answer": "CEO, Trustees of the Board"
+        },
+        {
+            "sha1": "14fa568899745270c4ff2c10073f97f2c2e7764b",
+            "page": 6,
+            "answer": "President & Chief Executive Officer"
+        }
+    ],
+    "Did Mosaic Brands Limited mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "12bff07b957b1c8f8cad9d917ca18005720cce9b",
+            "page": 68,
+            "answer": "True"
+        }
+    ],
+    "Did Incitec Pivot Limited detail any restructuring plans in the latest filing? If there is no mention, return False.": [
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 20,
+            "answer": "False"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 22,
+            "answer": "True"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 79,
+            "answer": "True"
+        },
+        {
+            "sha1": "6529fba868216a923407fb0d4e15a811a8e89ebc",
+            "page": 109,
+            "answer": "True"
+        }
+    ],
+    "What was the value of Number of active software licenses of Rapid7 at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Which leadership positions changed at Wheeler Real Estate Investment Trust, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 2,
+            "answer": "N/A"
+        },
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 5,
+            "answer": "CEO, President"
+        },
+        {
+            "sha1": "b947c33b370d8a3251ef9c36ce7d71e8d16f4f8e",
+            "page": 6,
+            "answer": "CFO"
+        }
+    ],
+    "Did Aptevo Therapeutics Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.": [
+        {
+            "sha1": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+            "page": 1,
+            "answer": "False"
+        },
+        {
+            "sha1": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+            "page": 55,
+            "answer": "True"
+        }
+    ],
+    "According to the annual report, what is the Cash flow from operations (in GBP) for James Halstead plc  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "71d137454a1524843e1f49b34603438510232919",
+            "page": 36,
+            "answer": "16414000.0"
+        }
+    ],
+    "What was the value of End-of-year tech staff headcount of archTIS Limited at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "For Westwater Resources, Inc., what was the value of Percentage of renewable energy capacity at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "answer": null,
+        "page": null
+    },
+    "Which leadership positions changed at Origin Bancorp, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": [
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 28,
+            "answer": "Executive Vice President, Market Executive"
+        },
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 33,
+            "answer": "Market President, Executive Vice President"
+        },
+        {
+            "sha1": "3f36d4f26ada778d89cf5a7344be0b9e9a5223a3",
+            "page": 113,
+            "answer": "N/A"
+        }
+    ],
+    "What was the Gross margin (%) for Ritchie Bros. Auctioneers Incorporated according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": [
+        {
+            "sha1": "78c71282723c2d66216cbba13183d19349d302b8",
+            "page": 49,
+            "answer": "55.2"
+        }
+    ],
+    "Which of the companies had the lowest total assets in EUR at the end of the period listed in annual report: \"Datalogic\", \"Terns Pharmaceuticals, Inc.\", \"Incyte Corporation\", \"INMUNE BIO INC.\", \"Duni Group\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 71,
+                    "answer": "845511000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 123,
+                    "answer": "226214000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 186,
+                    "answer": "344590000.0"
+                }
+            ]
+        },
+        {
+            "company": "Terns Pharmaceuticals",
+            "answers": [
+                {
+                    "sha1": "79ffb9b8682aa565172233c070a47d944464644c",
+                    "page": 136,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Incyte Corporation",
+            "answers": [
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 83,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 97,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 121,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "INMUNE BIO INC.",
+            "answers": [
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 45,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 47,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 50,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 53,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Duni Group",
+            "answers": [
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 85,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 88,
+                    "answer": "699000000.0"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 93,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest total revenue in EUR at the end of the period listed in annual report: \"Atreca, Inc.\", \"Poste Italiane\", \"Datalogic\", \"NuCana plc\", \"RWE AG\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Atreca",
+            "answers": [
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 71,
+                    "answer": "0.0"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 88,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Poste Italiane",
+            "answers": [
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 5,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 488,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 489,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 613,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 73,
+                    "answer": "654632000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 173,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "NuCana plc",
+            "answers": [
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 107,
+                    "answer": "0.0"
+                }
+            ]
+        },
+        {
+            "company": "RWE AG",
+            "answers": [
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 2,
+                    "answer": "38366.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 95,
+                    "answer": "4622000000.00"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 118,
+                    "answer": "38569.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 139,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest total revenue in EUR at the end of the period listed in annual report: \"Atreca, Inc.\", \"Poste Italiane\", \"Datalogic\", \"Duni Group\", \"Incyte Corporation\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Atreca",
+            "answers": [
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 71,
+                    "answer": "0.0"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 88,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Poste Italiane",
+            "answers": [
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 5,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 488,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 489,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 613,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 73,
+                    "answer": "654632000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 146,
+                    "answer": "13273000.0"
+                }
+            ]
+        },
+        {
+            "company": "Duni Group",
+            "answers": [
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 84,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 86,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 92,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 99,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 103,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Incyte Corporation",
+            "answers": [
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 73,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 80,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 91,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 93,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 96,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 99,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest total assets in EUR at the end of the period listed in annual report: \"Poste Italiane\", \"NuCana plc\", \"Incyte Corporation\", \"INMUNE BIO INC.\", \"Atreca, Inc.\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Poste Italiane",
+            "answers": [
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 251,
+                    "answer": "1044380000000.0"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 617,
+                    "answer": "116052772801.0"
+                }
+            ]
+        },
+        {
+            "company": "NuCana plc",
+            "answers": [
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 6,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 167,
+                    "answer": "69904800.0"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 173,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Incyte Corporation",
+            "answers": [
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 83,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "INMUNE BIO INC.",
+            "answers": [
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 47,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Atreca",
+            "answers": [
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 81,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 91,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 94,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest net income in EUR at the end of the period listed in annual report: \"Atreca, Inc.\", \"INMUNE BIO INC.\", \"Datalogic\", \"NuCana plc\", \"RWE AG\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Atreca",
+            "answers": [
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 71,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 72,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 75,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 82,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 88,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 92,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 102,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "INMUNE BIO INC.",
+            "answers": [
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 44,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 45,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 48,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 51,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 39,
+                    "answer": "30126000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 40,
+                    "answer": "30100000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 73,
+                    "answer": "30126000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 96,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 172,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 173,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 212,
+                    "answer": "39540000.0"
+                }
+            ]
+        },
+        {
+            "company": "NuCana plc",
+            "answers": [
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 29,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 104,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 106,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 169,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 174,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "RWE AG",
+            "answers": [
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 2,
+                    "answer": "2717.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 52,
+                    "answer": "2717.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 118,
+                    "answer": "2,992,000,000.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 139,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 142,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 210,
+                    "answer": "-52702000.0"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest net income in EUR at the end of the period listed in annual report: \"Datalogic\", \"NuCana plc\", \"Duni Group\", \"Playtech plc\", \"Atreca, Inc.\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 39,
+                    "answer": "30126000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 73,
+                    "answer": "30126000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 96,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 100,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 173,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 212,
+                    "answer": "39540000.0"
+                }
+            ]
+        },
+        {
+            "company": "NuCana plc",
+            "answers": [
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 14,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 29,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 104,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 106,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 169,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "9b7fdb871fc4d4a8babc25448257ae0b81a6442d",
+                    "page": 174,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Duni Group",
+            "answers": [
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 3,
+                    "answer": "17,478,261.04"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 84,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 86,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 92,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 108,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 149,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Playtech plc",
+            "answers": [
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 150,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 156,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 171,
+                    "answer": "47000000.0"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 178,
+                    "answer": ""
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 179,
+                    "answer": "40600000.0"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 219,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 227,
+                    "answer": "160500.0."
+                }
+            ]
+        },
+        {
+            "company": "Atreca",
+            "answers": [
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 71,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 72,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 75,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 82,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 88,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 92,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 102,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "5f226fe96206888930e3baaf0bff70d4b0a1db40",
+                    "page": 104,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest total assets in EUR at the end of the period listed in annual report: \"Playtech plc\", \"Datalogic\", \"Duni Group\", \"Poste Italiane\", \"Incyte Corporation\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Playtech plc",
+            "answers": [
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 147,
+                    "answer": "3022.4"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 159,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 200,
+                    "answer": "19.6"
+                },
+                {
+                    "sha1": "ded965ce7e3ea0ad9b83272b8c36f529793a2887",
+                    "page": 221,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 71,
+                    "answer": "845511000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 123,
+                    "answer": "226214.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 186,
+                    "answer": "344590000.0"
+                }
+            ]
+        },
+        {
+            "company": "Duni Group",
+            "answers": [
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 85,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 88,
+                    "answer": "679806000.0"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 93,
+                    "answer": "465714285.71"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 134,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "e7a45fed0d7ebfd13a524e7fcc443318bac654e2",
+                    "page": 135,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Poste Italiane",
+            "answers": [
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 251,
+                    "answer": "104438000000.0"
+                },
+                {
+                    "sha1": "c74139ce26a6f803725f5074a8a0f539abb99c09",
+                    "page": 617,
+                    "answer": "116052772801.0"
+                }
+            ]
+        },
+        {
+            "company": "Incyte Corporation",
+            "answers": [
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 83,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 97,
+                    "answer": "N/A"
+                }
+            ]
+        }
+    ],
+    "Which of the companies had the lowest total assets in EUR at the end of the period listed in annual report: \"Incyte Corporation\", \"INMUNE BIO INC.\", \"Datalogic\", \"Terns Pharmaceuticals, Inc.\", \"RWE AG\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": [
+        {
+            "company": "Incyte Corporation",
+            "answers": [
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 78,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 83,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 97,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "4d3e52b69b4b5366e54ce87cf641b01b1419bdee",
+                    "page": 121,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "INMUNE BIO INC.",
+            "answers": [
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 45,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "553afbf09b6d83166b17acb02431c6cf38e4defc",
+                    "page": 47,
+                    "answer": ""
+                }
+            ]
+        },
+        {
+            "company": "Datalogic",
+            "answers": [
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 70,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 71,
+                    "answer": "845511000.0"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 82,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "980742aa08ea64d552c153bcefbd7e8243fb9efd",
+                    "page": 123,
+                    "answer": "N/A"
+                }
+            ]
+        },
+        {
+            "company": "Terns Pharmaceuticals",
+            "answers": [
+                {
+                    "sha1": "79ffb9b8682aa565172233c070a47d944464644c",
+                    "page": 136,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "79ffb9b8682aa565172233c070a47d944464644c",
+                    "page": 148,
+                    "answer": ""
+                }
+            ]
+        },
+        {
+            "company": "RWE AG",
+            "answers": [
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 120,
+                    "answer": "138548000000.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 203,
+                    "answer": "N/A"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 247,
+                    "answer": "85040000.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 248,
+                    "answer": "40230000.0"
+                },
+                {
+                    "sha1": "cc0fc5888b99758100a7ff024863fc4337b6b3c5",
+                    "page": 269,
+                    "answer": "140000000000.0"
+                }
+            ]
+        }
+    ]
+}

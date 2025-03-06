@@ -44,7 +44,7 @@ class IBMWatsonAgent(Agent):
         except Exception:
             ValueError(f"Failed to load prompt template from {path}")
 
-        context = "\n\n---\n\n".join([f"{doc.page_content}\nID: {doc.metadata.get('id')}" for doc, _score in data])
+        context = "\n\n---\n\n".join([f"{doc.page_content}" for doc, _score in data])
         prompt_template = ChatPromptTemplate.from_template(template)
         prompt = prompt_template.format(context=context, question=text)
 

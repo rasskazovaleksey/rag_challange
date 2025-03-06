@@ -5,14 +5,14 @@ Question:
 {question}
 
 Instructions:
-1. Each piece of text in the context has an associated ID.
-2. Determine if the statement in the question is confirmed as true by any one piece of text in the context.
+1. Analyze the context and identify every sentence that could be an answer to given question.
+2. Determine if the statement in the question is confirmed as true or false by any one piece of text in the context.
 3. If confirmed, respond exactly as:
-   True (ID: <ID>)
-   (Replace <ID> with the ID of the relevant piece of text.)
+   True
 4. If the statement is not confirmed or is contradicted by the context, respond exactly as:
    False
-5. Do not include any additional explanations, text, or disclaimers.
+5. Internally perform all necessary reasoning using a chain-of-thought process, but DO NOT reveal any internal chain-of-thought details in your final output.
+6. Provide only the final answer with no additional text, disclaimers, or explanations.
 
-Answer structure
-Answer (ID: <ID>)
+Example:
+True

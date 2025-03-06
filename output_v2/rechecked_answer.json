@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Which leadership positions changed at Westwater Resources, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "answer": "Chief President and Chief Executive Officer, Senior Vice President – Finance and Chief Financial Officer, Chief Administrative Officer"
+  },
+  {
+    "question": "According to the annual report, what is the Cash flow from operations (in GBP) for AA Limited  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "answer": "214000000.0"
+  },
+  {
+    "question": "According to the annual report, what is the Total revenue (in USD) for Medallion Financial Corp.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "answer": "206147000.0"
+  },
+  {
+    "question": "What was the Dividend per share (in USD) for Ritchie Bros. Auctioneers Incorporated according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "answer": "0.27"
+  },
+  {
+    "question": "For Origin Bancorp, Inc., what was the value of Total assets on balance sheet at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.",
+    "answer": "9686067.0"
+  },
+  {
+    "question": "What was the Capital expenditures (in USD) for Structural Monitoring Systems Plc according to the annual report (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "answer": "287000.0"
+  },
+  {
+    "question": "According to the annual report, what is the Cash flow from operations (in USD) for FNCB Bancorp, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.",
+    "answer": "19970000.0"
+  },
+  {
+    "question": "Which leadership positions changed at Duni Group in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "answer": "EVP Commercial, EVP Strategic Development, IT and Communication"
+  },
+  {
+    "question": "Which leadership positions changed at Crombie REIT in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "answer": "President & CEO"
+  },
+  {
+    "question": "Which leadership positions changed at Wheeler Real Estate Investment Trust, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "answer": "Chief Executive Officer, Chief Financial Officer"
+  },
+  {
+    "question": "Which leadership positions changed at Origin Bancorp, Inc. in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.",
+    "answer": "Executive Vice President, Market Executive, Market President"
+  }
+]

@@ -1,0 +1,8326 @@
+{
+  "table_of_contents": [
+    {
+      "title": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          143.138671875,
+          47.630859375
+        ],
+        [
+          471.22998046875,
+          47.630859375
+        ],
+        [
+          471.22998046875,
+          80.05078125
+        ],
+        [
+          143.138671875,
+          80.05078125
+        ]
+      ]
+    },
+    {
+      "title": "FORM 10-K",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          261.9228515625,
+          102.79248046875
+        ],
+        [
+          350.37298583984375,
+          102.79248046875
+        ],
+        [
+          350.37298583984375,
+          118.76220703125
+        ],
+        [
+          261.9228515625,
+          118.76220703125
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC.",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          184.67578125,
+          226.810546875
+        ],
+        [
+          431.5480041503906,
+          226.810546875
+        ],
+        [
+          431.5480041503906,
+          249.0574951171875
+        ],
+        [
+          184.67578125,
+          249.0574951171875
+        ]
+      ]
+    },
+    {
+      "title": "Securities registered pursuant to Section 12(g) of the Exchange Act: None",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          162.861328125,
+          409.3505859375
+        ],
+        [
+          449.23095703125,
+          409.3505859375
+        ],
+        [
+          449.23095703125,
+          419.255859375
+        ],
+        [
+          162.861328125,
+          419.255859375
+        ]
+      ]
+    },
+    {
+      "title": "DOCUMENTS INCORPORATED BY REFERENCE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          206.7890625,
+          728.54296875
+        ],
+        [
+          404.61328125,
+          728.54296875
+        ],
+        [
+          404.61328125,
+          739.0546875
+        ],
+        [
+          206.7890625,
+          739.0546875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          251.1650390625,
+          37.052490234375
+        ],
+        [
+          360.38671875,
+          37.052490234375
+        ],
+        [
+          360.38671875,
+          48.315673828125
+        ],
+        [
+          251.1650390625,
+          48.315673828125
+        ]
+      ]
+    },
+    {
+      "title": "PART I",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          289.1162109375,
+          36.97998046875
+        ],
+        [
+          325.302978515625,
+          36.97998046875
+        ],
+        [
+          325.302978515625,
+          48.533203125
+        ],
+        [
+          289.1162109375,
+          48.533203125
+        ]
+      ]
+    },
+    {
+      "title": "Item 1. Business",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          34.7947998046875,
+          60.71484375
+        ],
+        [
+          105.6357421875,
+          60.71484375
+        ],
+        [
+          105.6357421875,
+          72.123046875
+        ],
+        [
+          34.7947998046875,
+          72.123046875
+        ]
+      ]
+    },
+    {
+      "title": "Overview",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          35.8406982421875,
+          499.640625
+        ],
+        [
+          75.82763671875,
+          499.640625
+        ],
+        [
+          75.82763671875,
+          511.40325927734375
+        ],
+        [
+          35.8406982421875,
+          511.40325927734375
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro\u2122 (bucindolol hydrochloride) for Atrial Fibrillation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          36.0,
+          696.8671875
+        ],
+        [
+          288.79998779296875,
+          696.8671875
+        ],
+        [
+          288.79998779296875,
+          707.8882293701172
+        ],
+        [
+          36.0,
+          707.8882293701172
+        ]
+      ]
+    },
+    {
+      "title": "rNAPc2 (AB201) for treatment of COVID-19",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          35.7099609375,
+          685.265625
+        ],
+        [
+          222.92578125,
+          685.265625
+        ],
+        [
+          222.92578125,
+          696.8671875
+        ],
+        [
+          35.7099609375,
+          696.8671875
+        ]
+      ]
+    },
+    {
+      "title": "Our Strategy",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          35.5792236328125,
+          331.41796875
+        ],
+        [
+          91.55999755859375,
+          331.41796875
+        ],
+        [
+          91.55999755859375,
+          343.40625
+        ],
+        [
+          35.5792236328125,
+          343.40625
+        ]
+      ]
+    },
+    {
+      "title": "Atrial Fibrillation in Heart Failure",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          35.747314453125,
+          635.37890625
+        ],
+        [
+          181.5380859375,
+          635.37890625
+        ],
+        [
+          181.5380859375,
+          647.75390625
+        ],
+        [
+          35.747314453125,
+          647.75390625
+        ]
+      ]
+    },
+    {
+      "title": "Market Background and Opportunity",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          35.822021484375,
+          658.58203125
+        ],
+        [
+          186.767578125,
+          658.58203125
+        ],
+        [
+          186.767578125,
+          670.2632293701172
+        ],
+        [
+          35.822021484375,
+          670.2632293701172
+        ]
+      ]
+    },
+    {
+      "title": "Medical Need and Current Therapy",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          35.523193359375,
+          285.3984375
+        ],
+        [
+          180.0439453125,
+          285.3984375
+        ],
+        [
+          180.0439453125,
+          297.0
+        ],
+        [
+          35.523193359375,
+          297.0
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro Clinical Development",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          35.896728515625,
+          669.0234375
+        ],
+        [
+          163.7578125,
+          669.0234375
+        ],
+        [
+          163.7578125,
+          680.625
+        ],
+        [
+          35.896728515625,
+          680.625
+        ]
+      ]
+    },
+    {
+      "title": "The GENETIC-AF Phase 2B Clinical Trial",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          35.93408203125,
+          697.25390625
+        ],
+        [
+          209.478515625,
+          697.25390625
+        ],
+        [
+          209.478515625,
+          709.62890625
+        ],
+        [
+          35.93408203125,
+          709.62890625
+        ]
+      ]
+    },
+    {
+      "title": "The BEST Phase 3 Heart Failure Trial",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          35.63525390625,
+          578.53125
+        ],
+        [
+          193.341796875,
+          578.53125
+        ],
+        [
+          193.341796875,
+          590.1328125
+        ],
+        [
+          35.63525390625,
+          590.1328125
+        ]
+      ]
+    },
+    {
+      "title": "Pharmacology and Pharmacogenetics of Gencaro",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          35.4111328125,
+          95.08447265625
+        ],
+        [
+          242.6484375,
+          95.08447265625
+        ],
+        [
+          242.6484375,
+          106.734375
+        ],
+        [
+          35.4111328125,
+          106.734375
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro Clinical and Regulatory Strategy",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          35.63525390625,
+          336.83203125
+        ],
+        [
+          210.375,
+          336.83203125
+        ],
+        [
+          210.375,
+          348.8203125
+        ],
+        [
+          35.63525390625,
+          348.8203125
+        ]
+      ]
+    },
+    {
+      "title": "The Gencaro Test",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          35.523193359375,
+          567.31640625
+        ],
+        [
+          112.37999725341797,
+          567.31640625
+        ],
+        [
+          112.37999725341797,
+          579.69140625
+        ],
+        [
+          35.523193359375,
+          579.69140625
+        ]
+      ]
+    },
+    {
+      "title": "Development Pipeline",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.299072265625,
+          36.68994140625
+        ],
+        [
+          128.75,
+          36.68994140625
+        ],
+        [
+          128.75,
+          49.16162109375
+        ],
+        [
+          35.299072265625,
+          49.16162109375
+        ]
+      ]
+    },
+    {
+      "title": "Financial Resources",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.7099609375,
+          285.591796875
+        ],
+        [
+          123.79000091552734,
+          285.591796875
+        ],
+        [
+          123.79000091552734,
+          297.966796875
+        ],
+        [
+          35.7099609375,
+          297.966796875
+        ]
+      ]
+    },
+    {
+      "title": "Research and Development Expenses",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.560546875,
+          586.65234375
+        ],
+        [
+          192.6599884033203,
+          586.65234375
+        ],
+        [
+          192.6599884033203,
+          598.25390625
+        ],
+        [
+          35.560546875,
+          598.25390625
+        ]
+      ]
+    },
+    {
+      "title": "Licensing and Royalty Obligations",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.747314453125,
+          639.6328125
+        ],
+        [
+          181.00999450683594,
+          639.6328125
+        ],
+        [
+          181.00999450683594,
+          651.234375
+        ],
+        [
+          35.747314453125,
+          651.234375
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.93408203125,
+          657.03515625
+        ],
+        [
+          73.3623046875,
+          657.03515625
+        ],
+        [
+          73.3623046875,
+          668.63671875
+        ],
+        [
+          35.93408203125,
+          668.63671875
+        ]
+      ]
+    },
+    {
+      "title": "Competition",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.448486328125,
+          36.68994140625
+        ],
+        [
+          86.66015625,
+          36.68994140625
+        ],
+        [
+          86.66015625,
+          48.8232421875
+        ],
+        [
+          35.448486328125,
+          48.8232421875
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.672607421875,
+          59.94140625
+        ],
+        [
+          72.66000366210938,
+          59.94140625
+        ],
+        [
+          72.66000366210938,
+          72.0263671875
+        ],
+        [
+          35.672607421875,
+          72.0263671875
+        ]
+      ]
+    },
+    {
+      "title": "Manufacturing and Product Supply",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.747314453125,
+          337.412109375
+        ],
+        [
+          186.02999877929688,
+          337.412109375
+        ],
+        [
+          186.02999877929688,
+          349.787109375
+        ],
+        [
+          35.747314453125,
+          349.787109375
+        ]
+      ]
+    },
+    {
+      "title": "Government Regulation",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          35.93408203125,
+          534.4453125
+        ],
+        [
+          135.16998291015625,
+          534.4453125
+        ],
+        [
+          135.16998291015625,
+          546.046875
+        ],
+        [
+          35.93408203125,
+          546.046875
+        ]
+      ]
+    },
+    {
+      "title": "Premarket Approval of Drugs",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          35.03759765625,
+          37.07666015625
+        ],
+        [
+          158.20999145507812,
+          37.07666015625
+        ],
+        [
+          158.20999145507812,
+          48.77490234375
+        ],
+        [
+          35.03759765625,
+          48.77490234375
+        ]
+      ]
+    },
+    {
+      "title": "FDA Premarket Review of Medical Devices",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          35.18701171875,
+          446.66015625
+        ],
+        [
+          213.7000274658203,
+          446.66015625
+        ],
+        [
+          213.7000274658203,
+          458.26171875
+        ],
+        [
+          35.18701171875,
+          458.26171875
+        ]
+      ]
+    },
+    {
+      "title": "Medical Device Tax",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.18701171875,
+          36.859130859375
+        ],
+        [
+          117.21533203125,
+          36.859130859375
+        ],
+        [
+          117.21533203125,
+          48.847412109375
+        ],
+        [
+          35.18701171875,
+          48.847412109375
+        ]
+      ]
+    },
+    {
+      "title": "Intellectual Property",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.149658203125,
+          124.0400390625
+        ],
+        [
+          123.77000427246094,
+          124.0400390625
+        ],
+        [
+          123.77000427246094,
+          135.8349609375
+        ],
+        [
+          35.149658203125,
+          135.8349609375
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.822021484375,
+          199.546875
+        ],
+        [
+          73.698486328125,
+          199.546875
+        ],
+        [
+          73.698486328125,
+          211.53515625
+        ],
+        [
+          35.822021484375,
+          211.53515625
+        ]
+      ]
+    },
+    {
+      "title": "Information about our Executive Officers",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.63525390625,
+          384.978515625
+        ],
+        [
+          209.77734375,
+          384.978515625
+        ],
+        [
+          209.77734375,
+          396.7734375
+        ],
+        [
+          35.63525390625,
+          396.7734375
+        ]
+      ]
+    },
+    {
+      "title": "Human Capital Management",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.672607421875,
+          437.765625
+        ],
+        [
+          159.62998962402344,
+          437.765625
+        ],
+        [
+          159.62998962402344,
+          449.3671875
+        ],
+        [
+          35.672607421875,
+          449.3671875
+        ]
+      ]
+    },
+    {
+      "title": "Corporate Information",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          35.373779296875,
+          641.1796875
+        ],
+        [
+          133.239990234375,
+          641.1796875
+        ],
+        [
+          133.239990234375,
+          652.78125
+        ],
+        [
+          35.373779296875,
+          652.78125
+        ]
+      ]
+    },
+    {
+      "title": "Item 1A. Risk Factors",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          35.03759765625,
+          37.2216796875
+        ],
+        [
+          130.72000122070312,
+          37.2216796875
+        ],
+        [
+          130.72000122070312,
+          48.77490234375
+        ],
+        [
+          35.03759765625,
+          48.77490234375
+        ]
+      ]
+    },
+    {
+      "title": "Summary of Risk Factors",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          35.48583984375,
+          113.4052734375
+        ],
+        [
+          148.74169921875,
+          113.4052734375
+        ],
+        [
+          148.74169921875,
+          124.6201171875
+        ],
+        [
+          35.48583984375,
+          124.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "Risks Related to Our Strategic Evaluation Process",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          36.0,
+          203.220703125
+        ],
+        [
+          252.92001342773438,
+          203.220703125
+        ],
+        [
+          252.92001342773438,
+          215.208984375
+        ],
+        [
+          36.0,
+          215.208984375
+        ]
+      ]
+    },
+    {
+      "title": "There is no guarantee that even if we do engage in a strategic transaction that such strategic transaction will increase stockholder \nvalue.",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          36.0,
+          226.6171875
+        ],
+        [
+          573.15234375,
+          226.6171875
+        ],
+        [
+          573.15234375,
+          249.8203125
+        ],
+        [
+          36.0,
+          249.8203125
+        ]
+      ]
+    },
+    {
+      "title": "If we engage in an acquisition, reorganization or business combination, we will incur a variety of risks potentially adversely \naffecting our business operations or our stockholders.",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          35.1123046875,
+          375.890625
+        ],
+        [
+          547.4200439453125,
+          375.890625
+        ],
+        [
+          547.4200439453125,
+          399.09375
+        ],
+        [
+          35.1123046875,
+          399.09375
+        ]
+      ]
+    },
+    {
+      "title": "Risks Related to Our Business and Financial Condition",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          35.7099609375,
+          641.953125
+        ],
+        [
+          273.8299560546875,
+          641.953125
+        ],
+        [
+          273.8299560546875,
+          653.5546875
+        ],
+        [
+          35.7099609375,
+          653.5546875
+        ]
+      ]
+    },
+    {
+      "title": "If we are not able to successfully develop, obtain FDA approval for, and provide for the commercialization of Gencaro or rNAPc2 \nin a timely manner, we may not be able to continue our business operations.",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          36.0,
+          670.5703125
+        ],
+        [
+          572.3600463867188,
+          670.5703125
+        ],
+        [
+          572.3600463867188,
+          693.7902450561523
+        ],
+        [
+          36.0,
+          693.7902450561523
+        ]
+      ]
+    },
+    {
+      "title": "If we encounter difficulties enrolling patients in our future clinical trial of Gencaro, any potential enrollment milestones or \npotential regulatory approvals could be delayed or otherwise adversely affected.",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          34.962890625,
+          181.564453125
+        ],
+        [
+          545.760009765625,
+          181.564453125
+        ],
+        [
+          545.760009765625,
+          204.42529296875
+        ],
+        [
+          34.962890625,
+          204.42529296875
+        ]
+      ]
+    },
+    {
+      "title": "Our clinical trials from our product candidates may not yield results that will enable us to further develop our products as a \ntherapy and obtain regulatory approvals necessary to be used as a drug.",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          35.26171875,
+          279.984375
+        ],
+        [
+          546.60009765625,
+          279.984375
+        ],
+        [
+          546.60009765625,
+          303.1875
+        ],
+        [
+          35.26171875,
+          303.1875
+        ]
+      ]
+    },
+    {
+      "title": "We may not achieve our projected development goals in the time frames we announce and expect.",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          35.4111328125,
+          489.5859375
+        ],
+        [
+          438.08203125,
+          489.5859375
+        ],
+        [
+          438.08203125,
+          501.1875
+        ],
+        [
+          35.4111328125,
+          501.1875
+        ]
+      ]
+    },
+    {
+      "title": "We expect a Phase 3 PRECISION-AF clinical trial will require substantially more capital, and we cannot guarantee when or if we \nwill be able to secure such additional financing.",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          35.859375,
+          37.149169921875
+        ],
+        [
+          574.9200439453125,
+          37.149169921875
+        ],
+        [
+          574.9200439453125,
+          59.94140625
+        ],
+        [
+          35.859375,
+          59.94140625
+        ]
+      ]
+    },
+    {
+      "title": "We will need to raise substantial additional funds through public or private equity or debt transactions and/or complete one or \nmore strategic transactions or partnerships, to continue development of Gencaro, rNAPc2 or any of our other product candidates. \nIf we are unable to raise such financing or complete such a transaction, we may not be able to continue operations.",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          35.859375,
+          118.0458984375
+        ],
+        [
+          572.4100952148438,
+          118.0458984375
+        ],
+        [
+          572.4100952148438,
+          153.4306640625
+        ],
+        [
+          35.859375,
+          153.4306640625
+        ]
+      ]
+    },
+    {
+      "title": "We have received an SPA agreement from the FDA relating to our planned Phase 3 program for Gencaro. This SPA agreement \ndoes not guarantee approval of Gencaro or any other particular outcome from regulatory review.",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          35.26171875,
+          387.685546875
+        ],
+        [
+          565.083984375,
+          387.685546875
+        ],
+        [
+          565.083984375,
+          411.46875
+        ],
+        [
+          35.26171875,
+          411.46875
+        ]
+      ]
+    },
+    {
+      "title": "If we are not able to maintain the requirements for listing on the Nasdaq Capital Market, we could be delisted, which could have a \nmaterial adverse effect on our ability to raise additional funds as well as the price and liquidity of our common stock.",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          35.4111328125,
+          36.73828125
+        ],
+        [
+          574.360107421875,
+          36.73828125
+        ],
+        [
+          574.360107421875,
+          59.936279296875
+        ],
+        [
+          35.4111328125,
+          59.936279296875
+        ]
+      ]
+    },
+    {
+      "title": "Our audited financial statements for the fiscal year ended December 31, 2022 were prepared assuming that we will continue as a \ngoing concern. Our management has concluded that due to our need for additional capital, and the uncertainties surrounding our \nability to raise such funding, there may be uncertainty about our ability to continue as a going concern in future years.",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          35.560546875,
+          419.58984375
+        ],
+        [
+          574.6900634765625,
+          419.58984375
+        ],
+        [
+          574.6900634765625,
+          455.16796875
+        ],
+        [
+          35.560546875,
+          455.16796875
+        ]
+      ]
+    },
+    {
+      "title": "Our business could be adversely affected by the effects of health epidemics, including the ongoing COVID-19 global pandemic, in \nregions where we or third parties on which we rely may have clinical trial sites or other business operations. We anticipate having \nclinical trial sites in countries that have been directly affected by COVID-19 and depend on third party manufacturing operations \nfor various stages of our supply chain.",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          34.8134765625,
+          146.759765625
+        ],
+        [
+          579.7265625,
+          146.759765625
+        ],
+        [
+          579.7265625,
+          192.779296875
+        ],
+        [
+          34.8134765625,
+          192.779296875
+        ]
+      ]
+    },
+    {
+      "title": "If we encounter difficulties enrolling patients in any future clinical trials, our future trials could be delayed or otherwise adversely \naffected.",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          35.1123046875,
+          372.216796875
+        ],
+        [
+          574.0701293945312,
+          372.216796875
+        ],
+        [
+          574.0701293945312,
+          395.806640625
+        ],
+        [
+          35.1123046875,
+          395.806640625
+        ]
+      ]
+    },
+    {
+      "title": "We will rely on contract research organizations to conduct substantial portions of our clinical trials, including any future clinical \ntrial of Gencaro, rNAPc2, and as a result, we will be unable to directly control the timing, conduct and expense of all aspects of \nour clinical trials.",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          35.1123046875,
+          36.20654296875
+        ],
+        [
+          570.5200805664062,
+          36.20654296875
+        ],
+        [
+          570.5200805664062,
+          70.62451171875
+        ],
+        [
+          35.1123046875,
+          70.62451171875
+        ]
+      ]
+    },
+    {
+      "title": "We expect to depend on existing and future collaborations with third parties for the development of some of our product \ncandidates. If those collaborations are not successful, we may not be able to complete the development of these product candidates.",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          35.560546875,
+          277.857421875
+        ],
+        [
+          576.2400512695312,
+          277.857421875
+        ],
+        [
+          576.2400512695312,
+          300.287109375
+        ],
+        [
+          35.560546875,
+          300.287109375
+        ]
+      ]
+    },
+    {
+      "title": "Any future clinical trial for Gencaro will require the use of a third-party diagnostic services provider to administer a genetic test \nneeded to identify the patient receptor genotypes of clinical trial participants, and as a result, we will be unable to directly control \nthe timing, conduct and expense of the genetic test.",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          35.4111328125,
+          406.828125
+        ],
+        [
+          568.96875,
+          406.828125
+        ],
+        [
+          568.96875,
+          441.6328125
+        ],
+        [
+          35.4111328125,
+          441.6328125
+        ]
+      ]
+    },
+    {
+      "title": "We will need to establish a collaborative arrangement with a third-party diagnostics services provider to obtain marketing \nclearance or approval of the companion genetic test for Gencaro. There is no guarantee that the FDA will grant timely clearance \nor approval of the genetic test, if at all, and failure to obtain such timely clearance or approval would adversely affect our ability to \nmarket Gencaro.",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          35.560546875,
+          124.330078125
+        ],
+        [
+          575.960205078125,
+          124.330078125
+        ],
+        [
+          575.960205078125,
+          170.736328125
+        ],
+        [
+          35.560546875,
+          170.736328125
+        ]
+      ]
+    },
+    {
+      "title": "Regulatory approval is required for the genetic test to be used in our Gencaro clinical trials and to support the commercialization \nof the test, if approved. Delays or failures in obtaining such regulatory approval, including any required validation analyses may \nprevent a third-party diagnostics provider from commercializing such genetic test and will adversely affect our business, operating \nresults and prospects.",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          35.4111328125,
+          331.8046875
+        ],
+        [
+          573.7701416015625,
+          331.8046875
+        ],
+        [
+          573.7701416015625,
+          378.984375
+        ],
+        [
+          35.4111328125,
+          378.984375
+        ]
+      ]
+    },
+    {
+      "title": "If a third-party diagnostics provider responsible for the genetic test associated with Gencaro or certain of its third-party suppliers \nfails to comply with ongoing FDA or other foreign regulatory authority requirements, or if there are unanticipated problems with \nthe genetic test, these products could be subject to restrictions or withdrawal from use in a trial or from the market.",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          35.26171875,
+          494.2265625
+        ],
+        [
+          570.5001220703125,
+          494.2265625
+        ],
+        [
+          570.5001220703125,
+          529.8046875
+        ],
+        [
+          35.26171875,
+          529.8046875
+        ]
+      ]
+    },
+    {
+      "title": "Future sales of Gencaro may suffer if its marketplace acceptance is negatively affected by the genetic test.",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          35.7099609375,
+          37.56005859375
+        ],
+        [
+          473.6800231933594,
+          37.56005859375
+        ],
+        [
+          473.6800231933594,
+          49.06494140625
+        ],
+        [
+          35.7099609375,
+          49.06494140625
+        ]
+      ]
+    },
+    {
+      "title": "Unless we are able to generate sufficient product revenue, we will continue to incur losses from operations and will not achieve or \nmaintain profitability. We are years away from commercializing a product and generating product revenue.",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          35.560546875,
+          221.9765625
+        ],
+        [
+          572.9500732421875,
+          221.9765625
+        ],
+        [
+          572.9500732421875,
+          243.88720703125
+        ],
+        [
+          35.560546875,
+          243.88720703125
+        ]
+      ]
+    },
+    {
+      "title": "Our product candidates are subject to extensive regulation, which can be costly and time-consuming, and unsuccessful or delayed \nregulatory approvals could increase our future development costs or impair our future revenue.",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          35.1123046875,
+          333.73828125
+        ],
+        [
+          572.6800537109375,
+          333.73828125
+        ],
+        [
+          572.6800537109375,
+          356.16796875
+        ],
+        [
+          35.1123046875,
+          356.16796875
+        ]
+      ]
+    },
+    {
+      "title": "If our product candidates receive regulatory approval, we would be subject to ongoing regulatory obligations and restrictions, \nwhich may result in significant expenses and limit our ability to develop and commercialize other potential products.",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          35.1123046875,
+          474.1171875
+        ],
+        [
+          554.6300659179688,
+          474.1171875
+        ],
+        [
+          554.6300659179688,
+          498.09375
+        ],
+        [
+          35.1123046875,
+          498.09375
+        ]
+      ]
+    },
+    {
+      "title": "Reliance on third parties to commercialize Gencaro, rNAPc2 or our other product candidates could negatively impact our \nbusiness. If we are required to establish a direct sales force in the United States and are unable to do so, our business may be \nharmed.",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          34.962890625,
+          36.68994140625
+        ],
+        [
+          551.8600463867188,
+          36.68994140625
+        ],
+        [
+          551.8600463867188,
+          71.10791015625
+        ],
+        [
+          34.962890625,
+          71.10791015625
+        ]
+      ]
+    },
+    {
+      "title": "We are dependent on our key personnel.",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          35.4111328125,
+          227.00390625
+        ],
+        [
+          204.32998657226562,
+          227.00390625
+        ],
+        [
+          204.32998657226562,
+          238.21875
+        ],
+        [
+          35.4111328125,
+          238.21875
+        ]
+      ]
+    },
+    {
+      "title": "We have no manufacturing capacity which puts us at risk of lengthy and costly delays of bringing our products to market.",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          35.1123046875,
+          307.828125
+        ],
+        [
+          536.8800048828125,
+          307.828125
+        ],
+        [
+          536.8800048828125,
+          319.4212646484375
+        ],
+        [
+          35.1123046875,
+          319.4212646484375
+        ]
+      ]
+    },
+    {
+      "title": "Transitioning from a clinical development stage company will require successful completion of a number of steps, many of which \nare outside of our control and, consequently, we can provide no assurance of our successful and timely transition from a clinical \ndevelopment stage company.",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          35.26171875,
+          36.68994140625
+        ],
+        [
+          571.0000610351562,
+          36.68994140625
+        ],
+        [
+          571.0000610351562,
+          72.26806640625
+        ],
+        [
+          35.26171875,
+          72.26806640625
+        ]
+      ]
+    },
+    {
+      "title": "If approved by the FDA, Gencaro or rNAPc2 will be entering a competitive marketplace and may not succeed.",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          35.1123046875,
+          307.634765625
+        ],
+        [
+          490.95001220703125,
+          307.634765625
+        ],
+        [
+          490.95001220703125,
+          320.009765625
+        ],
+        [
+          35.1123046875,
+          320.009765625
+        ]
+      ]
+    },
+    {
+      "title": "Future sales of our products may suffer if they are not accepted in the marketplace by physicians, patients and the medical \ncommunity.",
+      "heading_level": null,
+      "page_id": 31,
+      "polygon": [
+        [
+          35.4111328125,
+          533.671875
+        ],
+        [
+          542.6500244140625,
+          533.671875
+        ],
+        [
+          542.6500244140625,
+          556.875
+        ],
+        [
+          35.4111328125,
+          556.875
+        ]
+      ]
+    },
+    {
+      "title": "Health care reform measures could materially and adversely affect our business.",
+      "heading_level": null,
+      "page_id": 32,
+      "polygon": [
+        [
+          35.26171875,
+          242.666015625
+        ],
+        [
+          370.4200439453125,
+          242.666015625
+        ],
+        [
+          370.4200439453125,
+          254.267578125
+        ],
+        [
+          35.26171875,
+          254.267578125
+        ]
+      ]
+    },
+    {
+      "title": "Our competitors may be better positioned in the marketplace and thereby may be more successful than us at developing, \nmanufacturing and marketing approved products.",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          35.26171875,
+          37.56005859375
+        ],
+        [
+          530.9700927734375,
+          37.56005859375
+        ],
+        [
+          530.9700927734375,
+          60.27978515625
+        ],
+        [
+          35.26171875,
+          60.27978515625
+        ]
+      ]
+    },
+    {
+      "title": "If we fail to identify and license or acquire other products or product candidates, then we may be unable to expand our business, \nand the acquisition or licensing of other products or product candidates may put a strain on our operations and will likely require \nus to seek additional financing.",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          35.4111328125,
+          264.708984375
+        ],
+        [
+          571.630126953125,
+          264.708984375
+        ],
+        [
+          571.630126953125,
+          299.900390625
+        ],
+        [
+          35.4111328125,
+          299.900390625
+        ]
+      ]
+    },
+    {
+      "title": "We would be subject to applicable regulatory approval requirements of the foreign countries in which we market our products, \nwhich are costly and may prevent or delay us from marketing our products in those countries.",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          35.4111328125,
+          449.3671875
+        ],
+        [
+          558.8001098632812,
+          449.3671875
+        ],
+        [
+          558.8001098632812,
+          472.5703125
+        ],
+        [
+          35.4111328125,
+          472.5703125
+        ]
+      ]
+    },
+    {
+      "title": "If our internal control over financial reporting is not considered effective, our business and stock price could be adversely affected.",
+      "heading_level": null,
+      "page_id": 33,
+      "polygon": [
+        [
+          34.962890625,
+          570.41015625
+        ],
+        [
+          577.070068359375,
+          570.41015625
+        ],
+        [
+          577.070068359375,
+          582.01171875
+        ],
+        [
+          34.962890625,
+          582.01171875
+        ]
+      ]
+    },
+    {
+      "title": "Changes in tax laws or regulations that are applied adversely to us or our customers may have a material adverse effect on our \nbusiness, cash flow, financial condition or results of operations.",
+      "heading_level": null,
+      "page_id": 34,
+      "polygon": [
+        [
+          35.26171875,
+          129.4541015625
+        ],
+        [
+          578.4999389648438,
+          129.4541015625
+        ],
+        [
+          578.4999389648438,
+          152.8505859375
+        ],
+        [
+          35.26171875,
+          152.8505859375
+        ]
+      ]
+    },
+    {
+      "title": "Our ability to use our net operating losses to offset future taxable income may be subject to certain limitations.",
+      "heading_level": null,
+      "page_id": 34,
+      "polygon": [
+        [
+          35.560546875,
+          297.7734375
+        ],
+        [
+          492.66998291015625,
+          297.7734375
+        ],
+        [
+          492.66998291015625,
+          308.98828125
+        ],
+        [
+          35.560546875,
+          308.98828125
+        ]
+      ]
+    },
+    {
+      "title": "Security breaches, cyber-attacks, or other disruptions or incidents could expose us to liability and affect our business and reputation.",
+      "heading_level": null,
+      "page_id": 34,
+      "polygon": [
+        [
+          35.1123046875,
+          476.05078125
+        ],
+        [
+          578.5202026367188,
+          476.05078125
+        ],
+        [
+          578.5202026367188,
+          487.65234375
+        ],
+        [
+          35.1123046875,
+          487.65234375
+        ]
+      ]
+    },
+    {
+      "title": "Failure to comply with data protection laws and regulations could lead to government enforcement actions (which could include \ncivil or criminal penalties), private litigation, and/or adverse publicity and could negatively affect our operating results and business.",
+      "heading_level": null,
+      "page_id": 35,
+      "polygon": [
+        [
+          35.4111328125,
+          36.714111328125
+        ],
+        [
+          578.5101318359375,
+          36.714111328125
+        ],
+        [
+          578.5101318359375,
+          59.936279296875
+        ],
+        [
+          35.4111328125,
+          59.936279296875
+        ]
+      ]
+    },
+    {
+      "title": "Risks Related to Intellectual Property and Other Legal Matters",
+      "heading_level": null,
+      "page_id": 36,
+      "polygon": [
+        [
+          35.26171875,
+          36.97998046875
+        ],
+        [
+          309.0100402832031,
+          36.97998046875
+        ],
+        [
+          309.0100402832031,
+          48.533203125
+        ],
+        [
+          35.26171875,
+          48.533203125
+        ]
+      ]
+    },
+    {
+      "title": "If product liability lawsuits are successfully brought against us, then we will incur substantial liabilities and may be required to \nlimit commercialization of Gencaro, rNAPc2 or other product candidates.",
+      "heading_level": null,
+      "page_id": 36,
+      "polygon": [
+        [
+          35.26171875,
+          55.107421875
+        ],
+        [
+          561.35009765625,
+          55.107421875
+        ],
+        [
+          561.35009765625,
+          78.2138671875
+        ],
+        [
+          35.26171875,
+          78.2138671875
+        ]
+      ]
+    },
+    {
+      "title": "Defending against claims relating to improper handling, storage or disposal of hazardous chemicals, radioactive or biological \nmaterials could be time consuming and expensive.",
+      "heading_level": null,
+      "page_id": 36,
+      "polygon": [
+        [
+          34.8134765625,
+          315.755859375
+        ],
+        [
+          555.4801025390625,
+          315.755859375
+        ],
+        [
+          555.4801025390625,
+          338.958984375
+        ],
+        [
+          34.8134765625,
+          338.958984375
+        ]
+      ]
+    },
+    {
+      "title": "The loss of any rights to market key products would significantly impair our operating results.",
+      "heading_level": null,
+      "page_id": 36,
+      "polygon": [
+        [
+          35.859375,
+          424.6171875
+        ],
+        [
+          425.4900817871094,
+          424.6171875
+        ],
+        [
+          425.4900817871094,
+          436.54925537109375
+        ],
+        [
+          35.859375,
+          436.54925537109375
+        ]
+      ]
+    },
+    {
+      "title": "Third parties may own or control patents or patent applications that we may be required to license to commercialize our product \ncandidates or that could result in litigation that would be costly and time consuming.",
+      "heading_level": null,
+      "page_id": 36,
+      "polygon": [
+        [
+          35.859375,
+          577.37109375
+        ],
+        [
+          564.78515625,
+          577.37109375
+        ],
+        [
+          564.78515625,
+          599.80078125
+        ],
+        [
+          35.859375,
+          599.80078125
+        ]
+      ]
+    },
+    {
+      "title": "Our intellectual property rights may not preclude competitors from developing competing products and our business may suffer.",
+      "heading_level": null,
+      "page_id": 37,
+      "polygon": [
+        [
+          35.859375,
+          223.5234375
+        ],
+        [
+          565.4601440429688,
+          223.5234375
+        ],
+        [
+          565.4601440429688,
+          235.51171875
+        ],
+        [
+          35.859375,
+          235.51171875
+        ]
+      ]
+    },
+    {
+      "title": "If the manufacture, use or sale of our products infringe on the intellectual property rights of others, we could face costly litigation, \nwhich could cause us to pay substantial damages or licensing fees and limit our ability to sell some or all of our products.",
+      "heading_level": null,
+      "page_id": 38,
+      "polygon": [
+        [
+          35.7099609375,
+          163.96875
+        ],
+        [
+          575.7400512695312,
+          163.96875
+        ],
+        [
+          575.7400512695312,
+          187.42724609375
+        ],
+        [
+          35.7099609375,
+          187.42724609375
+        ]
+      ]
+    },
+    {
+      "title": "Risks Related to Ownership of our Common Stock and Stock Price Volatility",
+      "heading_level": null,
+      "page_id": 38,
+      "polygon": [
+        [
+          35.560546875,
+          393.6796875
+        ],
+        [
+          366.5499572753906,
+          393.6796875
+        ],
+        [
+          366.5499572753906,
+          405.28125
+        ],
+        [
+          35.560546875,
+          405.28125
+        ]
+      ]
+    },
+    {
+      "title": "Our stock price has been and is expected to be volatile.",
+      "heading_level": null,
+      "page_id": 38,
+      "polygon": [
+        [
+          35.63525390625,
+          410.6953125
+        ],
+        [
+          263.19000244140625,
+          410.6953125
+        ],
+        [
+          263.19000244140625,
+          422.296875
+        ],
+        [
+          35.63525390625,
+          422.296875
+        ]
+      ]
+    },
+    {
+      "title": "Future sales or the possibility of future sales of our common stock may depress the market price of our common stock.",
+      "heading_level": null,
+      "page_id": 39,
+      "polygon": [
+        [
+          35.7099609375,
+          233.384765625
+        ],
+        [
+          525.4500732421875,
+          233.384765625
+        ],
+        [
+          525.4500732421875,
+          244.986328125
+        ],
+        [
+          35.7099609375,
+          244.986328125
+        ]
+      ]
+    },
+    {
+      "title": "We do not expect to pay cash dividends, and accordingly, stockholders must rely on stock appreciation for any return on their \ninvestment.",
+      "heading_level": null,
+      "page_id": 39,
+      "polygon": [
+        [
+          35.560546875,
+          476.82421875
+        ],
+        [
+          554.0601196289062,
+          476.82421875
+        ],
+        [
+          554.0601196289062,
+          500.80078125
+        ],
+        [
+          35.560546875,
+          500.80078125
+        ]
+      ]
+    },
+    {
+      "title": "Our business could be negatively affected as a result of actions of activist shareholders.",
+      "heading_level": null,
+      "page_id": 39,
+      "polygon": [
+        [
+          35.560546875,
+          552.234375
+        ],
+        [
+          394.88006591796875,
+          552.234375
+        ],
+        [
+          394.88006591796875,
+          563.8359375
+        ],
+        [
+          35.560546875,
+          563.8359375
+        ]
+      ]
+    },
+    {
+      "title": "We have implemented anti-takeover provisions that could discourage, prevent or delay a takeover, even if the acquisition would be \nbeneficial to our stockholders.",
+      "heading_level": null,
+      "page_id": 40,
+      "polygon": [
+        [
+          35.26171875,
+          36.907470703125
+        ],
+        [
+          573.4500732421875,
+          36.907470703125
+        ],
+        [
+          573.4500732421875,
+          60.76318359375
+        ],
+        [
+          35.26171875,
+          60.76318359375
+        ]
+      ]
+    },
+    {
+      "title": "Item 1B. Unresolved Staff Comments",
+      "heading_level": null,
+      "page_id": 40,
+      "polygon": [
+        [
+          34.8134765625,
+          624.55078125
+        ],
+        [
+          193.1923828125,
+          624.55078125
+        ],
+        [
+          193.1923828125,
+          636.15234375
+        ],
+        [
+          34.8134765625,
+          636.15234375
+        ]
+      ]
+    },
+    {
+      "title": "Item 2. Properties",
+      "heading_level": null,
+      "page_id": 41,
+      "polygon": [
+        [
+          35.149658203125,
+          37.0283203125
+        ],
+        [
+          110.865234375,
+          37.0283203125
+        ],
+        [
+          110.865234375,
+          48.96826171875
+        ],
+        [
+          35.149658203125,
+          48.96826171875
+        ]
+      ]
+    },
+    {
+      "title": "Item 3. Legal Proceedings",
+      "heading_level": null,
+      "page_id": 41,
+      "polygon": [
+        [
+          35.149658203125,
+          107.0244140625
+        ],
+        [
+          146.724609375,
+          107.0244140625
+        ],
+        [
+          146.724609375,
+          118.6259765625
+        ],
+        [
+          35.149658203125,
+          118.6259765625
+        ]
+      ]
+    },
+    {
+      "title": "Item 4. Mine Safety Disclosures",
+      "heading_level": null,
+      "page_id": 41,
+      "polygon": [
+        [
+          35.4111328125,
+          141.345703125
+        ],
+        [
+          169.13671875,
+          141.345703125
+        ],
+        [
+          169.13671875,
+          153.140625
+        ],
+        [
+          35.4111328125,
+          153.140625
+        ]
+      ]
+    },
+    {
+      "title": "PART II",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          287.0244140625,
+          37.342529296875
+        ],
+        [
+          327.24798583984375,
+          37.342529296875
+        ],
+        [
+          327.24798583984375,
+          48.654052734375
+        ],
+        [
+          287.0244140625,
+          48.654052734375
+        ]
+      ]
+    },
+    {
+      "title": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          34.6640625,
+          62.11669921875
+        ],
+        [
+          535.4801635742188,
+          62.11669921875
+        ],
+        [
+          535.4801635742188,
+          73.43524169921875
+        ],
+        [
+          34.6640625,
+          73.43524169921875
+        ]
+      ]
+    },
+    {
+      "title": "Stockholders",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          35.8780517578125,
+          138.9287109375
+        ],
+        [
+          91.83999633789062,
+          138.9287109375
+        ],
+        [
+          91.83999633789062,
+          150.729248046875
+        ],
+        [
+          35.8780517578125,
+          150.729248046875
+        ]
+      ]
+    },
+    {
+      "title": "Dividend Policy",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          35.672607421875,
+          197.61328125
+        ],
+        [
+          103.76000213623047,
+          197.61328125
+        ],
+        [
+          103.76000213623047,
+          209.22625732421875
+        ],
+        [
+          35.672607421875,
+          209.22625732421875
+        ]
+      ]
+    },
+    {
+      "title": "Securities Authorized for Issuance Under Equity Compensation Plans",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          35.63525390625,
+          268.576171875
+        ],
+        [
+          327.1600036621094,
+          268.576171875
+        ],
+        [
+          327.1600036621094,
+          279.791015625
+        ],
+        [
+          35.63525390625,
+          279.791015625
+        ]
+      ]
+    },
+    {
+      "title": "Unregistered Sales of Equity Securities and Use of Proceeds",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          35.7099609375,
+          326.970703125
+        ],
+        [
+          286.260009765625,
+          326.970703125
+        ],
+        [
+          286.260009765625,
+          338.185546875
+        ],
+        [
+          35.7099609375,
+          338.185546875
+        ]
+      ]
+    },
+    {
+      "title": "Issuer Purchases of Equity Securities",
+      "heading_level": null,
+      "page_id": 42,
+      "polygon": [
+        [
+          35.560546875,
+          373.376953125
+        ],
+        [
+          192.95999145507812,
+          373.376953125
+        ],
+        [
+          192.95999145507812,
+          384.7172546386719
+        ],
+        [
+          35.560546875,
+          384.7172546386719
+        ]
+      ]
+    },
+    {
+      "title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "heading_level": null,
+      "page_id": 43,
+      "polygon": [
+        [
+          34.8134765625,
+          37.46337890625
+        ],
+        [
+          442.7400207519531,
+          37.46337890625
+        ],
+        [
+          442.7400207519531,
+          49.0166015625
+        ],
+        [
+          34.8134765625,
+          49.0166015625
+        ]
+      ]
+    },
+    {
+      "title": "Overview",
+      "heading_level": null,
+      "page_id": 43,
+      "polygon": [
+        [
+          35.5418701171875,
+          210.568359375
+        ],
+        [
+          75.52880859375,
+          210.568359375
+        ],
+        [
+          75.52880859375,
+          221.92425537109375
+        ],
+        [
+          35.5418701171875,
+          221.92425537109375
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro\u2122 (bucindolol hydrochloride) for Atrial Fibrillation",
+      "heading_level": null,
+      "page_id": 43,
+      "polygon": [
+        [
+          35.48583984375,
+          425.00390625
+        ],
+        [
+          288.79998779296875,
+          425.00390625
+        ],
+        [
+          288.79998779296875,
+          436.60546875
+        ],
+        [
+          35.48583984375,
+          436.60546875
+        ]
+      ]
+    },
+    {
+      "title": "rNAPc2 (AB201) for treatment of COVID-19",
+      "heading_level": null,
+      "page_id": 44,
+      "polygon": [
+        [
+          35.78466796875,
+          430.8046875
+        ],
+        [
+          223.5234375,
+          430.8046875
+        ],
+        [
+          223.5234375,
+          443.1796875
+        ],
+        [
+          35.78466796875,
+          443.1796875
+        ]
+      ]
+    },
+    {
+      "title": "Results of Operations",
+      "heading_level": null,
+      "page_id": 45,
+      "polygon": [
+        [
+          35.7099609375,
+          366.609375
+        ],
+        [
+          127.39999389648438,
+          366.609375
+        ],
+        [
+          127.39999389648438,
+          378.59765625
+        ],
+        [
+          35.7099609375,
+          378.59765625
+        ]
+      ]
+    },
+    {
+      "title": "Research and Development Expenses",
+      "heading_level": null,
+      "page_id": 45,
+      "polygon": [
+        [
+          35.63525390625,
+          384.3984375
+        ],
+        [
+          188.17001342773438,
+          384.3984375
+        ],
+        [
+          188.17001342773438,
+          396.0
+        ],
+        [
+          35.63525390625,
+          396.0
+        ]
+      ]
+    },
+    {
+      "title": "General and Administrative Expenses",
+      "heading_level": null,
+      "page_id": 45,
+      "polygon": [
+        [
+          35.63525390625,
+          672.1171875
+        ],
+        [
+          189.86000061035156,
+          672.1171875
+        ],
+        [
+          189.86000061035156,
+          683.71875
+        ],
+        [
+          35.63525390625,
+          683.71875
+        ]
+      ]
+    },
+    {
+      "title": "Interest and Other Income",
+      "heading_level": null,
+      "page_id": 46,
+      "polygon": [
+        [
+          35.373779296875,
+          125.3935546875
+        ],
+        [
+          144.3100128173828,
+          125.3935546875
+        ],
+        [
+          144.3100128173828,
+          136.2216796875
+        ],
+        [
+          35.373779296875,
+          136.2216796875
+        ]
+      ]
+    },
+    {
+      "title": "Other Expense",
+      "heading_level": null,
+      "page_id": 46,
+      "polygon": [
+        [
+          35.822021484375,
+          195.5830078125
+        ],
+        [
+          97.64999389648438,
+          195.5830078125
+        ],
+        [
+          97.64999389648438,
+          206.314453125
+        ],
+        [
+          35.822021484375,
+          206.314453125
+        ]
+      ]
+    },
+    {
+      "title": "Liquidity and Capital Resources",
+      "heading_level": null,
+      "page_id": 46,
+      "polygon": [
+        [
+          35.597900390625,
+          265.482421875
+        ],
+        [
+          168.837890625,
+          265.482421875
+        ],
+        [
+          168.837890625,
+          276.310546875
+        ],
+        [
+          35.597900390625,
+          276.310546875
+        ]
+      ]
+    },
+    {
+      "title": "Sources and Uses of Capital",
+      "heading_level": null,
+      "page_id": 46,
+      "polygon": [
+        [
+          35.859375,
+          686.8125
+        ],
+        [
+          152.38998413085938,
+          686.8125
+        ],
+        [
+          152.38998413085938,
+          697.640625
+        ],
+        [
+          35.859375,
+          697.640625
+        ]
+      ]
+    },
+    {
+      "title": "Contractual Obligation and Commitments",
+      "heading_level": null,
+      "page_id": 47,
+      "polygon": [
+        [
+          36.0,
+          513.17578125
+        ],
+        [
+          207.66998291015625,
+          513.17578125
+        ],
+        [
+          207.66998291015625,
+          524.77734375
+        ],
+        [
+          36.0,
+          524.77734375
+        ]
+      ]
+    },
+    {
+      "title": "Critical Accounting Policies and Estimates",
+      "heading_level": null,
+      "page_id": 48,
+      "polygon": [
+        [
+          35.560546875,
+          85.7548828125
+        ],
+        [
+          215.17999267578125,
+          85.7548828125
+        ],
+        [
+          215.17999267578125,
+          97.311279296875
+        ],
+        [
+          35.560546875,
+          97.311279296875
+        ]
+      ]
+    },
+    {
+      "title": "Accrued Outsourcing Expenses",
+      "heading_level": null,
+      "page_id": 48,
+      "polygon": [
+        [
+          35.523193359375,
+          178.083984375
+        ],
+        [
+          164.02000427246094,
+          178.083984375
+        ],
+        [
+          164.02000427246094,
+          189.10546875
+        ],
+        [
+          35.523193359375,
+          189.10546875
+        ]
+      ]
+    },
+    {
+      "title": "Indemnifications",
+      "heading_level": null,
+      "page_id": 48,
+      "polygon": [
+        [
+          35.672607421875,
+          280.951171875
+        ],
+        [
+          109.06999206542969,
+          280.951171875
+        ],
+        [
+          109.06999206542969,
+          292.552734375
+        ],
+        [
+          35.672607421875,
+          292.552734375
+        ]
+      ]
+    },
+    {
+      "title": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+      "heading_level": null,
+      "page_id": 48,
+      "polygon": [
+        [
+          35.7099609375,
+          383.23828125
+        ],
+        [
+          326.5699768066406,
+          383.23828125
+        ],
+        [
+          326.5699768066406,
+          394.453125
+        ],
+        [
+          35.7099609375,
+          394.453125
+        ]
+      ]
+    },
+    {
+      "title": "Item 8. Financial Statements and Supplementary Data",
+      "heading_level": null,
+      "page_id": 49,
+      "polygon": [
+        [
+          35.03759765625,
+          68.255859375
+        ],
+        [
+          262.96875,
+          68.255859375
+        ],
+        [
+          262.96875,
+          79.436279296875
+        ],
+        [
+          35.03759765625,
+          79.436279296875
+        ]
+      ]
+    },
+    {
+      "title": "Report of Independent Registered Public Accounting Firm",
+      "heading_level": null,
+      "page_id": 50,
+      "polygon": [
+        [
+          180.6416015625,
+          37.27001953125
+        ],
+        [
+          433.77099609375,
+          37.27001953125
+        ],
+        [
+          433.77099609375,
+          48.58154296875
+        ],
+        [
+          180.6416015625,
+          48.58154296875
+        ]
+      ]
+    },
+    {
+      "title": "Opinion on the Financial Statements",
+      "heading_level": null,
+      "page_id": 50,
+      "polygon": [
+        [
+          35.822021484375,
+          89.38037109375
+        ],
+        [
+          183.19998168945312,
+          89.38037109375
+        ],
+        [
+          183.19998168945312,
+          100.93426513671875
+        ],
+        [
+          35.822021484375,
+          100.93426513671875
+        ]
+      ]
+    },
+    {
+      "title": "Basis for Opinion",
+      "heading_level": null,
+      "page_id": 50,
+      "polygon": [
+        [
+          35.93408203125,
+          178.857421875
+        ],
+        [
+          108.25048828125,
+          178.857421875
+        ],
+        [
+          108.25048828125,
+          190.458984375
+        ],
+        [
+          35.93408203125,
+          190.458984375
+        ]
+      ]
+    },
+    {
+      "title": "Critical Audit Matter",
+      "heading_level": null,
+      "page_id": 50,
+      "polygon": [
+        [
+          35.747314453125,
+          405.28125
+        ],
+        [
+          122.0712890625,
+          405.28125
+        ],
+        [
+          122.0712890625,
+          416.8828125
+        ],
+        [
+          35.747314453125,
+          416.8828125
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC. \nBALANCE SHEETS",
+      "heading_level": null,
+      "page_id": 51,
+      "polygon": [
+        [
+          243.84375,
+          37.9951171875
+        ],
+        [
+          368.7740173339844,
+          37.9951171875
+        ],
+        [
+          368.7740173339844,
+          66.708984375
+        ],
+        [
+          243.84375,
+          66.708984375
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC. \nSTATEMENTS OF OPERATIONS",
+      "heading_level": null,
+      "page_id": 52,
+      "polygon": [
+        [
+          227.109375,
+          36.59326171875
+        ],
+        [
+          385.177978515625,
+          36.59326171875
+        ],
+        [
+          385.177978515625,
+          67.14404296875
+        ],
+        [
+          227.109375,
+          67.14404296875
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC.",
+      "heading_level": null,
+      "page_id": 53,
+      "polygon": [
+        [
+          245.72401428222656,
+          37.439208984375
+        ],
+        [
+          367.55859375,
+          37.439208984375
+        ],
+        [
+          367.55859375,
+          48.437255859375
+        ],
+        [
+          245.72401428222656,
+          48.437255859375
+        ]
+      ]
+    },
+    {
+      "title": "STATEMENTS OF STOCKHOLDERS' EQUITY",
+      "heading_level": null,
+      "page_id": 53,
+      "polygon": [
+        [
+          196.330078125,
+          54.52734375
+        ],
+        [
+          416.71197509765625,
+          54.52734375
+        ],
+        [
+          416.71197509765625,
+          66.0322265625
+        ],
+        [
+          196.330078125,
+          66.0322265625
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC.",
+      "heading_level": null,
+      "page_id": 54,
+      "polygon": [
+        [
+          245.4873046875,
+          37.36669921875
+        ],
+        [
+          366.2740173339844,
+          37.36669921875
+        ],
+        [
+          366.2740173339844,
+          48.6298828125
+        ],
+        [
+          245.4873046875,
+          48.6298828125
+        ]
+      ]
+    },
+    {
+      "title": "STATEMENTS OF CASH FLOWS",
+      "heading_level": null,
+      "page_id": 54,
+      "polygon": [
+        [
+          227.8564453125,
+          54.52734375
+        ],
+        [
+          385.31903076171875,
+          54.52734375
+        ],
+        [
+          385.31903076171875,
+          66.322265625
+        ],
+        [
+          227.8564453125,
+          66.322265625
+        ]
+      ]
+    },
+    {
+      "title": "ARCA BIOPHARMA, INC.",
+      "heading_level": null,
+      "page_id": 55,
+      "polygon": [
+        [
+          244.44140625,
+          50.22509765625
+        ],
+        [
+          368.7740173339844,
+          50.22509765625
+        ],
+        [
+          368.7740173339844,
+          61.53662109375
+        ],
+        [
+          244.44140625,
+          61.53662109375
+        ]
+      ]
+    },
+    {
+      "title": "NOTES TO FINANCIAL STATEMENTS",
+      "heading_level": null,
+      "page_id": 55,
+      "polygon": [
+        [
+          215.15625,
+          78.890625
+        ],
+        [
+          398.9329833984375,
+          78.890625
+        ],
+        [
+          398.9329833984375,
+          90.685546875
+        ],
+        [
+          215.15625,
+          90.685546875
+        ]
+      ]
+    },
+    {
+      "title": "(1) The Company and Summary of Significant Accounting Policies",
+      "heading_level": null,
+      "page_id": 55,
+      "polygon": [
+        [
+          35.33642578125,
+          104.02734375
+        ],
+        [
+          322.3999938964844,
+          104.02734375
+        ],
+        [
+          322.3999938964844,
+          115.62890625
+        ],
+        [
+          35.33642578125,
+          115.62890625
+        ]
+      ]
+    },
+    {
+      "title": "Description of Business",
+      "heading_level": null,
+      "page_id": 55,
+      "polygon": [
+        [
+          35.859375,
+          122.396484375
+        ],
+        [
+          136.2899932861328,
+          122.396484375
+        ],
+        [
+          136.2899932861328,
+          133.8046875
+        ],
+        [
+          35.859375,
+          133.8046875
+        ]
+      ]
+    },
+    {
+      "title": "Liquidity and Going Concern",
+      "heading_level": null,
+      "page_id": 55,
+      "polygon": [
+        [
+          35.78466796875,
+          255.041015625
+        ],
+        [
+          158.677734375,
+          255.041015625
+        ],
+        [
+          158.677734375,
+          266.642578125
+        ],
+        [
+          35.78466796875,
+          266.642578125
+        ]
+      ]
+    },
+    {
+      "title": "Basis of Presentation",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.448486328125,
+          49.06494140625
+        ],
+        [
+          126.28999328613281,
+          49.06494140625
+        ],
+        [
+          126.28999328613281,
+          61.05322265625
+        ],
+        [
+          35.448486328125,
+          61.05322265625
+        ]
+      ]
+    },
+    {
+      "title": "Recent Accounting Pronouncements",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.747314453125,
+          124.13671875
+        ],
+        [
+          189.6199951171875,
+          124.13671875
+        ],
+        [
+          189.6199951171875,
+          135.73828125
+        ],
+        [
+          35.747314453125,
+          135.73828125
+        ]
+      ]
+    },
+    {
+      "title": "Accounting Estimates in the Preparation of Financial Statements",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.78466796875,
+          176.150390625
+        ],
+        [
+          308.2599792480469,
+          176.150390625
+        ],
+        [
+          308.2599792480469,
+          187.54425048828125
+        ],
+        [
+          35.78466796875,
+          187.54425048828125
+        ]
+      ]
+    },
+    {
+      "title": "Cash Equivalents",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.63525390625,
+          285.01171875
+        ],
+        [
+          111.0199966430664,
+          285.01171875
+        ],
+        [
+          111.0199966430664,
+          297.0372314453125
+        ],
+        [
+          35.63525390625,
+          297.0372314453125
+        ]
+      ]
+    },
+    {
+      "title": "Concentrations of Credit Risk",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.448486328125,
+          349.20703125
+        ],
+        [
+          161.57998657226562,
+          349.20703125
+        ],
+        [
+          161.57998657226562,
+          360.5342102050781
+        ],
+        [
+          35.448486328125,
+          360.5342102050781
+        ]
+      ]
+    },
+    {
+      "title": "Property and Equipment",
+      "heading_level": null,
+      "page_id": 56,
+      "polygon": [
+        [
+          35.63525390625,
+          435.05859375
+        ],
+        [
+          140.17999267578125,
+          435.05859375
+        ],
+        [
+          140.17999267578125,
+          447.02923583984375
+        ],
+        [
+          35.63525390625,
+          447.02923583984375
+        ]
+      ]
+    },
+    {
+      "title": "Comprehensive Loss",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.33642578125,
+          50.51513671875
+        ],
+        [
+          122.14599609375,
+          50.51513671875
+        ],
+        [
+          122.14599609375,
+          62.31005859375
+        ],
+        [
+          35.33642578125,
+          62.31005859375
+        ]
+      ]
+    },
+    {
+      "title": "Leases",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.448486328125,
+          126.9404296875
+        ],
+        [
+          65.406005859375,
+          126.9404296875
+        ],
+        [
+          65.406005859375,
+          138.5419921875
+        ],
+        [
+          35.448486328125,
+          138.5419921875
+        ]
+      ]
+    },
+    {
+      "title": "Accrued Outsourcing Expenses",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.074951171875,
+          277.470703125
+        ],
+        [
+          168.510009765625,
+          277.470703125
+        ],
+        [
+          168.510009765625,
+          288.685546875
+        ],
+        [
+          35.074951171875,
+          288.685546875
+        ]
+      ]
+    },
+    {
+      "title": "Segments",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.5045166015625,
+          375.890625
+        ],
+        [
+          77.94999694824219,
+          375.890625
+        ],
+        [
+          77.94999694824219,
+          387.10546875
+        ],
+        [
+          35.5045166015625,
+          387.10546875
+        ]
+      ]
+    },
+    {
+      "title": "Research and Development",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.523193359375,
+          428.09765625
+        ],
+        [
+          151.260009765625,
+          428.09765625
+        ],
+        [
+          151.260009765625,
+          439.69921875
+        ],
+        [
+          35.523193359375,
+          439.69921875
+        ]
+      ]
+    },
+    {
+      "title": "Stock-Based Compensation",
+      "heading_level": null,
+      "page_id": 57,
+      "polygon": [
+        [
+          35.597900390625,
+          642.7265625
+        ],
+        [
+          151.5699920654297,
+          642.7265625
+        ],
+        [
+          151.5699920654297,
+          654.0462493896484
+        ],
+        [
+          35.597900390625,
+          654.0462493896484
+        ]
+      ]
+    },
+    {
+      "title": "Income Taxes",
+      "heading_level": null,
+      "page_id": 58,
+      "polygon": [
+        [
+          35.2056884765625,
+          50.080078125
+        ],
+        [
+          96.55000305175781,
+          50.080078125
+        ],
+        [
+          96.55000305175781,
+          61.48828125
+        ],
+        [
+          35.2056884765625,
+          61.48828125
+        ]
+      ]
+    },
+    {
+      "title": "(2) Net Loss Per Share",
+      "heading_level": null,
+      "page_id": 58,
+      "polygon": [
+        [
+          35.597900390625,
+          177.6005859375
+        ],
+        [
+          134.58999633789062,
+          177.6005859375
+        ],
+        [
+          134.58999633789062,
+          189.0087890625
+        ],
+        [
+          35.597900390625,
+          189.0087890625
+        ]
+      ]
+    },
+    {
+      "title": "(3) Fair Value Disclosures",
+      "heading_level": null,
+      "page_id": 58,
+      "polygon": [
+        [
+          36.0,
+          436.21875
+        ],
+        [
+          149.30999755859375,
+          436.21875
+        ],
+        [
+          149.30999755859375,
+          447.8203125
+        ],
+        [
+          36.0,
+          447.8203125
+        ]
+      ]
+    },
+    {
+      "title": "Fair Value of Other Financial Instruments",
+      "heading_level": null,
+      "page_id": 58,
+      "polygon": [
+        [
+          35.78466796875,
+          639.6328125
+        ],
+        [
+          216.5999755859375,
+          639.6328125
+        ],
+        [
+          216.5999755859375,
+          651.234375
+        ],
+        [
+          35.78466796875,
+          651.234375
+        ]
+      ]
+    },
+    {
+      "title": "(4) Property and Equipment",
+      "heading_level": null,
+      "page_id": 59,
+      "polygon": [
+        [
+          35.78466796875,
+          50.32177734375
+        ],
+        [
+          159.88998413085938,
+          50.32177734375
+        ],
+        [
+          159.88998413085938,
+          61.82666015625
+        ],
+        [
+          35.78466796875,
+          61.82666015625
+        ]
+      ]
+    },
+    {
+      "title": "(5) Related Party Arrangements",
+      "heading_level": null,
+      "page_id": 59,
+      "polygon": [
+        [
+          35.859375,
+          257.5546875
+        ],
+        [
+          175.9600067138672,
+          257.5546875
+        ],
+        [
+          175.9600067138672,
+          268.76953125
+        ],
+        [
+          35.859375,
+          268.76953125
+        ]
+      ]
+    },
+    {
+      "title": "Transactions with the Company's President and Chief Executive Officer",
+      "heading_level": null,
+      "page_id": 59,
+      "polygon": [
+        [
+          35.78466796875,
+          274.95703125
+        ],
+        [
+          327.9000244140625,
+          274.95703125
+        ],
+        [
+          327.9000244140625,
+          286.171875
+        ],
+        [
+          35.78466796875,
+          286.171875
+        ]
+      ]
+    },
+    {
+      "title": "(6) Commitments and Contingencies",
+      "heading_level": null,
+      "page_id": 59,
+      "polygon": [
+        [
+          35.859375,
+          375.890625
+        ],
+        [
+          194.32000732421875,
+          375.890625
+        ],
+        [
+          194.32000732421875,
+          387.10546875
+        ],
+        [
+          35.859375,
+          387.10546875
+        ]
+      ]
+    },
+    {
+      "title": "Employment Agreements and Reduction of Workforce",
+      "heading_level": null,
+      "page_id": 59,
+      "polygon": [
+        [
+          35.78466796875,
+          416.49609375
+        ],
+        [
+          261.474609375,
+          416.49609375
+        ],
+        [
+          261.474609375,
+          428.09765625
+        ],
+        [
+          35.78466796875,
+          428.09765625
+        ]
+      ]
+    },
+    {
+      "title": "Operating Lease",
+      "heading_level": null,
+      "page_id": 60,
+      "polygon": [
+        [
+          35.1683349609375,
+          49.7900390625
+        ],
+        [
+          106.55000305175781,
+          49.7900390625
+        ],
+        [
+          106.55000305175781,
+          61.9716796875
+        ],
+        [
+          35.1683349609375,
+          61.9716796875
+        ]
+      ]
+    },
+    {
+      "title": "Patent Agreement",
+      "heading_level": null,
+      "page_id": 60,
+      "polygon": [
+        [
+          35.8406982421875,
+          425.00390625
+        ],
+        [
+          112.65999603271484,
+          425.00390625
+        ],
+        [
+          112.65999603271484,
+          435.83203125
+        ],
+        [
+          35.8406982421875,
+          435.83203125
+        ]
+      ]
+    },
+    {
+      "title": "Gencaro License",
+      "heading_level": null,
+      "page_id": 60,
+      "polygon": [
+        [
+          35.672607421875,
+          563.44921875
+        ],
+        [
+          106.98046875,
+          563.44921875
+        ],
+        [
+          106.98046875,
+          575.05078125
+        ],
+        [
+          35.672607421875,
+          575.05078125
+        ]
+      ]
+    },
+    {
+      "title": "(7) Equity Financings",
+      "heading_level": null,
+      "page_id": 61,
+      "polygon": [
+        [
+          35.33642578125,
+          49.64501953125
+        ],
+        [
+          130.739990234375,
+          49.64501953125
+        ],
+        [
+          130.739990234375,
+          61.72998046875
+        ],
+        [
+          35.33642578125,
+          61.72998046875
+        ]
+      ]
+    },
+    {
+      "title": "At the Market Equity Financing",
+      "heading_level": null,
+      "page_id": 61,
+      "polygon": [
+        [
+          35.672607421875,
+          67.482421875
+        ],
+        [
+          171.29998779296875,
+          67.482421875
+        ],
+        [
+          171.29998779296875,
+          79.3740234375
+        ],
+        [
+          35.672607421875,
+          79.3740234375
+        ]
+      ]
+    },
+    {
+      "title": "(8) Share-based Compensation",
+      "heading_level": null,
+      "page_id": 61,
+      "polygon": [
+        [
+          35.859375,
+          407.98828125
+        ],
+        [
+          169.6199951171875,
+          407.98828125
+        ],
+        [
+          169.6199951171875,
+          419.58984375
+        ],
+        [
+          35.859375,
+          419.58984375
+        ]
+      ]
+    },
+    {
+      "title": "Stock Plans",
+      "heading_level": null,
+      "page_id": 61,
+      "polygon": [
+        [
+          35.7099609375,
+          425.77734375
+        ],
+        [
+          87.12000274658203,
+          425.77734375
+        ],
+        [
+          87.12000274658203,
+          437.37890625
+        ],
+        [
+          35.7099609375,
+          437.37890625
+        ]
+      ]
+    },
+    {
+      "title": "Restricted Stock Units",
+      "heading_level": null,
+      "page_id": 63,
+      "polygon": [
+        [
+          35.597900390625,
+          49.35498046875
+        ],
+        [
+          127.11000061035156,
+          49.35498046875
+        ],
+        [
+          127.11000061035156,
+          60.95654296875
+        ],
+        [
+          35.597900390625,
+          60.95654296875
+        ]
+      ]
+    },
+    {
+      "title": "Non-cash Stock-based Compensation",
+      "heading_level": null,
+      "page_id": 63,
+      "polygon": [
+        [
+          35.48583984375,
+          302.4140625
+        ],
+        [
+          192.39999389648438,
+          302.4140625
+        ],
+        [
+          192.39999389648438,
+          313.4912109375
+        ],
+        [
+          35.48583984375,
+          313.4912109375
+        ]
+      ]
+    },
+    {
+      "title": "(9) Employee Benefit Plans",
+      "heading_level": null,
+      "page_id": 63,
+      "polygon": [
+        [
+          35.7099609375,
+          484.171875
+        ],
+        [
+          153.75999450683594,
+          484.171875
+        ],
+        [
+          153.75999450683594,
+          495.033203125
+        ],
+        [
+          35.7099609375,
+          495.033203125
+        ]
+      ]
+    },
+    {
+      "title": "(10) Income Taxes",
+      "heading_level": null,
+      "page_id": 63,
+      "polygon": [
+        [
+          35.448486328125,
+          568.86328125
+        ],
+        [
+          116.82000732421875,
+          568.86328125
+        ],
+        [
+          116.82000732421875,
+          579.69140625
+        ],
+        [
+          35.448486328125,
+          579.69140625
+        ]
+      ]
+    },
+    {
+      "title": "(11) Subsequent Event",
+      "heading_level": null,
+      "page_id": 65,
+      "polygon": [
+        [
+          36.0,
+          133.3212890625
+        ],
+        [
+          133.1279296875,
+          133.3212890625
+        ],
+        [
+          133.1279296875,
+          144.7294921875
+        ],
+        [
+          36.0,
+          144.7294921875
+        ]
+      ]
+    },
+    {
+      "title": "Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          34.365234375,
+          50.3701171875
+        ],
+        [
+          444.96002197265625,
+          50.3701171875
+        ],
+        [
+          444.96002197265625,
+          61.5849609375
+        ],
+        [
+          34.365234375,
+          61.5849609375
+        ]
+      ]
+    },
+    {
+      "title": "Item 9A. Controls and Procedures",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.747314453125,
+          100.6435546875
+        ],
+        [
+          181.010009765625,
+          100.6435546875
+        ],
+        [
+          181.010009765625,
+          112.6318359375
+        ],
+        [
+          35.747314453125,
+          112.6318359375
+        ]
+      ]
+    },
+    {
+      "title": "Evaluation of Disclosure Controls and Procedures",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.859375,
+          117.755859375
+        ],
+        [
+          246.5800018310547,
+          117.755859375
+        ],
+        [
+          246.5800018310547,
+          129.55078125
+        ],
+        [
+          35.859375,
+          129.55078125
+        ]
+      ]
+    },
+    {
+      "title": "Management's Report on Internal Control over Financial Reporting",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.33642578125,
+          211.1484375
+        ],
+        [
+          321.03997802734375,
+          211.1484375
+        ],
+        [
+          321.03997802734375,
+          223.13671875
+        ],
+        [
+          35.33642578125,
+          223.13671875
+        ]
+      ]
+    },
+    {
+      "title": "Changes in Internal Control over Financial Reporting",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.78466796875,
+          454.39453125
+        ],
+        [
+          262.9999694824219,
+          454.39453125
+        ],
+        [
+          262.9999694824219,
+          466.76953125
+        ],
+        [
+          35.78466796875,
+          466.76953125
+        ]
+      ]
+    },
+    {
+      "title": "Limitations on the Effectiveness of Controls",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.859375,
+          513.17578125
+        ],
+        [
+          219.90000915527344,
+          513.17578125
+        ],
+        [
+          219.90000915527344,
+          525.55078125
+        ],
+        [
+          35.859375,
+          525.55078125
+        ]
+      ]
+    },
+    {
+      "title": "Item 9B. Other Information",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.7099609375,
+          608.30859375
+        ],
+        [
+          154.6199951171875,
+          608.30859375
+        ],
+        [
+          154.6199951171875,
+          619.91015625
+        ],
+        [
+          35.7099609375,
+          619.91015625
+        ]
+      ]
+    },
+    {
+      "title": "Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections",
+      "heading_level": null,
+      "page_id": 66,
+      "polygon": [
+        [
+          35.7099609375,
+          648.140625
+        ],
+        [
+          360.984375,
+          648.140625
+        ],
+        [
+          360.984375,
+          660.515625
+        ],
+        [
+          35.7099609375,
+          660.515625
+        ]
+      ]
+    },
+    {
+      "title": "PART III",
+      "heading_level": null,
+      "page_id": 67,
+      "polygon": [
+        [
+          283.7373046875,
+          50.80517578125
+        ],
+        [
+          326.91796875,
+          50.80517578125
+        ],
+        [
+          326.91796875,
+          61.34326171875
+        ],
+        [
+          283.7373046875,
+          61.34326171875
+        ]
+      ]
+    },
+    {
+      "title": "Item 10. Directors, Executive Officers and Corporate Governance",
+      "heading_level": null,
+      "page_id": 67,
+      "polygon": [
+        [
+          35.26171875,
+          78.06884765625
+        ],
+        [
+          310.4100036621094,
+          78.06884765625
+        ],
+        [
+          310.4100036621094,
+          88.38421630859375
+        ],
+        [
+          35.26171875,
+          88.38421630859375
+        ]
+      ]
+    },
+    {
+      "title": "ADDITIONAL INFORMATION REGARDING THE BOARD OF DIRECTORS AND CORPORATE GOVERNANCE",
+      "heading_level": null,
+      "page_id": 69,
+      "polygon": [
+        [
+          45.8701171875,
+          460.1953125
+        ],
+        [
+          564.7700805664062,
+          460.1953125
+        ],
+        [
+          564.7700805664062,
+          471.0234375
+        ],
+        [
+          45.8701171875,
+          471.0234375
+        ]
+      ]
+    },
+    {
+      "title": "Election of Board of Directors",
+      "heading_level": null,
+      "page_id": 69,
+      "polygon": [
+        [
+          35.523193359375,
+          475.6640625
+        ],
+        [
+          165.1025390625,
+          475.6640625
+        ],
+        [
+          165.1025390625,
+          486.55224609375
+        ],
+        [
+          35.523193359375,
+          486.55224609375
+        ]
+      ]
+    },
+    {
+      "title": "Code of Ethics",
+      "heading_level": null,
+      "page_id": 70,
+      "polygon": [
+        [
+          35.4298095703125,
+          50.99853515625
+        ],
+        [
+          100.72000122070312,
+          50.99853515625
+        ],
+        [
+          100.72000122070312,
+          61.14990234375
+        ],
+        [
+          35.4298095703125,
+          61.14990234375
+        ]
+      ]
+    },
+    {
+      "title": "Audit Committee",
+      "heading_level": null,
+      "page_id": 70,
+      "polygon": [
+        [
+          35.63525390625,
+          155.84765625
+        ],
+        [
+          110.4169921875,
+          155.84765625
+        ],
+        [
+          110.4169921875,
+          166.2890625
+        ],
+        [
+          35.63525390625,
+          166.2890625
+        ]
+      ]
+    },
+    {
+      "title": "Report of the Audit Committee of the Board of Directors1",
+      "heading_level": null,
+      "page_id": 70,
+      "polygon": [
+        [
+          35.7099609375,
+          478.7578125
+        ],
+        [
+          281.68597412109375,
+          478.7578125
+        ],
+        [
+          281.68597412109375,
+          489.61724853515625
+        ],
+        [
+          35.7099609375,
+          489.61724853515625
+        ]
+      ]
+    },
+    {
+      "title": "Compensation Committee",
+      "heading_level": null,
+      "page_id": 70,
+      "polygon": [
+        [
+          35.26171875,
+          652.78125
+        ],
+        [
+          148.3681640625,
+          652.78125
+        ],
+        [
+          148.3681640625,
+          663.609375
+        ],
+        [
+          35.26171875,
+          663.609375
+        ]
+      ]
+    },
+    {
+      "title": "Compensation Committee Processes and Procedures",
+      "heading_level": null,
+      "page_id": 71,
+      "polygon": [
+        [
+          35.26171875,
+          307.0546875
+        ],
+        [
+          248.625,
+          307.0546875
+        ],
+        [
+          248.625,
+          317.8828125
+        ],
+        [
+          35.26171875,
+          317.8828125
+        ]
+      ]
+    },
+    {
+      "title": "Nominating and Corporate Governance Committee",
+      "heading_level": null,
+      "page_id": 72,
+      "polygon": [
+        [
+          35.560546875,
+          454.39453125
+        ],
+        [
+          256.9921875,
+          454.39453125
+        ],
+        [
+          256.9921875,
+          465.05419921875
+        ],
+        [
+          35.560546875,
+          465.05419921875
+        ]
+      ]
+    },
+    {
+      "title": "Stockholder Communications with the Board of Directors",
+      "heading_level": null,
+      "page_id": 73,
+      "polygon": [
+        [
+          35.4111328125,
+          581.23828125
+        ],
+        [
+          283.4384765625,
+          581.23828125
+        ],
+        [
+          283.4384765625,
+          591.5431976318359
+        ],
+        [
+          35.4111328125,
+          591.5431976318359
+        ]
+      ]
+    },
+    {
+      "title": "Item 11. Executive Compensation",
+      "heading_level": null,
+      "page_id": 74,
+      "polygon": [
+        [
+          35.03759765625,
+          51.046875
+        ],
+        [
+          178.489990234375,
+          51.046875
+        ],
+        [
+          178.489990234375,
+          61.48828125
+        ],
+        [
+          35.03759765625,
+          61.48828125
+        ]
+      ]
+    },
+    {
+      "title": "Executive Compensation",
+      "heading_level": null,
+      "page_id": 74,
+      "polygon": [
+        [
+          35.448486328125,
+          73.86328125
+        ],
+        [
+          143.8857421875,
+          73.86328125
+        ],
+        [
+          143.8857421875,
+          84.498046875
+        ],
+        [
+          35.448486328125,
+          84.498046875
+        ]
+      ]
+    },
+    {
+      "title": "SUMMARY COMPENSATION TABLE",
+      "heading_level": null,
+      "page_id": 74,
+      "polygon": [
+        [
+          232.9365234375,
+          142.9892578125
+        ],
+        [
+          377.947998046875,
+          142.9892578125
+        ],
+        [
+          377.947998046875,
+          153.5792236328125
+        ],
+        [
+          232.9365234375,
+          153.5792236328125
+        ]
+      ]
+    },
+    {
+      "title": "Narrative Disclosure to Summary Compensation Table",
+      "heading_level": null,
+      "page_id": 74,
+      "polygon": [
+        [
+          35.560546875,
+          446.66015625
+        ],
+        [
+          263.1181640625,
+          446.66015625
+        ],
+        [
+          263.1181640625,
+          457.48828125
+        ],
+        [
+          35.560546875,
+          457.48828125
+        ]
+      ]
+    },
+    {
+      "title": "Employment Agreements or Arrangements",
+      "heading_level": null,
+      "page_id": 74,
+      "polygon": [
+        [
+          35.859375,
+          464.0625
+        ],
+        [
+          208.74002075195312,
+          464.0625
+        ],
+        [
+          208.74002075195312,
+          474.750244140625
+        ],
+        [
+          35.859375,
+          474.750244140625
+        ]
+      ]
+    },
+    {
+      "title": "Non-Equity Incentive Plan Compensation",
+      "heading_level": null,
+      "page_id": 77,
+      "polygon": [
+        [
+          35.18701171875,
+          108.1845703125
+        ],
+        [
+          202.9099884033203,
+          108.1845703125
+        ],
+        [
+          202.9099884033203,
+          119.082275390625
+        ],
+        [
+          35.18701171875,
+          119.082275390625
+        ]
+      ]
+    },
+    {
+      "title": "2021 Goals",
+      "heading_level": null,
+      "page_id": 77,
+      "polygon": [
+        [
+          35.8780517578125,
+          184.271484375
+        ],
+        [
+          83.14892578125,
+          184.271484375
+        ],
+        [
+          83.14892578125,
+          194.5772705078125
+        ],
+        [
+          35.8780517578125,
+          194.5772705078125
+        ]
+      ]
+    },
+    {
+      "title": "2020 Cash Bonus Plan",
+      "heading_level": null,
+      "page_id": 77,
+      "polygon": [
+        [
+          36.0,
+          277.470703125
+        ],
+        [
+          127.94999694824219,
+          277.470703125
+        ],
+        [
+          127.94999694824219,
+          287.57122802734375
+        ],
+        [
+          36.0,
+          287.57122802734375
+        ]
+      ]
+    },
+    {
+      "title": "Other Elements of Executive Compensation Program",
+      "heading_level": null,
+      "page_id": 77,
+      "polygon": [
+        [
+          35.4111328125,
+          381.498046875
+        ],
+        [
+          251.510009765625,
+          381.498046875
+        ],
+        [
+          251.510009765625,
+          392.064208984375
+        ],
+        [
+          35.4111328125,
+          392.064208984375
+        ]
+      ]
+    },
+    {
+      "title": "OUTSTANDING EQUITY AWARDS AT FISCAL YEAR END",
+      "heading_level": null,
+      "page_id": 78,
+      "polygon": [
+        [
+          192.146484375,
+          52.1502685546875
+        ],
+        [
+          418.658203125,
+          52.1502685546875
+        ],
+        [
+          418.658203125,
+          62.1650390625
+        ],
+        [
+          192.146484375,
+          62.1650390625
+        ]
+      ]
+    },
+    {
+      "title": "DIRECTOR COMPENSATION",
+      "heading_level": null,
+      "page_id": 79,
+      "polygon": [
+        [
+          35.149658203125,
+          217.3359375
+        ],
+        [
+          152.23199462890625,
+          217.3359375
+        ],
+        [
+          152.23199462890625,
+          228.1640625
+        ],
+        [
+          35.149658203125,
+          228.1640625
+        ]
+      ]
+    },
+    {
+      "title": "DIRECTOR COMPENSATION (1)",
+      "heading_level": null,
+      "page_id": 79,
+      "polygon": [
+        [
+          240.556640625,
+          277.38323974609375
+        ],
+        [
+          369.9449768066406,
+          277.38323974609375
+        ],
+        [
+          369.9449768066406,
+          288.87890625
+        ],
+        [
+          240.556640625,
+          288.87890625
+        ]
+      ]
+    },
+    {
+      "title": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+      "heading_level": null,
+      "page_id": 80,
+      "polygon": [
+        [
+          35.7099609375,
+          384.3984375
+        ],
+        [
+          493.52001953125,
+          384.3984375
+        ],
+        [
+          493.52001953125,
+          395.2265625
+        ],
+        [
+          35.7099609375,
+          395.2265625
+        ]
+      ]
+    },
+    {
+      "title": "EQUITY COMPENSATION PLAN INFORMATION",
+      "heading_level": null,
+      "page_id": 80,
+      "polygon": [
+        [
+          192.744140625,
+          407.6015625
+        ],
+        [
+          421.646484375,
+          407.6015625
+        ],
+        [
+          421.646484375,
+          420.4084777832031
+        ],
+        [
+          192.744140625,
+          420.4084777832031
+        ]
+      ]
+    },
+    {
+      "title": "Compensation Risks",
+      "heading_level": null,
+      "page_id": 81,
+      "polygon": [
+        [
+          35.560546875,
+          108.087890625
+        ],
+        [
+          119.88999938964844,
+          108.087890625
+        ],
+        [
+          119.88999938964844,
+          119.302734375
+        ],
+        [
+          35.560546875,
+          119.302734375
+        ]
+      ]
+    },
+    {
+      "title": "Security Ownership of Certain Beneficial Owners",
+      "heading_level": null,
+      "page_id": 81,
+      "polygon": [
+        [
+          35.4111328125,
+          223.330078125
+        ],
+        [
+          235.775390625,
+          223.330078125
+        ],
+        [
+          235.775390625,
+          234.5732421875
+        ],
+        [
+          35.4111328125,
+          234.5732421875
+        ]
+      ]
+    },
+    {
+      "title": "Item 13. Certain Relationships and Related Transactions, and Director Independence",
+      "heading_level": null,
+      "page_id": 82,
+      "polygon": [
+        [
+          35.560546875,
+          442.40625
+        ],
+        [
+          391.57000732421875,
+          442.40625
+        ],
+        [
+          391.57000732421875,
+          453.234375
+        ],
+        [
+          35.560546875,
+          453.234375
+        ]
+      ]
+    },
+    {
+      "title": "Independence of the Board of Directors",
+      "heading_level": null,
+      "page_id": 82,
+      "polygon": [
+        [
+          35.7099609375,
+          465.22265625
+        ],
+        [
+          205.4443359375,
+          465.22265625
+        ],
+        [
+          205.4443359375,
+          476.3032531738281
+        ],
+        [
+          35.7099609375,
+          476.3032531738281
+        ]
+      ]
+    },
+    {
+      "title": "Certain Transactions With or Involving Related Persons",
+      "heading_level": null,
+      "page_id": 82,
+      "polygon": [
+        [
+          35.560546875,
+          639.7902069091797
+        ],
+        [
+          277.611328125,
+          639.7902069091797
+        ],
+        [
+          277.611328125,
+          650.07421875
+        ],
+        [
+          35.560546875,
+          650.07421875
+        ]
+      ]
+    },
+    {
+      "title": "Transactions With the Company's President and Chief Executive Officer",
+      "heading_level": null,
+      "page_id": 83,
+      "polygon": [
+        [
+          35.26171875,
+          50.41845703125
+        ],
+        [
+          347.8359375,
+          50.41845703125
+        ],
+        [
+          347.8359375,
+          61.53662109375
+        ],
+        [
+          35.26171875,
+          61.53662109375
+        ]
+      ]
+    },
+    {
+      "title": "Cooperation Agreement",
+      "heading_level": null,
+      "page_id": 83,
+      "polygon": [
+        [
+          35.822021484375,
+          137.28515625
+        ],
+        [
+          140.2998046875,
+          137.28515625
+        ],
+        [
+          140.2998046875,
+          148.693359375
+        ],
+        [
+          35.822021484375,
+          148.693359375
+        ]
+      ]
+    },
+    {
+      "title": "Policies and Procedures for Related Party Transactions",
+      "heading_level": null,
+      "page_id": 83,
+      "polygon": [
+        [
+          35.4111328125,
+          381.3046875
+        ],
+        [
+          273.2783203125,
+          381.3046875
+        ],
+        [
+          273.2783203125,
+          392.1328125
+        ],
+        [
+          35.4111328125,
+          392.1328125
+        ]
+      ]
+    },
+    {
+      "title": "Item 14. Principal Accountant Fees and Services",
+      "heading_level": null,
+      "page_id": 83,
+      "polygon": [
+        [
+          34.962890625,
+          462.515625
+        ],
+        [
+          240.989990234375,
+          462.515625
+        ],
+        [
+          240.989990234375,
+          473.34375
+        ],
+        [
+          34.962890625,
+          473.34375
+        ]
+      ]
+    },
+    {
+      "title": "PRE-APPROVAL POLICIES AND PROCEDURES",
+      "heading_level": null,
+      "page_id": 84,
+      "polygon": [
+        [
+          34.58935546875,
+          50.70849609375
+        ],
+        [
+          222.328125,
+          50.70849609375
+        ],
+        [
+          222.328125,
+          61.43994140625
+        ],
+        [
+          34.58935546875,
+          61.43994140625
+        ]
+      ]
+    },
+    {
+      "title": "Item 15. Exhibits and Financial Statement Schedules",
+      "heading_level": null,
+      "page_id": 85,
+      "polygon": [
+        [
+          36.0,
+          74.9267578125
+        ],
+        [
+          259.3599853515625,
+          74.9267578125
+        ],
+        [
+          259.3599853515625,
+          86.5283203125
+        ],
+        [
+          36.0,
+          86.5283203125
+        ]
+      ]
+    },
+    {
+      "title": "(b) Exhibits",
+      "heading_level": null,
+      "page_id": 85,
+      "polygon": [
+        [
+          36.0,
+          180.5772705078125
+        ],
+        [
+          95.7699966430664,
+          180.5772705078125
+        ],
+        [
+          95.7699966430664,
+          191.9091796875
+        ],
+        [
+          36.0,
+          191.9091796875
+        ]
+      ]
+    },
+    {
+      "title": "EXHIBIT INDEX",
+      "heading_level": null,
+      "page_id": 85,
+      "polygon": [
+        [
+          264.76171875,
+          220.81640625
+        ],
+        [
+          347.260009765625,
+          220.81640625
+        ],
+        [
+          347.260009765625,
+          232.41796875
+        ],
+        [
+          264.76171875,
+          232.41796875
+        ]
+      ]
+    },
+    {
+      "title": "SIGNATURES",
+      "heading_level": null,
+      "page_id": 90,
+      "polygon": [
+        [
+          273.2783203125,
+          51.08624267578125
+        ],
+        [
+          341.0099792480469,
+          51.08624267578125
+        ],
+        [
+          341.0099792480469,
+          61.681640625
+        ],
+        [
+          273.2783203125,
+          61.681640625
+        ]
+      ]
+    },
+    {
+      "title": "ARCA biopharma, Inc.",
+      "heading_level": null,
+      "page_id": 90,
+      "polygon": [
+        [
+          36.0,
+          104.3173828125
+        ],
+        [
+          137.68505859375,
+          104.3173828125
+        ],
+        [
+          137.68505859375,
+          115.38226318359375
+        ],
+        [
+          36.0,
+          115.38226318359375
+        ]
+      ]
+    },
+    {
+      "title": "POWER OF ATTORNEY",
+      "heading_level": null,
+      "page_id": 90,
+      "polygon": [
+        [
+          248.625,
+          222.75
+        ],
+        [
+          365.16998291015625,
+          222.75
+        ],
+        [
+          365.16998291015625,
+          233.96484375
+        ],
+        [
+          248.625,
+          233.96484375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          168
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "Text",
+          27
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          99
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          211
+        ],
+        [
+          "Line",
+          88
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          120
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 31,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 32,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 33,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 34,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 35,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 36,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 37,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 38,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 39,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 40,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 41,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          22
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 42,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 43,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 44,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 45,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 46,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          39
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 47,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 48,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          53
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 49,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          36
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 50,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 51,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          162
+        ],
+        [
+          "TableCell",
+          124
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 52,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "TableCell",
+          55
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 53,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          149
+        ],
+        [
+          "TableCell",
+          117
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 54,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          182
+        ],
+        [
+          "TableCell",
+          130
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 55,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 56,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 57,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 58,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 59,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "TableCell",
+          44
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 60,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 61,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 62,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          207
+        ],
+        [
+          "TableCell",
+          130
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 63,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "TableCell",
+          49
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 64,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          199
+        ],
+        [
+          "TableCell",
+          105
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 65,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 66,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 67,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 68,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 69,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 70,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 71,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 72,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 73,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 74,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          216
+        ],
+        [
+          "TableCell",
+          108
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 75,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 76,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 77,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 78,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          266
+        ],
+        [
+          "TableCell",
+          122
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 79,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          239
+        ],
+        [
+          "TableCell",
+          72
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 80,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 81,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          158
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "TableCell",
+          51
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 82,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 83,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 84,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          58
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 85,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          206
+        ],
+        [
+          "TableCell",
+          88
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 86,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          263
+        ],
+        [
+          "TableCell",
+          93
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 87,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          251
+        ],
+        [
+          "TableCell",
+          106
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 88,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          248
+        ],
+        [
+          "TableCell",
+          113
+        ],
+        [
+          "Line",
+          76
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 89,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 90,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "TableCell",
+          57
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/a533b44fe091a8aa62d1fa4f0a3262b311df8bd9"
+}

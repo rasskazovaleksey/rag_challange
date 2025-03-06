@@ -79,6 +79,26 @@ class SubmissionParser:
             references=validated_references
         ))
 
+    def append_new_question_ref(
+            self,
+            question: str,
+            kind: str,
+            answer: Union[str, int, bool, list],
+            references: List[SourceReference]
+    ) -> None:
+        if answer in {'N/A', 'False'}:
+            self.all_data.append(Answer(question_text=question, kind=kind, value=answer))
+            return
+
+        answer = self.process_answer(kind, answer)
+
+        self.all_data.append(Answer(
+            question_text=question,
+            kind=kind,
+            value=answer,
+            references=references
+        ))
+
     def process_answer(self, kind: str, answer: Union[str, int, bool, list]) -> Union[str, int, bool, list]:
         match kind:
             case "number":

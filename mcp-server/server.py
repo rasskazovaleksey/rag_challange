@@ -7,24 +7,60 @@ from starlette.requests import Request
 from starlette.routing import Mount, Route
 import uvicorn
 
+from rabbit.config_loader import ConfigLoader
+from rabbit.sender import PdfSender
+import json
+
+from questions import QuestionExtractor
+
+
+#TODO fix global vars
+config = ConfigLoader().get_rabbitmq_config()
+sender = PdfSender(config)
+
+
+
 # Create an MCP server
 mcp = FastMCP("Demo")
 
 
-# Add an addition tool
+@mcp.resource("pdfs://{filename}")
+def get_file(filename: str) -> str:
+    sender.send_pdf(f"pdfs/{filename}.pdf")
+    sender.close()
+    return 'File sent to rabbit queue'
+
+@mcp.resource("getsha://{company_name}")
+def get_sha(company_name: str) -> str:
+    with open('subset.json') as f:
+        data = json.load(f)
+        print(company_name)
+        for item in data:
+            if item['company_name'] == company_name:
+                file_name = item['sha1']
+                return f'File name {file_name}'
+            
+    return 'Not found'
+
+
+@mcp.prompt()
+def get_prompt(name: str) -> str:
+    with open(f'prompt/{name}.txt') as f:
+        return f.read()
+
+
 @mcp.tool()
-def add(a: int, b: int) -> int:
-    """Add two numbers"""
-    print("Adding numbers:", a, b)
-    return a + b
+def question_extract(question: str) -> str:
+    extractor = QuestionExtractor()
+    extract = extractor.extract(question)
+    return extract
 
+@mcp.tool()
+def get_synonyms(extract: str) -> str:
+    extractor = QuestionExtractor()
+    close_metrics = extractor.get_synonyms(extract)
+    return close_metrics
 
-# Add a dynamic greeting resource
-@mcp.resource("greeting://{name}")
-def get_greeting(name: str) -> str:
-    """Get a personalized greeting"""
-    print("Generating greeting for:", name)
-    return f"Hello, {name}!"
 
 def create_starlette_app(mcp_server: Server, *, debug: bool = False) -> Starlette:
     """Create a Starlette application that can serve the MCP server with SSE."""

@@ -1,5 +1,4 @@
 import pika
-import os
 from .config_loader import ConfigLoader
 from .connection_factory import ConnectionFactory
 

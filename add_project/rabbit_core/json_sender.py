@@ -1,28 +1,30 @@
 import pika
-import os
+import json
 from .config_loader import ConfigLoader
 from .connection_factory import ConnectionFactory
 
-class PdfSender:
+
+class JsonSender:
     def __init__(self, connection: pika.BlockingConnection):
-        self.exchange = 'pdf_exchange'
+        self.exchange = 'json_exchange'
         self.channel = connection.channel()
         self.channel.exchange_declare(exchange=self.exchange, exchange_type='direct')
 
-    def send_pdf(self, file_name: str, file_bytes: bytes, chunk_size=1024 * 50):  # 50 KB per chunk
+    def send_json(self, data: dict, chunk_size=1024 * 50):
+        json_str = json.dumps(data)
+        json_bytes = json_str.encode('utf-8')
         chunk_number = 0
         offset = 0
-        total_length = len(file_bytes)
+        total_length = len(json_bytes)
 
         while offset < total_length:
-            chunk = file_bytes[offset:offset + chunk_size]
+            chunk = json_bytes[offset:offset + chunk_size]
             offset += chunk_size
 
             is_last_chunk = offset >= total_length
 
             properties = pika.BasicProperties(
                 headers={
-                    'file_name': file_name,
                     'chunk_number': chunk_number,
                     'is_last_chunk': is_last_chunk
                 }
@@ -30,27 +32,26 @@ class PdfSender:
 
             self.channel.basic_publish(
                 exchange=self.exchange,
-                routing_key='pdf',
+                routing_key='json',
                 body=chunk,
                 properties=properties
             )
 
             chunk_number += 1
 
-        print(f"File {file_name} has been sent in chunks.")
-
-
-    # def close(self):
-    #     self.connection.close()
-
+        print(f"JSON has been sent in chunks.")
 
 
 if __name__ == '__main__':
-
     config = ConfigLoader().load()
     factory = ConnectionFactory(config)
     connection = factory.create_connection()
-    sender = PdfSender(connection)
+    sender = JsonSender(connection)
 
-    sender.send_pdf(f"pdfs/0c0faea14d108e1617f2d6d2a7c1aae04eb88fe0.pdf")
-    #sender.close()
+    sample_json = {
+        "message": "This is a test JSON message.",
+        "data": [1, 2, 3, 4, 5],
+        "meta": {"author": "Tester", "purpose": "Chunked transmission test"}
+    }
+
+    sender.send_json(data=sample_json)

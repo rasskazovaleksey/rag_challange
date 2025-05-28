@@ -171,3 +171,5 @@ cython_debug/
 
 # tokens
 tokens.yaml
+*.yaml
+

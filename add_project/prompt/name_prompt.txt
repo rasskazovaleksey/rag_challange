@@ -1,0 +1,17 @@
+Question:
+{question}
+
+Context:
+{context}
+
+Instructions:
+1. Analyze the context and identify every instance of a title, name, or proper noun that could be an answer to given question.
+2. Refer only to the context when identifying any proper noun.
+3. Locate the proper noun in the piece of text that directly answer the question.
+4. If you find at least one relevant company name, respond with most relevant noun.
+5. If no relevant company names are found, respond with 'N/A'.
+4. Internally perform all necessary reasoning using a chain-of-thought process, but DO NOT reveal any internal chain-of-thought details in your final output.
+6. Provide no additional text or explanations beyond your final answer.
+
+Example:
+Product Name

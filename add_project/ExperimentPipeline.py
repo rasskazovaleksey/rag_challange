@@ -1,3 +1,4 @@
+import itertools
 import json
 import re
 from collections import defaultdict
@@ -5,9 +6,9 @@ from os import walk
 
 from langchain_community.document_loaders import PyPDFLoader
 
-from lib.Agent import IBMWatsonAgent, OpenAIAgent
+from lib.Agent import OpenAIAgent
 from lib.DataRepository import DataRepository
-from lib.EmbeddingProvider import WatsonEmbeddingProvider, OpenAiEmbeddingProvider
+from lib.EmbeddingProvider import OpenAiEmbeddingProvider
 from lib.questions import QuestionExtractor
 
 
@@ -100,23 +101,35 @@ class ExperimentPipeline:
             print(result)
             json.dump(result, open(f"data/r2.0/synonyms/{i}.json", 'w'))
 
-    def search_database(self, synonyms, extract, main=10, side=5):
+    def search_database(self, extract, main=10, side=5):
         sha1 = extract['sha1']
-        assert synonyms['metric'] == extract['metric']
-        sha_filter = {"sha1": sha1}
-        try:
-            main_results = self.repo.query(synonyms['metric'], k=main,
-                                           f=sha_filter)  # start with main metric from the question
-        except Exception as e:
-            print(f"Error {e} for {synonyms['metric']}")
-            main_results = []
-        smaller_results = []  # start with main metric from the question
-        for m in synonyms['synonyms']:
+        if len(sha1) == 1:
+            sha_filter = {"sha1": sha1}
             try:
-                smaller_results += self.repo.query(m['text'], k=side, f=sha_filter)  # find similar metrics
+                main_results = self.repo.query(extract['original_question'], k=main,
+                                               f=sha_filter)  # start with main metric from the question
             except Exception as e:
-                print(f"Error {e} for {m}")
-        return main_results + smaller_results
+                print(f"Error {e} for {extract['original_question']}")
+                main_results = []
+            return main_results
+        else:
+            main_results = []
+            for s in sha1:
+                try:
+                    results = self.repo.query(extract['original_question'], k=main, f={"sha1": s})
+                    main_results.extend(results)
+                except Exception as e:
+                    print(f"Error {e} for {extract['original_question']} with sha1 {s}")
+            if len(main_results) == 0:
+                return []
+            side_results = []
+            for s in sha1:
+                try:
+                    results = self.repo.query(extract['metric'], k=side, f={"sha1": s})
+                    side_results.extend(results)
+                except Exception as e:
+                    print(f"Error {e} for {extract['metric']} with sha1 {s}")
+            return main_results + side_results
 
     def filter_candidates(self, candidates, size=8):
         pages_candidates = {}
@@ -170,65 +183,42 @@ class ExperimentPipeline:
         rag = [(p, 0.0) for p in pages]
         return rag
 
-    def run(self):
-        print(f"Starting the pipeline ${self.name} with repo {self.repo.name} and llm {self.llm.model}")
-        extracts = [self.extract(q) for q in self.questions]
-        synonyms_lookup = self.read_synonyms()
-        answers = []
-        for i, e in enumerate(extracts):
-            print(f"Processing {i}/{len(extracts) - 1} with sha1 {e['sha1']}")
-            if len(e['companies']) == 1 or len(e['companies']) == 4 or len(e['companies']) == 5 or len(
-                    e['companies']) == 6:
-                pass
-            else:
-                raise ValueError(f"Companies is {len(e['companies'])} for {e}")
+    def run(self, data: dict):
+        try:
+            extract = self.extract(data)
+        except Exception as e:
+            return {
+                "question": data.get("text"),
+                "sha1": "N/A",
+                "answer": "N/A",
+            }
 
-            if len(e['companies']) == 1:
-                synonyms = list(filter(lambda x: x['metric'] == e['metric'], synonyms_lookup))[0]
-                all_candidates = self.search_database(synonyms, e, main=10, side=5)
-                candidates = self.filter_candidates(all_candidates, size=8)
-                documents = self.read_pdf(e['sha1'], candidates)
+        search = self.search_database(extract, main=10, side=5)
+        candidates = self.filter_candidates(search, size=10)
 
-                question_type = e['type']
-                if question_type == 'name':
-                    question_type = 'names'
-                answer = self.llm.query(e['original_question'], data=documents,
-                                        path=f"./prompt/{question_type}_prompt.txt")
+        documents = []
+        if not isinstance(extract['sha1'], list):
+            documents = self.read_pdf(extract['sha1'], candidates)
+        else:
+            for sha1 in extract['sha1']:
+                rag = self.read_pdf(sha1, candidates)
+                documents.append(rag)
+            documents = list(itertools.chain.from_iterable(documents))
 
-                answers.append({
-                    "extract": e,
-                    "answer": answer
-                })
-            else:
-                print(f"Comparison problem found for {e['companies']}")
-                holder = {}
-                for c in e['companies']:
-                    if c == 'Inc.':
-                        print("--- Inc. found, skipping its and error in the code. ---")
-                        continue
-                    print(f"Processing {c}")
-                    l = list(filter(lambda x: c in x['company_name'], self.subset))
-                    sha1 = l[0]['sha1']
-                    copy_e = e.copy()
-                    copy_e['sha1'] = sha1
-                    synonyms = list(filter(lambda x: x['metric'] == e['metric'], synonyms_lookup))[0]
-                    all_candidates = self.search_database(synonyms, copy_e, main=10, side=5)
-                    candidates = self.filter_candidates(all_candidates, size=8)
-                    documents = self.read_pdf(sha1, candidates)
-                    question = f"What was the {e['metric']} of {c} in the period? If data is not available, return 'N/A'."
-                    answer = self.llm.query(question, data=documents, path=f"./prompt/number_prompt.txt",
-                                            system="You are a data extraction engine with financial knowlage.")
-                    holder[c] = answer
+        answer = self.llm.query(
+            text=extract['original_question'],
+            data=documents,
+            path=f"./prompt/{extract['type']}_prompt.txt",
+            system="You are competent financial analytic.")
 
-                if e['comparison'] is None:
-                    raise ValueError("Comparison is None")
-                holder['comparison'] = e['comparison']
+        referenced_answer = {
+            "question": extract['original_question'],
+            "sha1": extract['sha1'],
+            "answer": answer
+        }
+        print(f"Found answer: {referenced_answer['answer']}")
 
-                answers.append({
-                    "extract": e,
-                    "holder": holder
-                })
-        json.dump(answers, open(f"{self.name}.json", 'w'))
+        return referenced_answer
 
 
 if __name__ == "__main__":

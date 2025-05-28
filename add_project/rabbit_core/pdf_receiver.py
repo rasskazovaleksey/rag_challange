@@ -1,20 +1,23 @@
 import pika
 import os
-from config_loader import ConfigLoader
-from connection_factory import ConnectionFactory
+from .config_loader import ConfigLoader
+from .connection_factory import ConnectionFactory
+
 
 class PdfReceiver:
     def __init__(self, connection: pika.BlockingConnection, output_dir="output"):
         self.output_dir = output_dir
-        os.makedirs(output_dir, exist_ok=True)
-
+        #os.makedirs(output_dir, exist_ok=True)
         self.connection = connection
         self.channel = self.connection.channel()
         self.channel.exchange_declare(exchange='pdf_exchange', exchange_type='direct')
         self.channel.queue_declare(queue='pdf_queue')
         self.channel.queue_bind(exchange='pdf_exchange', queue='pdf_queue', routing_key='pdf')
-
         self.buffers = {}
+        self.on_pdf_received = None  # Колбэк
+
+    def register_callback(self, callback):
+        self.on_pdf_received = callback
 
     def _callback(self, ch, method, properties, body):
         file_name = properties.headers['file_name']
@@ -29,12 +32,11 @@ class PdfReceiver:
 
         if is_last_chunk:
             print(f"Reassembling file {file_name} from {len(self.buffers[file_name])} chunks...")
-            full_path = os.path.join(self.output_dir, file_name)
-            with open(full_path, 'wb') as f:
-                for i in range(len(self.buffers[file_name])):
-                    f.write(self.buffers[file_name][i])
-            print(f"File {file_name} has been reconstructed and saved to {full_path}")
+            pdf_bytes = b''.join(self.buffers[file_name][i] for i in sorted(self.buffers[file_name].keys()))
             del self.buffers[file_name]
+
+            if self.on_pdf_received:
+                self.on_pdf_received(pdf_bytes, file_name)
 
     def start_consuming(self):
         self.channel.basic_consume(
@@ -45,8 +47,6 @@ class PdfReceiver:
         print("Waiting for messages...")
         self.channel.start_consuming()
 
-    def close(self):
-        self.connection.close()
 
 
 if __name__ == '__main__':

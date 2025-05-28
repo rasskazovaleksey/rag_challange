@@ -3,6 +3,8 @@ import json
 from .config_loader import ConfigLoader
 from .connection_factory import ConnectionFactory
 
+import asyncore
+
 
 class JsonSender:
     def __init__(self, connection: pika.BlockingConnection):

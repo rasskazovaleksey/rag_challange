@@ -1,47 +1,32 @@
+import os
 import re
+import tempfile
 from os import listdir
 from os.path import isfile, join
-from typing import Tuple
-
-from nltk import PorterStemmer, WordNetLemmatizer
-from nltk.corpus import stopwords
 
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from nltk.corpus import stopwords
 
-from lib.EmbeddingProvider import EmbeddingProvider
-
-import tempfile
-import os
-from langchain_community.document_loaders import PyPDFLoader
-from rabbit_core.pdf_receiver import PdfReceiver
-from rabbit_core.pdf_sender import PdfSender
+from PdfRepo import PdfRepo
+from lib.EmbeddingProvider import OpenAiEmbeddingProvider
 from rabbit_core.config_loader import ConfigLoader
 from rabbit_core.connection_factory import ConnectionFactory
-from lib.EmbeddingProvider import OpenAiEmbeddingProvider
-from PdfRepo import PdfRepo
+from rabbit_core.pdf_receiver import PdfReceiver
+
 
 class PdfReceiverService:
 
     def __init__(
-        self,
-        #embedding: EmbeddingProvider,
-        rabbit_receiver: PdfReceiver,
-        repo: PdfRepo,  # <--- добавляем сюда
-        #name: str = "open_ai_small",
-        #path: str = "./data/r2.0-test/pdfs",
-        #db_path: str = "./data/db/",
-        chunk_size: int = 1_000,
-        chunk_overlap: int = 100
+            self,
+            rabbit_receiver: PdfReceiver,
+            repo: PdfRepo,  # <--- добавляем сюда
+            chunk_size: int = 1_000,
+            chunk_overlap: int = 100
     ) -> None:
-        #self.embedding = embedding
-        #self.path = path
-        #self.name = name
         self.receiver = rabbit_receiver
-        self.repo = repo 
-        #self.db = Chroma(collection_name=name, persist_directory=db_path, embedding_function=self.embedding.provide())
+        self.repo = repo
         self.__text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size,
             chunk_overlap=chunk_overlap,
@@ -49,9 +34,9 @@ class PdfReceiverService:
             is_separator_regex=False,
         )
         self.STOPWORDS = set(stopwords.words('english'))
-    
+
     @staticmethod
-    def __load_documents(pdf_bytes: bytes) -> list[Document]: #well, PyPDFLoader can work only with path
+    def __load_documents(pdf_bytes: bytes) -> list[Document] | None:  # well, PyPDFLoader can work only with path
         with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
             tmp.write(pdf_bytes)
             tmp_path = tmp.name
@@ -60,9 +45,7 @@ class PdfReceiverService:
             documents = loader.load()
         finally:
             os.remove(tmp_path)  # Temp file del
-
         return documents
-
 
     def __split(self, documents: list[Document]) -> list[Document]:
         return self.__text_splitter.split_documents(documents)
@@ -90,7 +73,9 @@ class PdfReceiverService:
         doc.page_content = doc.page_content.replace("\n", " ")
         doc.page_content = self.__clean_text(doc.page_content)
         # dirty trick for Watson
-        doc.page_content = doc.page_content.replace("ŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛŝŷžƶƌěŝɛđƶɛɛŝžŷăƌğďăɛğěžŷƚśğğǆɖğđƚăɵžŷɛğɛɵŵăƚğɛăŷěɖƌžũğđɵžŷɛžĩŵăŷăőğŵğŷƚăɛžĩƚžěăǉăŷě ăƌğɛƶďũğđƚƚžǀăƌŝžƶɛăɛɛƶŵɖɵžŷɛƌŝɛŭɛƶŷđğƌƚăŝŷɵğɛăŷěžƚśğƌĩăđƚžƌɛƚśăƚăƌğěŝĸđƶůƚƚžɖƌğěŝđƚǁśŝđśđžƶůěđăƶɛğăđƚƶăůƌğɛƶůƚɛƚžěŝīğƌ ŵăƚğƌŝăůůǉĩƌžŵƚśžɛğğǆɖƌğɛɛğěžƌŝŵɖůŝğěŝŷƚśğĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛdśğɛğɛƚăƚğŵğŷƚɛăƌğŷžƚőƶăƌăŷƚğğɛžĩĩƶƚƶƌğɖğƌĩžƌŵăŷđğăŷě ƚśğƌğĩžƌğƶŷěƶğƌğůŝăŷđğɛśžƶůěŷžƚďğɖůăđğěƶɖžŷƚśğŵtğƌğĩğƌăůůžĩǉžƶƚžžƶƌϯϭϯϯŷŷƶăůzğɖžƌƚžŷžƌŵϭϭͳăŷěžƶƌžƚśğƌįůŝŷőɛǁŝƚś ƚśğ ĩžƌăŵžƌğěğƚăŝůğěěŝɛđƶɛɛŝžŷžĩƚśğƌŝɛŭɛƚśăƚđžƶůěŝŵɖăđƚƚśğĩƶƚƶƌğžɖğƌăɵŷőƌğɛƶůƚɛăŷěįŷăŷđŝăůđžŷěŝɵžŷžĩzƶŵďůğkŷŷđtğ ěŝɛđůăŝŵăŷǉŝŷƚğŷɵžŷɛžƌžďůŝőăɵžŷɛƚžƶɖěăƚğžƌƌğǀŝɛğăŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛğǆđğɖƚăɛƌğƌƶŝƌğěďǉůăǁ", "")
+        doc.page_content = doc.page_content.replace(
+            "ŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛŝŷžƶƌěŝɛđƶɛɛŝžŷăƌğďăɛğěžŷƚśğğǆɖğđƚăɵžŷɛğɛɵŵăƚğɛăŷěɖƌžũğđɵžŷɛžĩŵăŷăőğŵğŷƚăɛžĩƚžěăǉăŷě ăƌğɛƶďũğđƚƚžǀăƌŝžƶɛăɛɛƶŵɖɵžŷɛƌŝɛŭɛƶŷđğƌƚăŝŷɵğɛăŷěžƚśğƌĩăđƚžƌɛƚśăƚăƌğěŝĸđƶůƚƚžɖƌğěŝđƚǁśŝđśđžƶůěđăƶɛğăđƚƶăůƌğɛƶůƚɛƚžěŝīğƌ ŵăƚğƌŝăůůǉĩƌžŵƚśžɛğğǆɖƌğɛɛğěžƌŝŵɖůŝğěŝŷƚśğĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛdśğɛğɛƚăƚğŵğŷƚɛăƌğŷžƚőƶăƌăŷƚğğɛžĩĩƶƚƶƌğɖğƌĩžƌŵăŷđğăŷě ƚśğƌğĩžƌğƶŷěƶğƌğůŝăŷđğɛśžƶůěŷžƚďğɖůăđğěƶɖžŷƚśğŵtğƌğĩğƌăůůžĩǉžƶƚžžƶƌϯϭϯϯŷŷƶăůzğɖžƌƚžŷžƌŵϭϭͳăŷěžƶƌžƚśğƌįůŝŷőɛǁŝƚś ƚśğ ĩžƌăŵžƌğěğƚăŝůğěěŝɛđƶɛɛŝžŷžĩƚśğƌŝɛŭɛƚśăƚđžƶůěŝŵɖăđƚƚśğĩƶƚƶƌğžɖğƌăɵŷőƌğɛƶůƚɛăŷěįŷăŷđŝăůđžŷěŝɵžŷžĩzƶŵďůğkŷŷđtğ ěŝɛđůăŝŵăŷǉŝŷƚğŷɵžŷɛžƌžďůŝőăɵžŷɛƚžƶɖěăƚğžƌƌğǀŝɛğăŷǉĩžƌǁăƌěͳůžžŭŝŷőɛƚăƚğŵğŷƚɛğǆđğɖƚăɛƌğƌƶŝƌğěďǉůăǁ",
+            "")
         return doc
 
     def __clean_text(self, text):
@@ -151,7 +136,8 @@ class PdfReceiverService:
             splits = self.__split(docs)
             splits = self.__append_chunk_ids(splits)
             splits = [self.__filter(doc) for doc in splits]
-    
+
+
     def handle_received_pdf(self, pdf_bytes: bytes, file_name: str):
         print(f"Processing file: {file_name}")
 
@@ -175,21 +161,15 @@ if __name__ == '__main__':
         db_path="./data/db/open_ai_small_1000_100_filtered",
         path="./data/r2.0/pdfs",
         name="open_ai_small_1000_100_filtered",
-    
+
     )
 
     service = PdfReceiverService(
-        #embedding=OpenAiEmbeddingProvider(model="text-embedding-3-small"),
         rabbit_receiver=receiver,
         repo=repo,
-        #db_path="./data/db/open_ai_small_1000_100_filtered",
-        #path="./data/r2.0/pdfs",
-        #name="open_ai_small_1000_100_filtered",
         chunk_size=1000,
         chunk_overlap=100
     )
 
     receiver.register_callback(service.handle_received_pdf)
     receiver.start_consuming()
-
-

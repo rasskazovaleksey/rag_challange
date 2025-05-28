@@ -471,31 +471,58 @@ curl -X POST -H "Content-Type: application/json" -d '[
 
 # Project Overview
 
-1) Producer: Uploads PDFs, extracts text from them, and passes it for processing.
+The project implements a RAG (Retrieval Augmented Generation) pipeline to answer questions based on a collection of PDF documents. It utilizes RabbitMQ for message queuing between services, ChromaDB as a vector store for document embeddings, and an OpenAI LLM for answer generation.
 
-class PdfProducerService(processor: PdfProcessor):
+**1. PDF Ingestion and Processing:**
 
-+ save(file: str) -> None: 1) same as https://github.com/rasskazovaleksey/rag_challange/blob/main/lib/DataRepository.py
-    2) emits event to rabiit
+*   **`PdfProducerService.py` (triggered by `make start`):**
+    *   Monitors a specified directory (default: `data/r2.0/pdfs`) for PDF files.
+    *   Reads each PDF and sends its filename and binary content to a RabbitMQ queue (`pdf_queue`) using `PdfSender`.
 
-1.1) embedding: EmbeddingProvider leave as is but delete Watson code
+*   **`PdfProccesorService.py` (triggered by `make start`):**
+    *   Consumes PDF data (filename and bytes) from the `pdf_queue` via `PdfReceiver`.
+    *   For each PDF:
+        *   Loads the document content using `PyPDFLoader`.
+        *   Splits the document into smaller text chunks using `RecursiveCharacterTextSplitter`.
+        *   Assigns unique IDs to each chunk based on filename, page, and chunk index.
+        *   Cleans the text content of each chunk (lowercase, remove URLs, HTML, punctuation, stopwords).
+        *   Uses `PdfRepo.py` to store these processed chunks.
 
-2) Database: Stores all information in ChromaDB (vector representations).
+*   **`PdfRepo.py` (used by `PdfProccesorService.py` and `ExperimentPipeline.py` via `DataRepository`):**
+    *   Manages interactions with the ChromaDB vector database.
+    *   When creating entries, it generates embeddings for the text chunks using an `EmbeddingProvider` (specifically `OpenAiEmbeddingProvider` with a model like `text-embedding-3-small`).
+    *   Stores the text chunks along with their metadata (including SHA1 of the source PDF) and vector embeddings in ChromaDB, avoiding duplicates based on chunk ID.
+    *   Provides a `query` method to perform similarity searches in ChromaDB.
 
-class ChromaRepository(embedding: EmbeddingProvider)
+**2. Question Handling and Answering:**
 
-+ creat(text) -> Vector + Score
-+ read(text) -> Vector + Score
+*   **`presenter.py` (triggered by `make present`):**
+    *   Runs an HTTP server (default: `0.0.0.0:8080`).
+    *   Listens for POST requests on the root path (`/`).
+    *   Expects a JSON payload containing either a single question object or a list of question objects. Each question object should have "text" (the question itself) and "kind" (e.g., "number", "boolean", "name").
+    *   Forwards the received question(s) to a RabbitMQ queue (`json_queue`) using `JsonSender`.
 
-3) PdfProcessor:
-   • Processes the text (cleaning, segmentation into fragments). - 1) same
-   as https://github.com/rasskazovaleksey/rag_challange/blob/main/lib/DataRepository.py
-   • Creates text embeddings for efficient search. is in ChromaRepository
-   • Analyzes queries, including synonym search.
-4) Database: Stores all information in ChromaDB (vector representations). - DO NOTHING
+*   **`consumer.py` - `JsonProcessor` (triggered by `make start`):**
+    *   Consumes JSON question objects from the `json_queue` via `JsonReceiver`.
+    *   For each question, it calls the `run` method of the `ExperimentPipeline.py`.
+    *   The `handle_json` method in `consumer.py` is responsible for processing the question and (as per previous implementation, currently commented out) writing the question and its answer to `answer.json`.
 
+*   **`ExperimentPipeline.py` (used by `consumer.py`):**
+    *   This is the core RAG logic. For a given question:
+        *   **Extracts Information:** Uses `QuestionExtractor` to parse the question text, identifying key metrics, company names. It determines the SHA1 identifiers for the relevant company PDF(s) by looking them up in `data/r2.0/subset.json`.
+        *   **Searches Database:** Queries ChromaDB (via `DataRepository`, which uses `PdfRepo`) using the original question and extracted metrics to find the most relevant text chunks from the PDFs associated with the identified SHA1(s).
+        *   **Filters Candidates:** Ranks and filters the retrieved chunks based on relevance scores and page occurrences to select the best candidate pages.
+        *   **Reads PDF Context:** Loads the full text of the selected candidate pages from the original PDF files stored locally.
+        *   **Generates Answer:** Constructs a prompt using the original question and the retrieved page content. This prompt is sent to an LLM (configured as `OpenAIAgent`, using OpenAI's API) to generate a final answer. The specific prompt template used depends on the "kind" of the question (e.g., `number_prompt.txt`, `boolean_prompt.txt`).
+        *   The pipeline returns a dictionary containing the original question, the SHA1(s) of the source document(s), and the generated answer. This result is then processed by `consumer.py`.
 
-5) Presenter: - subscribes on rabbit event
-   • Performs a vector search in the database upon receiving a query.
-   • Retrieves the most relevant text fragments.
-   • Passes them to an LLM, which generates a response based on the retrieved data.
+**Key Technologies & Libraries:**
+
+*   **Python:** Core programming language.
+*   **RabbitMQ:** Message broker for asynchronous communication between services (`PdfProducerService`, `PdfProccesorService`, `presenter`, `consumer`).
+*   **ChromaDB:** Vector database for storing and searching text embeddings (`PdfRepo`).
+*   **Langchain:** Framework used for document loading (`PyPDFLoader`), text splitting (`RecursiveCharacterTextSplitter`), and interacting with embedding models (`OpenAIEmbeddings`) and LLMs.
+*   **OpenAI API:** Used for generating text embeddings (`OpenAiEmbeddingProvider`) and for the final answer generation by the LLM (`OpenAIAgent`).
+*   **NLTK:** Used for text processing tasks like stopword removal (`PdfProccesorService`).
+*   **Makefile:** For easy starting and stopping of project services.
+*   **HTTP Server (http.server):** Used in `presenter.py` to receive questions.

@@ -516,6 +516,33 @@ The project implements a RAG (Retrieval Augmented Generation) pipeline to answer
         *   **Generates Answer:** Constructs a prompt using the original question and the retrieved page content. This prompt is sent to an LLM (configured as `OpenAIAgent`, using OpenAI's API) to generate a final answer. The specific prompt template used depends on the "kind" of the question (e.g., `number_prompt.txt`, `boolean_prompt.txt`).
         *   The pipeline returns a dictionary containing the original question, the SHA1(s) of the source document(s), and the generated answer. This result is then processed by `consumer.py`.
 
+
+*   **Model Descriptions**
+1) OpenAI
+The baseline model from OpenAI using a standard approach without embeddings. Achieved 56% accuracy.
+
+2) Watson
+A model from IBM Watson. Improved performance with 63% accuracy, likely due to different text processing strategies.
+
+3) OpenAI large embeddings 100 over 10
+Uses 100 embeddings with overlap of 10. This method achieved 62% accuracy, improving over the baseline.
+
+4) OpenAI small embeddings 1000 over 100
+Utilizes 1000 embeddings with overlap of 100, providing a more detailed text representation. Reached 63% accuracy.
+
+5) OpenAI small embeddings 1000 over 100 filtered
+Same configuration as above, but with data filtering prior to processing. Accuracy increased to 66%.
+
+6) Watson llama 405 v1
+A hybrid model combining Watson with LLaMA v1 (version 405). Also reached a high accuracy of 66%.
+
+7) Best submission
+The final and best-performing model — Watson llama 405 v2. This enhanced version of v1 achieved the highest accuracy at 67%, making it the current top performer.
+
+![Chart](bar_correct_incorrectut.png)
+![Pie](pie.png)
+![Chart](accuracy.png)
+
 **Key Technologies & Libraries:**
 
 *   **Python:** Core programming language.
